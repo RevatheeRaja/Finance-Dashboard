@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url('../public/assets/fonts/poppins/Poppins-Regular.ttf') format('truetype');
+       /* url('/assets/fonts/poppins/Poppins-SemiBold.ttf') format('truetype'),
+       url('/assets/fonts/poppins/Poppins-Medium.ttf') format('truetype'),
+       url('/assets/fonts/poppins/Poppins-Thin.ttf') format('truetype'); */
+  /* Add other font formats if available */
+  font-weight: normal;
+  font-style: normal;
+}
+
+ @font-face {
+  font-family: 'Poppins';
+  src: url('../public/assets/fonts/poppins/Poppins-Bold.ttf') format('truetype');
+        /* url('/assets/fonts/poppins/Poppins-ExtraBold.ttf') format('truetype'),
+        url('/assets/fonts/poppins/Poppins-ExtraBoldItalic.ttf') format('truetype'); */
+  font-weight: bold;
+  font-style: normal;
+} 
+
+html,
+body,
+#root,
+.app,
+.content{
+  height:100%;
+  width:100%;
+  font-family: 'Poppins', sans-serif;
+}
+.app{
+  display:flex;
+  position:relative;
+  /* max-width: 100%; */
+}
+
+/*SCROLL BAR Style*/
+::-webkit-scrollbar{
+  width:10px;
+}
+/*Scroll track*/
+::-webkit-scrollbar-track{
+  background: #e0e0e0;
+}
+/*Scroll-thumb*/
+::-webkit-scrollbar-thumb{
+  background: #888;
+}
+/*Hover*/
+::-webkit-scrollbar-track:hover{
+  background: #555;
+}
