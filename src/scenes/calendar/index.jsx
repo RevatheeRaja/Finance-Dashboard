@@ -1,6 +1,6 @@
 import { useState } from "react";
 import FullCalendar from "@fullcalendar/react";
-import { formatDate } from '@fullcalendar/core';
+import { formatDate } from "@fullcalendar/core";
 import dayGridPlugin from "@fullcalendar/daygrid";
 import timeGridPlugin from "@fullcalendar/timegrid";
 import interactionPlugin from "@fullcalendar/interaction";
@@ -95,7 +95,9 @@ const Kalendar = () => {
                         year: "numeric",
                         month: "short",
                         day: "numeric",
-                      })} - {formatDate(new Date(event.end), {
+                      })}{" "}
+                      -{" "}
+                      {formatDate(new Date(event.end), {
                         year: "numeric",
                         month: "short",
                         day: "numeric",
@@ -111,7 +113,12 @@ const Kalendar = () => {
           {/* Calendar */}
           <FullCalendar
             height="75vh"
-            plugins={[dayGridPlugin, timeGridPlugin, interactionPlugin, listPlugin]}
+            plugins={[
+              dayGridPlugin,
+              timeGridPlugin,
+              interactionPlugin,
+              listPlugin,
+            ]}
             headerToolbar={{
               left: "prev,next today",
               center: "title",

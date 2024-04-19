@@ -190,6 +190,13 @@ const Sideboard = () => {
               selected={selected}
               setSelected={setSelected}
             />
+            <Item
+              title="Workflow"
+              to="/workflow"
+              icon={<AssignmentIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
 
             <Typography
               variant="h6"
