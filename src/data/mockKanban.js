@@ -11,6 +11,7 @@ export const kanbanData = [
       Assignee: "Nancy Davloio",
       RankId: 1,
       Color: "#02897B",
+      StartTime: '2024-04-10T04:00:00.000Z',
       ClassName: "e-story, e-low, e-nancy-davloio",
     },
     {

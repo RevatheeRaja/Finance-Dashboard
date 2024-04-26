@@ -1,9 +1,13 @@
 import { Box, Typography, useTheme } from "@mui/material";
 //DataGrid for table and gritoolbar is the toolbar on top of the table for some options like export, columns and filters.
 import { DataGrid, GridToolbar } from "@mui/x-data-grid";
+//the color palletes
 import { ColorModeContext, tokens } from "../../theme";
+//dummy data
 import { mockData } from "../../data/mockData";
-// import { makeStyles } from "@mui/styles";
+//1. Usage of real data
+import React, { useState, useEffect } from "react";
+
 import Header from "../../components/Headers";
 
 //import few icons if needed
@@ -11,6 +15,29 @@ import Header from "../../components/Headers";
 const Archiv = () => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
+  //2. set the state for the data
+  const [rowData, setRowData] = useState([]);
+  //3.
+   useEffect(() => {
+     const fetchData = async () => {
+       try {
+         // Fetch data from your localhost API
+         const response = await fetch(
+           "https://fibutronwebapi.fibutron.de/Archiv?MandantNr=100"
+         );
+         if (!response.ok) {
+           throw new Error("Failed to fetch data");
+         }
+         const data = await response.json();
+         setRowData(data);
+       } catch (error) {
+         console.error("Error fetching data:", error);
+       }
+     };
+
+    fetchData();
+   }, []);
+
   // bring in the columns from the data pair in json
   const columns = [
     { field: "id", headerName: "ID" },
@@ -132,7 +159,9 @@ const Archiv = () => {
         }}
       >
         <DataGrid
-          rows={mockData}
+          //4.
+          rows={rowData}
+          //rows={mockData}
           columns={columns}
           slots={{ toolbar: GridToolbar }}
         />

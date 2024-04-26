@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import FullCalendar from "@fullcalendar/react";
 import { formatDate } from "@fullcalendar/core";
 import dayGridPlugin from "@fullcalendar/daygrid";
@@ -19,6 +19,28 @@ import { tokens } from "../../theme";
 import { mockAppointments } from "../../data/mockCalendar";
 
 const Kalendar = () => {
+  const [rowData, setRowData] = useState([]);
+ //3.
+ useEffect(() => {
+  const fetchData = async () => {
+    try {
+      // Fetch data from your localhost API
+      const response = await fetch(
+        'https://fibutronwebapi.fibutron.de/api/calendar/All-Callendars'
+      );
+      if (!response.ok) {
+        throw new Error("Failed to fetch data");
+      }
+      const data = await response.json();
+      setRowData(data);
+    } catch (error) {
+      console.error("Error fetching data:", error);
+    }
+  };
+
+ fetchData();
+}, []);
+
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
   const [currentEvents, setCurrentEvents] = useState([]);
@@ -131,7 +153,7 @@ const Kalendar = () => {
             dayMaxEvents={true}
             select={handleDateClick}
             eventClick={handleEventClick}
-            events={mockAppointments} // Pass the events data to the calendar
+            events={rowData} // Pass the events data to the calendar
             eventsSet={handleEventsSet} // Update currentEvents when events change
           />
         </Box>

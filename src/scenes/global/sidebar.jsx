@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import { tokens } from "../../theme";
 //import Logo
 
-//IMPORTING NECESSARY ICONS
+//IMPORTING NECESSARY ICONSs
 import HomeIcon from "@mui/icons-material/Home"; //Home
 import InventoryIcon from "@mui/icons-material/Inventory"; //Archiv
 import CalendarMonthIcon from "@mui/icons-material/CalendarMonth"; //Calendar
@@ -14,6 +14,8 @@ import AssignmentIcon from "@mui/icons-material/Assignment";
 import HelpIcon from "@mui/icons-material/Help"; //Support Center
 import BarChartIcon from "@mui/icons-material/BarChart"; // Statistics
 import MenuIcon from "@mui/icons-material/Menu";
+import TimelineIcon from '@mui/icons-material/Timeline';
+import SsidChartIcon from '@mui/icons-material/SsidChart';
 
 const Item = ({ title, to, icon, selected, setSelected }) => {
   const theme = useTheme();
@@ -161,6 +163,20 @@ const Sideboard = () => {
               selected={selected}
               setSelected={setSelected}
             />
+            <Item
+              title="ArchivSyncFusion"
+              to="/archivsyncfusion"
+              icon={<InventoryIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
+            <Item
+              title="ArchivKendo"
+              to="/archivkendo"
+              icon={<InventoryIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
             <Typography
               variant="h6"
               color={colors.blueAccent[500]}
@@ -207,9 +223,16 @@ const Sideboard = () => {
               Charts
             </Typography>
             <Item
-              title="Bar Chart"
-              to="/bar"
-              icon={<BarChartIcon />}
+              title="Line Chart"
+              to="/charts"
+              icon={<TimelineIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
+            <Item
+              title="Area Chart"
+              to="/areachart"
+              icon={<SsidChartIcon />}
               selected={selected}
               setSelected={setSelected}
             />

@@ -1,58 +1,62 @@
 import React from "react";
-import { Box, Button } from "@mui/material";
+import { Box, Button, useTheme } from "@mui/material";
+
 import Header from "../../components/Headers";
-import { useEffect, useRef, useState } from 'react';
+//the color palletes
+import { ColorModeContext, tokens } from "../../theme";
+import { useEffect, useRef, useState } from "react";
+
 import {
   KanbanComponent,
   ColumnsDirective,
   ColumnDirective,
 } from "@syncfusion/ej2-react-kanban";
-import { extend } from '@syncfusion/ej2-base';
-import { DropDownListComponent } from '@syncfusion/ej2-react-dropdowns';
-import { ButtonComponent } from '@syncfusion/ej2-react-buttons';
+import { extend } from "@syncfusion/ej2-base";
+import { DropDownListComponent } from "@syncfusion/ej2-react-dropdowns";
+import { ButtonComponent } from "@syncfusion/ej2-react-buttons";
+import { DatePickerComponent } from "@syncfusion/ej2-react-calendars";
+
 import * as dataSource from "../../data/mockKanban";
-import { PropertyPane } from './property-pane';
+import { PropertyPane } from "./property-pane";
 const Workflow = () => {
-  let data = extend([],dataSource.kanbanData,true);
+  const theme = useTheme();
+  const colors = tokens(theme.palette.mode);
+  let data = extend([], dataSource.kanbanData, true);
   let kanbanObj = useRef(null);
-  // return (
-  //   <Box>
-  //     <Header title="WORKFLOWS" subtitle="View and edit your to-do list here" />
-  //     {/* Add more JSX elements here to display content */}
-  //   </Box>
-  // );
+
   const addClick = () => {
     const cardIds = kanbanObj.current.kanbanData.map((obj) =>
-      parseInt(obj.Id.replace('Task ', ''), 10)
+      parseInt(obj.Id.replace("Task ", ""), 10)
     );
     const cardCount = Math.max.apply(Math, cardIds) + 1;
     const cardDetails = {
-      Id: 'Task ' + cardCount,
-      Status: 'Open',
-      Priority: 'Normal',
-      Assignee: 'Andrew Fuller',
+      Id: "Task " + cardCount,
+      Status: "Open",
+      Priority: "Normal",
+      Assignee: "Andrew Fuller",
       Estimate: 0,
-      Tags: '',
-      Summary: '',
+      Tags: "",
+      Summary: "",
     };
-    kanbanObj.current.openDialog('Add', cardDetails);
+    kanbanObj.current.openDialog("Add", cardDetails);
   };
+
   const KanbanDialogFormTemplate = (props) => {
-    useEffect(() => {
-      //updateSampleSection();
-    }, []);
+    // useEffect(() => {
+    //   //updateSampleSection();
+    // }, []);
     let assigneeData = [
-      'Nancy Davloio',
-      'Andrew Fuller',
-      'Janet Leverling',
-      'Steven walker',
-      'Robert King',
-      'Margaret hamilt',
-      'Michael Suyama',
+      "Nancy Davloio",
+      "Andrew Fuller",
+      "Janet Leverling",
+      "Steven walker",
+      "Robert King",
+      "Margaret hamilt",
+      "Michael Suyama",
     ];
-    let statusData = ['Open', 'InProgress', 'Testing', 'Close'];
-    let priorityData = ['Low', 'Normal', 'Critical', 'Release Breaker', 'High'];
-    let tagsHtmlAttributes = { name: 'Tags' };
+    let statusData = ["Open", "InProgress", "Testing", "Close"];
+    let priorityData = ["Low", "Normal", "Critical", "Release Breaker", "High"];
+    let tagsHtmlAttributes = { name: "Tags" };
     const [state, setState] = useState(extend({}, {}, props, true));
     const onChange = (args) => {
       let key = args.target.name;
@@ -105,6 +109,7 @@ const Workflow = () => {
                 ></DropDownListComponent>
               </td>
             </tr>
+            
             <tr>
               <td className="e-label">Priority</td>
               <td>
@@ -153,7 +158,7 @@ const Workflow = () => {
                     id="addNew"
                     className="e-btn e-dialog-add"
                     onClick={addClick.bind(this)}
-                    style={{ backgroundColor: "blue" }}
+                    style={{ backgroundColor: '#3788d8', color: '#ffffff' }}
                   >
                     Add New Card
                   </ButtonComponent>
@@ -170,28 +175,44 @@ const Workflow = () => {
               id="kanban"
               ref={kanbanObj}
               keyField="Status"
-              
               dataSource={data}
-              cardSettings={{ contentField: 'Summary', headerField: 'Id' ,grabberField: "Color"}}
+              cardSettings={{
+                contentField: "Summary",
+                headerField: "Id",
+                grabberField: "Color",
+              }}
               dialogSettings={{ template: dialogTemplate.bind(this) }}
             >
               <ColumnsDirective>
-                <ColumnDirective headerText="To Do" keyField="Open" allowToggle={true} />
+                <ColumnDirective
+                  headerText="To Do"
+                  keyField="Open"
+                  allowToggle={true}
+                />
                 <ColumnDirective
                   headerText="In Progress"
                   keyField="InProgress"
                   allowToggle={true}
                 />
-                <ColumnDirective headerText="Testing" keyField="Testing" allowToggle={true} />
-                <ColumnDirective headerText="Done" keyField="Close" allowToggle={true} />
+                <ColumnDirective
+                  headerText="Testing"
+                  keyField="Testing"
+                  allowToggle={true}
+                />
+                <ColumnDirective
+                  headerText="Done"
+                  keyField="Close"
+                  allowToggle={true}
+                />
               </ColumnsDirective>
             </KanbanComponent>
           </div>
         </div>
       </div>
-
     </div>
   );
 };
 
 export default Workflow;
+
+
