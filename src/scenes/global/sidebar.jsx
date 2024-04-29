@@ -4,7 +4,6 @@ import { Box, IconButton, Typography, useTheme } from "@mui/material";
 import { Link } from "react-router-dom";
 //import "react-pro-sidebar/dist/css/styles.css";
 import { tokens } from "../../theme";
-//import Logo
 
 //IMPORTING NECESSARY ICONSs
 import HomeIcon from "@mui/icons-material/Home"; //Home
@@ -14,26 +13,25 @@ import AssignmentIcon from "@mui/icons-material/Assignment";
 import HelpIcon from "@mui/icons-material/Help"; //Support Center
 import BarChartIcon from "@mui/icons-material/BarChart"; // Statistics
 import MenuIcon from "@mui/icons-material/Menu";
-import TimelineIcon from '@mui/icons-material/Timeline';
-import SsidChartIcon from '@mui/icons-material/SsidChart';
+import TimelineIcon from "@mui/icons-material/Timeline";
+import SsidChartIcon from "@mui/icons-material/SsidChart";
 
 const Item = ({ title, to, icon, selected, setSelected }) => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
   return (
-    <Link to={to} style={{ textDecoration: 'none'}}>
-    <MenuItem
-      active={selected === title}
-      style={{
-        color: colors.grey[300],
-      }}
-      onClick={() => setSelected(title)}
-      icon={icon}
-    
-    >
-      <Typography>{title}</Typography>
-      {/* <Link to={to} /> */}
-    </MenuItem>
+    <Link to={to} style={{ textDecoration: "none" }}>
+      <MenuItem
+        active={selected === title}
+        style={{
+          color: colors.grey[300],
+        }}
+        onClick={() => setSelected(title)}
+        icon={icon}
+      >
+        <Typography>{title}</Typography>
+        {/* <Link to={to} /> */}
+      </MenuItem>
     </Link>
   );
 };
@@ -65,18 +63,16 @@ const Sideboard = () => {
           color: `${colors.grey[400]} !important`, // Default text color for menu items
         },
         "& .pro-menu-item:hover": {
-          color:`${colors.greenAccent[800]} !important`, 
-          backgroundColor: `${colors.redAccent[100]} !important`, 
+          color: `${colors.greenAccent[800]} !important`,
+          backgroundColor: `${colors.redAccent[100]} !important`,
         },
         "& .pro-menu-item.active": {
-          color:`${colors.redAccent[800]} !important`, 
-          backgroundColor: `${colors.greenAccent[100]} !important`, 
+          color: `${colors.redAccent[800]} !important`,
+          backgroundColor: `${colors.greenAccent[100]} !important`,
         },
       }}
     >
-      <Sidebar collapsed={isCollapsed}  backgroundColor={colors.indigo[100]}>
-      
-        
+      <Sidebar collapsed={isCollapsed} backgroundColor={colors.indigo[100]}>
         <Menu iconShape="square">
           {/* LOGO AND MENU ICON */}
           <MenuItem
@@ -143,7 +139,7 @@ const Sideboard = () => {
             <Item
               title="Dashboard"
               to="/"
-              icon={<HomeIcon  />}
+              icon={<HomeIcon />}
               selected={selected}
               setSelected={setSelected}
             />
@@ -156,6 +152,7 @@ const Sideboard = () => {
             >
               Data
             </Typography>
+            
             <Item
               title="Archiv"
               to="/archiv"
@@ -170,13 +167,7 @@ const Sideboard = () => {
               selected={selected}
               setSelected={setSelected}
             />
-            <Item
-              title="ArchivKendo"
-              to="/archivkendo"
-              icon={<InventoryIcon />}
-              selected={selected}
-              setSelected={setSelected}
-            />
+
             <Typography
               variant="h6"
               color={colors.blueAccent[500]}
@@ -185,13 +176,7 @@ const Sideboard = () => {
             >
               Pages
             </Typography>
-            <Item
-              title="Calendar"
-              to="/calendar"
-              icon={<CalendarMonthIcon />}
-              selected={selected}
-              setSelected={setSelected}
-            />
+
             <Item
               title="Schedule"
               to="/schedule"
