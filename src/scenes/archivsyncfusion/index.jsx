@@ -4,7 +4,7 @@ import { Box, useTheme } from "@mui/material";
 import Header from "../../components/Headers";
 //dummy data
 import { mockData } from "../../data/mockData";
-import mockPDF from '../../data/mockPDF.pdf'
+import mockPDF from "../../data/mockPDF.pdf";
 //syncfusion grid components
 import {
   GridComponent,
@@ -23,25 +23,13 @@ import {
   VirtualScroll,
   CommandColumn,
   Toolbar,
+  actionBegin,
 } from "@syncfusion/ej2-react-grids";
 import { DataUtil } from "@syncfusion/ej2-data";
-//PDF Viewer
-import { DialogComponent } from "@syncfusion/ej2-react-popups";
-import {
-  PdfViewerComponent,
-  Magnification,
-  Navigation,
-  LinkAnnotation,
-  BookmarkView,
-  ThumbnailView,
-  Print,
-  TextSelection,
-  TextSearch,
-  Annotation,
-  FormFields,
-  FormDesigner,
-  PageOrganizer,
-} from "@syncfusion/ej2-react-pdfviewer";
+//icons
+
+import FileDownloadIcon from "@mui/icons-material/FileDownload";
+
 import { ButtonComponent } from "@syncfusion/ej2-react-buttons";
 import { Eject } from "@mui/icons-material";
 
@@ -94,47 +82,72 @@ const Archivsyncfusion = () => {
   //date format
   const formatOption = { type: "date", format: "dd/MM/yyyy" };
   const fullDateFormat = { type: "dateTime", format: "dd/MM/yyyy hh:mm a" };
-  
-  const handlePdfDownload = async() => {
-   try{
-    //'https://api3.fibutron.de/Download/DownloadFile?Mandant=100&BWDOCID=74644789'
-    const response = await fetch(mockPDF);
-    console.log(response)
-    if(!response.ok){
-      throw new Error('failed to download')
+
+  const handlePdfDownload = async () => {
+    try {
+      //'https://api3.fibutron.de/Download/DownloadFile?Mandant=100&BWDOCID=74644789'
+      const response = await fetch(mockPDF);
+      console.log(response);
+      if (!response.ok) {
+        throw new Error("failed to download");
+      }
+      const blob = await response.blob();
+      const url = URL.createObjectURL(blob);
+
+      // Create a link element
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = "Report.pdf";
+      link.click();
+
+      URL.revokeObjectURL(url);
+    } catch (error) {
+      console.error("error downloading the file");
     }
-    const blob = await response.blob();
-    const url = URL.createObjectURL(blob);
-
-    // Create a link element
-    const link = document.createElement('a');
-    link.href = url;
-    link.download = 'Report.pdf';
-    link.click();
-
-    URL.revokeObjectURL(url);
-   } catch (error){
-    console.error('error downloading the file')
-   }
   };
+  //Download invoice/PDF template
   const template = (props) => {
     return (
       <div>
-        <ButtonComponent id="pdfDownload" onClick={handlePdfDownload}>
-          {" "}
-          Get PDF
-        </ButtonComponent>
+        <span
+          class="e-icons e-download"
+          id="pdfDownload"
+          onClick={handlePdfDownload}
+        ></span>
+      </div>
+    );
+  };
+  //markierung Template
+  let loc = { width: "31px", height: "24px" };
+  const markTemplate = (props) => {
+    let MarkImage =
+      props.markierung === "Important"
+        ? `${process.env.PUBLIC_URL}/assets/image/important.png`
+        : props.markierung === "Read"
+        ? `${process.env.PUBLIC_URL}/assets/image/readCategory.png`
+        : props.markierung === "Green Category"
+        ? `${process.env.PUBLIC_URL}/assets/image/greenCategory.png`
+        : props.markierung === "Blue Category"
+        ? `${process.env.PUBLIC_URL}/assets/image/blueCategory.png`
+        : props.markierung === "Red Category"
+        ? `${process.env.PUBLIC_URL}/assets/image/redCategory.png`
+        : null;
+
+    return (
+      <div>
+        {MarkImage && <img style={loc} src={MarkImage} alt="" />}
+        {/* <span id="Marktext">{props.markierung}</span> */}
       </div>
     );
   };
   return (
     <Box
       m="20px"
-      sx={{
-        "& .e-grid": {
-          background: "#00b7ea",
-        },
-      }}
+      /*sx={{
+         "& .e-grid .e-table": {
+           background: "#00b7ea",
+         },
+      }}*/
     >
       <Header title="ARCHIV" subtitle="Data grid using Sync fusion"></Header>
       <GridComponent
@@ -159,13 +172,28 @@ const Archivsyncfusion = () => {
       >
         <ColumnsDirective>
           <ColumnDirective
+            field=""
+            headerText="Download"
+            width="50"
+            template={template}
+            textAlign="Center"
+            allowEditing={false}
+          />
+          <ColumnDirective
+            field="markierung"
+            headerText="Markings"
+            width="100"
+            editType="dropdownedit"
+            template={markTemplate}
+          />
+          <ColumnDirective
             field="id"
             headerText="ID"
             width="100"
             allowGrouping={false}
             isPrimaryKey={true}
           />
-          <ColumnDirective field="id" headerText="Markings" width="100" />
+
           <ColumnDirective
             field="thema"
             headerText="Thema"
@@ -218,12 +246,7 @@ const Archivsyncfusion = () => {
             textAlign="Right"
             editType="datepickeredit"
           />
-          <ColumnDirective
-            field=""
-            headerText="PDF Download"
-            template={template}
-           
-          />
+
           <ColumnDirective
             field="barcode"
             headerText="Barcode"

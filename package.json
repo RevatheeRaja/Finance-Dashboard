@@ -12,6 +12,7 @@
     "@mui/x-data-grid": "^7.1.1",
     "@syncfusion/ej2-base": "^25.1.35",
     "@syncfusion/ej2-data": "^25.1.35",
+    "@syncfusion/ej2-icons": "^25.1.35",
     "@syncfusion/ej2-kanban": "^25.1.35",
     "@syncfusion/ej2-react-base": "^25.1.35",
     "@syncfusion/ej2-react-buttons": "^25.1.39",
@@ -30,7 +31,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-pro-sidebar": "^1.1.0",
-    "react-router-dom": "^6.22.3",
+    "react-router-dom": "^6.23.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4",
     "yup": "^1.4.0"

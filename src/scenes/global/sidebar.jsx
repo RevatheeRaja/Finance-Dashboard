@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
 import { Sidebar, Menu, MenuItem } from "react-pro-sidebar";
 import { Box, IconButton, Typography, useTheme } from "@mui/material";
 import { Link } from "react-router-dom";
@@ -26,7 +27,7 @@ const Item = ({ title, to, icon, selected, setSelected }) => {
         style={{
           color: colors.grey[300],
         }}
-        onClick={() => setSelected(title)}
+        //onClick={() => setSelected(title)}
         icon={icon}
       >
         <Typography>{title}</Typography>
@@ -152,7 +153,7 @@ const Sideboard = () => {
             >
               Data
             </Typography>
-            
+
             <Item
               title="Archiv"
               to="/archiv"
