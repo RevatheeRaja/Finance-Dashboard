@@ -5,6 +5,7 @@ import { CssBaseline, ThemeProvider } from "@mui/material";
 import Topbar from "./scenes/global/topbar";
 import Sideboard from "./scenes/global/sidebar";
 //Import Components/other PAGES
+import Login from "./scenes/login"
 import Dashboard from "./scenes/dashboard"; //Dashboard
 import Archiv from "./scenes/archiv"; // archiv
 import Archivsyncfusion from "./scenes/archivsyncfusion"; // Datagrid using syncfusion
@@ -14,7 +15,6 @@ import Workflow from "./scenes/workflow";
 import Charts from "./scenes/charts";
 import Areachart from "./scenes/areaChart";
 
-
 function App() {
   const [theme, colorMode] = useMode();
   return (
@@ -22,12 +22,14 @@ function App() {
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <div className="app">
-          <Sideboard />
+          {/* {<Sideboard /> } */}
           <main className="content">
-            <Topbar />
+            {/* <Topbar /> */}
             {/* ROUTES */}
             <Routes>
-              <Route path="/" element={<Dashboard />} />
+              <Route index element={<Login/>} />
+
+              <Route path="/dashboard" element={<Dashboard />} />
               <Route path="/archiv" element={<Archiv />} />
               <Route path="/archivsyncfusion" element={<Archivsyncfusion />} />
               <Route path="/schedule" element={<Schedule />} />

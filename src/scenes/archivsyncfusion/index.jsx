@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import * as ReactDOM from "react-dom";
 import { Box, useTheme } from "@mui/material";
 import Header from "../../components/Headers";
+//the color palletes
+import { ColorModeContext, tokens } from "../../theme";
 //dummy data
 import { mockData } from "../../data/mockData";
 import mockPDF from "../../data/mockPDF.pdf";
@@ -23,7 +25,7 @@ import {
   VirtualScroll,
   CommandColumn,
   Toolbar,
-  actionBegin,
+  //actionBegin,
 } from "@syncfusion/ej2-react-grids";
 import { DataUtil } from "@syncfusion/ej2-data";
 //icons
@@ -34,6 +36,8 @@ import { ButtonComponent } from "@syncfusion/ej2-react-buttons";
 import { Eject } from "@mui/icons-material";
 
 const Archivsyncfusion = () => {
+  const theme = useTheme();
+  const colors = tokens(theme.palette.mode);
   let grid;
 
   //grid Filter type
@@ -67,9 +71,9 @@ const Archivsyncfusion = () => {
     if (grid) {
       if (args.item.id === "Grid_excelexport") {
         grid.excelExport();
-      } else if (args.item.id === "Grid_pdfexport") {
-        grid.pdfExport();
-      }
+       } //else if (args.item.id === "Grid_pdfexport") {
+      //   grid.pdfExport();
+      // }
     }
   };
   //Edit and Delete a row with a dialog box
@@ -143,11 +147,11 @@ const Archivsyncfusion = () => {
   return (
     <Box
       m="20px"
-      /*sx={{
+      sx={{
          "& .e-grid .e-table": {
-           background: "#00b7ea",
+           background: colors.primary[300],
          },
-      }}*/
+      }}
     >
       <Header title="ARCHIV" subtitle="Data grid using Sync fusion"></Header>
       <GridComponent
