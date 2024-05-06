@@ -40,6 +40,8 @@ console.log(username,pwd)
       //   setBackError("");
 
       if (username===email && pwd===password) {
+        ; // Store session ID in state
+
         setUser(username);
         console.log('sucess')
         setSuccess(true);
@@ -111,7 +113,7 @@ console.log(username,pwd)
       } */
     }
   };
-
+ 
   return (
     <>
     {success?(
@@ -161,6 +163,11 @@ console.log(username,pwd)
           </div>
         </form>
       </Card>
+      {/*  {sessionId && (
+        <div className="mt-4">
+          <p>Session ID: {sessionId}</p>
+        </div>
+      )} */}
     </div> )}</>
   );
 }
