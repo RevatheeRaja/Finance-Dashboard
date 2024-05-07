@@ -24,7 +24,8 @@ const Dashboard = () =>{
 
         const logoutTimer = setTimeout(() => {
             handleLogout(); // Logout after the timeout
-        }, 10 * 1000); // 10 seconds in milliseconds
+        }, 24 * 60 * 60 * 1000); // 24 hours  in milliseconds
+        //7 * 24 * 60 * 60 * 1000); // 7 days in milliseconds
     
         return () => clearTimeout(logoutTimer); // Cleanup timer on component unmount
     }, [navigate]);
@@ -35,6 +36,7 @@ const Dashboard = () =>{
                 <Header title="DASHBOARD" subtitle="Herzlich willkommen bei FiBuTronic. Guten Tag!" />
             </Box>
             {/* Add your dashboard content here */}
+            
         </Box>
     )
 }
