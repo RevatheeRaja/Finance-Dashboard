@@ -45,7 +45,7 @@ const Sideboard = () => {
 
   return (
     <Box
-      backgroundColor={colors.primary[400]}
+      //backgroundColor={colors.primary[400]}
       sx={{
         "& .pro-sidebar-inner": {
           background: `${colors.primary[400]} !important`,
@@ -71,6 +71,9 @@ const Sideboard = () => {
           color: `${colors.redAccent[800]} !important`,
           backgroundColor: `${colors.greenAccent[100]} !important`,
         },
+        "& .css-9w6vk3": {
+          backgroundColor:  "transparent !important",
+        }
       }}
     >
       <Sidebar collapsed={isCollapsed} backgroundColor={colors.indigo[100]}>
@@ -81,7 +84,7 @@ const Sideboard = () => {
             icon={isCollapsed ? <MenuIcon /> : undefined}
             style={{
               margin: "10px 0 20px 0",
-              color: colors.grey[100],
+               color: colors.grey[100],
             }}
           >
             {!isCollapsed && (

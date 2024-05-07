@@ -15,7 +15,9 @@ const Topbar = () => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
   const colorMode = useContext(ColorModeContext);
-  const [logoSrc, setLogoSrc] = useState(theme.palette.mode === "dark" ? logoDark : logoLight);
+  const [logoSrc, setLogoSrc] = useState(
+    theme.palette.mode === "dark" ? logoDark : logoLight
+  );
 
   const handleToggleLogo = () => {
     const newLogoSrc = logoSrc === logoLight ? logoDark : logoLight;
@@ -23,9 +25,18 @@ const Topbar = () => {
   };
 
   return (
-    <Box display="flex" justifyContent="space-between" p={2}>
+    <Box
+      display="flex"
+      justifyContent="space-between"
+      p={2}
+      position="absolute"
+      top={0}
+      left={0}
+      right= {100}
+      
+    >
       {/* Logo */}
-      <IconButton onClick={handleToggleLogo}>
+      <IconButton>
         <img
           alt="logo"
           width="120px"
@@ -41,7 +52,7 @@ const Topbar = () => {
         display="flex"
         backgroundColor={colors.primary[400]}
         borderRadius="3px"
-      > 
+      >
         <InputBase sx={{ ml: 2, flex: 1 }} placeholder="Search" />
         <IconButton type="button" sx={{ p: 1 }}>
           <SearchIcon />
@@ -50,14 +61,16 @@ const Topbar = () => {
 
       {/* ICONS */}
       <Box display="flex">
-        <IconButton onClick={() => {
+        <IconButton
+          onClick={() => {
             colorMode.toggleColorMode();
             handleToggleLogo();
-        }}>
+          }}
+        >
           {theme.palette.mode === "dark" ? (
-              <DarkModeOutlinedIcon />
+            <DarkModeOutlinedIcon />
           ) : (
-              <LightModeOutlinedIcon />
+            <LightModeOutlinedIcon />
           )}
         </IconButton>
         <IconButton>

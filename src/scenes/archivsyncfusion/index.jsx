@@ -144,13 +144,17 @@ const Archivsyncfusion = () => {
       </div>
     );
   };
+ 
   return (
     <Box
       m="20px"
       sx={{
-         "& .e-grid .e-table": {
-           background: colors.primary[300],
+         "& .e-grid .e-table > tbody > tr:nth-child(even)": {
+           background: colors.indigo[100],
          },
+         "& .e-grid .e-table > tbody > tr:nth-child(odd)": {
+          background: colors.indigo[600],
+        },
       }}
     >
       <Header title="ARCHIV" subtitle="Data grid using Sync fusion"></Header>

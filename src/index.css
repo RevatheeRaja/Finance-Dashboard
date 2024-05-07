@@ -25,11 +25,26 @@
 html,
 body,
 #root,
-.app,
-.content{
+.app
+{
   height:100%;
   width:100%;
   font-family: 'Poppins', sans-serif;
+}
+.content{
+  margin-top: 80px;
+  height:100%;
+  width:100%;
+  flex: 1;
+ 
+}
+.dashboard-container {
+  display: flex; 
+}
+.top-content{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 .app{
   display:flex;

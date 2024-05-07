@@ -19,7 +19,7 @@ const Areachart = () => {
       <Header title="INFLATION RATE" subtitle="Insights at a Glance"></Header>
       <ChartComponent
         id="line-chart"
-        height="500px"
+       // height="500px"
         primaryXAxis={{
           valueType: "Category",
           edgeLabelPlacement: "Shift",
