@@ -16,7 +16,7 @@ import Workflow from "./scenes/workflow";
 import Charts from "./scenes/charts";
 import Areachart from "./scenes/areaChart";
 import Mainpage from "./scenes/global/mainpage";
-
+import ForgetPassword from "./scenes/login/forgetpassword.jsx"
  
 function App() {
   const [theme, colorMode] = useMode();
@@ -27,6 +27,8 @@ function App() {
         <div className="app">
           <Routes>
             <Route path="/" element={<Login />} />
+            <Route path="/forgot" element={<ForgetPassword />} />
+
             <Route
               path="/*"
               element={
@@ -39,6 +41,7 @@ function App() {
                         <Route path="/dashboard" element={<Dashboard />} />
                         <Route path="/archiv" element={<Archiv />} />
                         <Route path="/archivsyncfusion" element={<Archivsyncfusion />} />
+
                         <Route path="/schedule" element={<Schedule />} />
                         <Route path="/aufgabe" element={<Aufgabe />} />
                         <Route path="/workflow" element={<Workflow />} />

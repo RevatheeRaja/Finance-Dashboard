@@ -5,6 +5,7 @@ import { useRef, useState, useEffect, useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
 import {mockLogin} from "../../data/mockLogin";
+import { Link } from 'react-router-dom';
 
 export default function Login() {
 /*   const { setAuth } = useContext(AuthContext);
@@ -155,9 +156,9 @@ console.log(username,pwd)
           <Button type="submit" className="bg-blue-950 text-white-500">Submit</Button>
           <div className=" w-96">
             <div>
-              <a href="/forgot" className="text-sm text-gray-900">
-                Forgot password?
-              </a>
+            <Link to="/forgot" className="text-sm text-gray-900">
+  Forgot password?
+</Link>
              
             </div>
           </div>
