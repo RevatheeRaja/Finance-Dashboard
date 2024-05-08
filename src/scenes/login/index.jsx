@@ -125,7 +125,7 @@ console.log(username,pwd)
    
     <div className="flex justify-center items-center h-screen w-screen">
       <Card className="custom-card ">
-        <h1 className="flex flex-col items-center text-3xl  text-blue-950">Login</h1>
+        <h1 className="flex flex-col items-center text-3xl text-bold text-blue-950">Login</h1>
         <form className="flex max-w-lg flex-col gap-4" onSubmit={handleLogin}>
           <div>
             <div className="mb-5 flex flex-row">

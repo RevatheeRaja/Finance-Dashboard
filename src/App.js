@@ -4,7 +4,7 @@ import { ColorModeContext, useMode } from "./theme"; /* import from theme.js*/
 import { CssBaseline, ThemeProvider } from "@mui/material";
 import Topbar from "./scenes/global/topbar";
 import Sideboard from "./scenes/global/sidebar"; 
-
+import ResetPassword from './scenes/login/resetpassword.jsx'
 //Import Components/other PAGES
 import Login from "./scenes/login"
 import Dashboard from "./scenes/dashboard"; //Dashboard
@@ -28,6 +28,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Login />} />
             <Route path="/forgot" element={<ForgetPassword />} />
+            <Route path="/resetpassword" element={<ResetPassword />} />
 
             <Route
               path="/*"
