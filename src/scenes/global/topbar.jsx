@@ -33,7 +33,7 @@ const Topbar = () => {
       top={0}
       left={0}
       right= {100}
-      
+      marginLeft="254px" 
     >
       {/* Logo */}
       <IconButton>

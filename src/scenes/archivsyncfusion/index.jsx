@@ -114,7 +114,7 @@ const Archivsyncfusion = () => {
     return (
       <div>
         <span
-          class="e-icons e-download"
+          className="e-icons e-download"
           id="pdfDownload"
           onClick={handlePdfDownload}
         ></span>
@@ -149,12 +149,15 @@ const Archivsyncfusion = () => {
     <Box
       m="20px"
       sx={{
-         "& .e-grid .e-table > tbody > tr:nth-child(even)": {
-           background: colors.indigo[100],
+         "& .e-grid .e-table > tbody > tr:nth-of-type(even)": {
+           background: colors.primary[100],
          },
-         "& .e-grid .e-table > tbody > tr:nth-child(odd)": {
-          background: colors.indigo[600],
+         "& .e-grid .e-table > tbody > tr:nth-of-type(odd)": {
+          background: colors.primary[300],
         },
+        "& .e-grid .e-headercell":{
+          background: colors.indigo[300],
+        }
       }}
     >
       <Header title="ARCHIV" subtitle="Data grid using Sync fusion"></Header>

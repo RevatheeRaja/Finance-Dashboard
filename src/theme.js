@@ -87,7 +87,7 @@ export const tokens = (mode) => ({
           900: "#e0e0e0",
         },
         primary: {
-          100: "#040509",
+          100: "#F7F8FF",
           200: "#080b12",
           300: "#c9d4f2",
           400: "#f2f0f0",
@@ -131,15 +131,15 @@ export const tokens = (mode) => ({
           900: "#f8dcdb",
         },
         blueAccent: {
-          100: "#151632",
-          200: "#2a2d64",
-          300: "#3e4396",
-          400: "#535ac8",
+          100: "#e1e2fe",
+          200: "#c3c6fd",
+          300: "#a4a9fc",
+          400: "#868dfb",
           500: "#6870fa",
-          600: "#868dfb",
-          700: "#a4a9fc",
-          800: "#c3c6fd",
-          900: "#e1e2fe",
+          600: "#4b56f9", // Adjusted for more shades of blue
+          700: "#2e39f8", // Adjusted for more shades of blue
+          800: "#111ef7", // Adjusted for more shades of blue
+          900: "#0010f6",
         },
       }),
 });
