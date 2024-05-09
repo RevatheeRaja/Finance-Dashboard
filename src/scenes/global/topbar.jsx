@@ -10,6 +10,8 @@ import PersonOutlinedIcon from "@mui/icons-material/PersonOutlined";
 import SearchIcon from "@mui/icons-material/Search";
 import logoLight from "../../assets/image/logo-light.png";
 import logoDark from "../../assets/image/logo-dark.png";
+import { RiLogoutCircleRLine } from "react-icons/ri";
+
 
 const Topbar = () => {
   const theme = useTheme();
@@ -80,7 +82,9 @@ const Topbar = () => {
           <SettingsOutlinedIcon />
         </IconButton>
         <IconButton>
-          <PersonOutlinedIcon />
+        <RiLogoutCircleRLine />
+
+          {/* <PersonOutlinedIcon /> */}
         </IconButton>
       </Box>
     </Box>

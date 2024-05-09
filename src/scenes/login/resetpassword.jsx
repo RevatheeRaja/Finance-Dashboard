@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Button, Label, TextInput, Card } from "flowbite-react";
 import Swal from "sweetalert2";
 import { useNavigate } from "react-router-dom";
+import ReactDOMServer from 'react-dom/server';
 
 const Resetpassword = () => {
   const [newPassword, setNewPassword] = useState("");
@@ -34,24 +35,27 @@ const Resetpassword = () => {
         }
       );
       if (!newPassword.match(passwordRegex)) {
+        const errorMessage = ReactDOMServer.renderToString(
+          <ul>
+            <li>at least 8 characters</li>
+            <li>one capital letter</li>
+            <li>one small letter</li>
+            <li>one number</li>
+            <li>one symbol</li>
+          </ul>
+        );
+      
         Swal.fire({
           icon: "error",
-          title: "Password should contains",
-          html: (
-            <ul>
-             <li>-atleast 8 character</li>
-             <li>-one Capital letter</li>
-             <li>-one small letter</li>
-             <li>-one number</li>
-             <li>-one symbol</li>
-            </ul>
-          ),
+          title: "Password should contain",
+          html: errorMessage,
           customClass: {
             confirmButton: "btn-custom-class",
             title: "title-class",
           },
           buttonsStyling: false,
         });
+      
       } else if (newPassword === confirmPassword) {
         // Passwords match, you can proceed with the reset logic here
         Swal.fire({
