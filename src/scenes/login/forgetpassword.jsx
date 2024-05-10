@@ -29,7 +29,6 @@ const Forgetpassword = () => {
           title: "Reset Password Email Sent!",
           text: "Please check your email for further instructions.",
         });
-        navigate('/resetpassword')
       } else {
         // Email sending failed, handle error
         console.error("Failed to send reset password email.");

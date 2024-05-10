@@ -37,7 +37,7 @@ const Topbar = () => {
       // Email sent successfully, handle success
       Swal.fire({
         icon: "success",
-        title: "logedout!",
+        title: "logged out!",
         text: "Please check your email for further instructions.",
       });
       navigate('/')

@@ -42,9 +42,13 @@ const Workflow = () => {
   };
 
   const KanbanDialogFormTemplate = (props) => {
-    // useEffect(() => {
-    //   //updateSampleSection();
-    // }, []);
+     useEffect(() => {
+       //updateSampleSection();
+     }, []);
+    const updateSampleSection = () => {
+      // Placeholder function for updating the sample section
+      console.log('Updating sample section...');
+    };
     let assigneeData = [
       "Nancy Davloio",
       "Andrew Fuller",
