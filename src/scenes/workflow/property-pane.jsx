@@ -1,7 +1,7 @@
 import * as ReactDOM from 'react-dom';
 import * as React from 'react';
 import { select } from '@syncfusion/ej2-base';
-export class PropertyPane extends React.Component {
+ export class PropertyPane extends React.Component {
     render() {
         const mobilePropPane = select('.sb-mobile-prop-pane');
         const isMobile = window.matchMedia('(max-width:550px)').matches;

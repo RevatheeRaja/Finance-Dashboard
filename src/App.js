@@ -17,12 +17,15 @@ import Charts from "./scenes/charts";
 import Areachart from "./scenes/areaChart";
 import Mainpage from "./scenes/global/mainpage";
 import ForgetPassword from "./scenes/login/forgetpassword.jsx"
- 
+ import DialogEditing  from "./scenes/workflow"
+
 function App() {
   const [theme, colorMode] = useMode();
   return (
+
     <ColorModeContext.Provider value={colorMode}>
       <ThemeProvider theme={theme}>
+
         <CssBaseline />
         <div className="app">
           <Routes>
@@ -46,8 +49,12 @@ function App() {
                         <Route path="/schedule" element={<Schedule />} />
                         <Route path="/aufgabe" element={<Aufgabe />} />
                         <Route path="/workflow" element={<Workflow />} />
+{/*                         <Route path="/property-pane" element={<PropertyPane />} />
+ */}
                         <Route path="/charts" element={<Charts />} />
                         <Route path="/areachart" element={<Areachart />} />
+                        <Route path="/dialog" element={<DialogEditing />} />
+
                       </Routes>
                     </main>
                   </div>
