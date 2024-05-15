@@ -52,19 +52,19 @@ body,
   /* max-width: 100%; */
 }
 
-/*SCROLL BAR Style*/
+SCROLL BAR Style
 ::-webkit-scrollbar{
   width:10px;
 }
-/*Scroll track*/
+Scroll track
 ::-webkit-scrollbar-track{
   background: #e0e0e0;
 }
-/*Scroll-thumb*/
+Scroll-thumb
 ::-webkit-scrollbar-thumb{
   background: #888;
 }
-/*Hover*/
+Hover
 ::-webkit-scrollbar-track:hover{
   background: #555;
 }

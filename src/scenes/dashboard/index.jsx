@@ -2,7 +2,7 @@ import { Box } from "@mui/material";
 import Header from "../../components/Headers";
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import Mainpage from "../global/mainpage.jsx";
+
 import Swal from "sweetalert2";
 
 const Dashboard = () => {

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { NavLink } from "react-router-dom";
+
 import { Sidebar, Menu, MenuItem } from "react-pro-sidebar";
 import { Box, IconButton, Typography, useTheme } from "@mui/material";
 import { Link } from "react-router-dom";
@@ -20,14 +20,19 @@ import SsidChartIcon from "@mui/icons-material/SsidChart";
 const Item = ({ title, to, icon, selected, setSelected }) => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
+  // Log the 'to' prop
+  //console.log("To prop:", to);
   return (
-    <Link to={to} style={{ textDecoration: "none" }}>
+    <Link to={to}>
       <MenuItem
         active={selected === title}
         style={{
           color: colors.grey[300],
         }}
-        //onClick={() => setSelected(title)}
+        // onClick={() => {
+        //   console.log("Item clicked:", title);
+        //   setSelected(title);
+        // }}
         icon={icon}
       >
         <Typography>{title}</Typography>
@@ -72,8 +77,8 @@ const Sideboard = () => {
           backgroundColor: `${colors.greenAccent[100]} !important`,
         },
         "& .css-9w6vk3": {
-          backgroundColor:  "transparent !important",
-        }
+          backgroundColor: "transparent !important",
+        },
       }}
     >
       <Sidebar collapsed={isCollapsed} backgroundColor={colors.indigo[100]}>
@@ -84,7 +89,7 @@ const Sideboard = () => {
             icon={isCollapsed ? <MenuIcon /> : undefined}
             style={{
               margin: "10px 0 20px 0",
-               color: colors.grey[100],
+              color: colors.grey[100],
             }}
           >
             {!isCollapsed && (
@@ -167,6 +172,13 @@ const Sideboard = () => {
             <Item
               title="ArchivSyncFusion"
               to="/archivsyncfusion"
+              icon={<InventoryIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
+            <Item
+              title="ArchivKendo"
+              to="/archivkendo"
               icon={<InventoryIcon />}
               selected={selected}
               setSelected={setSelected}

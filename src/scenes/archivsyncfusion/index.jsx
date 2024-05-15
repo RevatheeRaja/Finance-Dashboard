@@ -156,7 +156,8 @@ const Archivsyncfusion = () => {
           background: colors.primary[300],
         },
         "& .e-grid .e-headercell":{
-          background: colors.indigo[300],
+          background: colors.grey[400],
+          color: '#fff'
         }
       }}
     >
