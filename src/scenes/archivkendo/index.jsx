@@ -9,18 +9,59 @@ import { process } from "@progress/kendo-data-query";
 import { ExcelExport } from "@progress/kendo-react-excel-export";
 import { Button } from "@progress/kendo-react-buttons";
 
-import { downloadIcon,pencilIcon } from "@progress/kendo-svg-icons";
+import { downloadIcon, pencilIcon } from "@progress/kendo-svg-icons";
 //Essential material and icon library
 import "@progress/kendo-theme-material/dist/all.css";
 import "@progress/kendo-font-icons/dist/index.css";
 //dummy data
 import { mockData } from "../../data/mockData";
 import mockPDF from "../../data/mockPDF.pdf";
+//Edit
+import EditForm from "./editForm";
+
+
 
 const Archivkendo = () => {
   const [dataState, setDataState] = React.useState({ skip: 0, take: 20 });
   const [result, setResult] = React.useState(process(mockData, dataState));
+//Edit a row
+const [openForm, setOpenForm] = React.useState(false);
+const [editItem, setEditItem] = React.useState({
+  id: 1
+});
+const [data, setData] = React.useState(mockData);
+const enterEdit = (item) =>{
+  setOpenForm(true);
+  setEditItem(item)
+;}
+const handleCancelEdit = () => {
+  setOpenForm(false);
+};
 
+const handleSubmit = (event) => {
+  let newData = data.map((item) => {
+    if (event.id === item.id) {
+      item = {
+        ...event,
+      };
+    }
+    return item;
+  });
+  setResult(newData);
+  setOpenForm(false);
+};
+const EditCommandCell = (props) => {
+  return (
+    <td {...props.tdProps}>
+      <Button
+        className="buttons-container-button"
+        svgIcon={pencilIcon}
+        onClick={() => props.enterEdit(props.dataItem)}
+        id="edit"
+      ></Button>
+    </td>
+  );
+};
   //onDataStateChange
   const onDataStateChange = (e) => {
     //let updatedState = createDataState(e.dataState);
@@ -60,6 +101,7 @@ const Archivkendo = () => {
       console.error("error downloading the file");
     }
   };
+
   //Download invoice/PDF template
   const template = (props) => {
     return (
@@ -73,22 +115,7 @@ const Archivkendo = () => {
       </td>
     );
   };
-  //Edit Template
-  const handleEdit = () =>{
-    console.log('Edit Clicked');
-  }
-  const Edittemplate = (props) => {
-    return <td {...props.tdProps}> 
-      <Button
-      className="buttons-container-button"
-      svgIcon={pencilIcon}
-      onClick={handleEdit}
-      id="pdfDownload">
 
-      </Button>
-
-    </td>;
-  };
   //Markierung Template
   let loc = { width: "31px", height: "24px" };
   const markTemplate = (props) => {
@@ -114,6 +141,9 @@ const Archivkendo = () => {
       </td>
     );
   };
+  const MyEditCommandCell = (props) => (
+    <EditCommandCell {...props} enterEdit={enterEdit} />
+  );
   return (
     <Box>
       <Header title="ARCHIV" subtitle="Datagrid using Kendo"></Header>
@@ -146,11 +176,7 @@ const Archivkendo = () => {
             width="90px"
             cells={{ data: template }}
           />
-          <GridColumn
-            title="Edit"
-            width="90px"
-            cells={{ data: Edittemplate }}
-          />
+          <GridColumn title="Edit" width="90px" cell={MyEditCommandCell} />
           <GridColumn
             field="markierung"
             title="Markierung"
@@ -241,6 +267,13 @@ const Archivkendo = () => {
           />
           <GridColumn field="seitenzahl" title="Seiten" width="100px" />
         </Grid>
+        {openForm && (
+        <EditForm
+          cancelEdit={handleCancelEdit}
+          onSubmit={handleSubmit}
+          item={editItem}
+        />
+      )}
       </ExcelExport>
     </Box>
   );
