@@ -3,118 +3,72 @@ import { Box, SvgIcon, useTheme } from "@mui/material";
 //the color palletes
 import { ColorModeContext, tokens } from "../../theme";
 import Header from "../../components/Headers";
-//ESSENTIAL KENDO COMPONENTS
 import { Grid, GridColumn, GridToolbar } from "@progress/kendo-react-grid";
-
 import { ColumnMenu, ColumnMenuCheckboxFilter } from "./ColumnMenu";
-import { ExcelExport } from "@progress/kendo-react-excel-export";
 import { process } from "@progress/kendo-data-query";
+import { ExcelExport } from "@progress/kendo-react-excel-export";
 import { Button } from "@progress/kendo-react-buttons";
-import DownloadIcon from "@mui/icons-material/Download";
-import ModeRoundedIcon from "@mui/icons-material/ModeRounded";
-
-//Essential material and icon library
-
-import "@progress/kendo-font-icons/dist/index.css";
 import "@progress/kendo-theme-material/dist/all.css";
-
 //dummy data
 import { mockData } from "../../data/mockData";
 import mockPDF from "../../data/mockPDF.pdf";
-//IMPORT EDITFORM FOR
+
+//icons
+import DownloadIcon from "@mui/icons-material/Download";
+import ModeRoundedIcon from "@mui/icons-material/ModeRounded";
+//EDIT FORM FOR EDITING THE ROW
 import EditForm from "./editForm";
-import { yellow } from "@mui/material/colors";
 
 const Archivkendo = () => {
   //color theme
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
 
-  const [dataState, setDataState] = React.useState({ skip: 0, take: 10 });
-  /********MOCK DATA*********** */
-  //const [result, setResult] = React.useState(process(mockData, dataState));
-  //const [data, setData] = React.useState(mockData);
+  const [dataState, setDataState] = React.useState({ skip: 0, take: 20 });
+  //MOCK DATA
+  // const [result, setResult] = React.useState(process(mockData, dataState));
+  // const [data, setData] = React.useState(mockData);
 
   /******API DATA****** */
-  const [result, setResult] = useState([]);
-  const [data, setData] = useState([]);
+const [result, setResult] = useState([]);
+const [data, setData] = useState([]);
 
-  // Fetch data from the external API when component mounts or when dataState changes
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await fetch(
-          "https://fibutronwebapi.fibutron.de/Archiv?MandantNr=923"
-        );
-        if (!response.ok) {
-          throw new Error("Failed to fetch data");
-        }
-        const data = await response.json();
-        setData(data);
-        setResult(process(data, dataState));
-      } catch (error) {
-        console.error("Error fetching data:", error);
+// Fetch data from the external API when component mounts or when dataState changes
+useEffect(() => {
+  const fetchData = async () => {
+    try {
+      const response = await fetch(
+        "https://fibutronwebapi.fibutron.de/Archiv?MandantNr=923"
+      );
+      if (!response.ok) {
+        throw new Error("Failed to fetch data");
       }
-    };
-    fetchData();
-  }, [dataState]);
+      const data = await response.json();
+      setData(data);
+      setResult(process(data, dataState));
+    } catch (error) {
+      console.error("Error fetching data:", error);
+    }
+  };
+  fetchData();
+}, [dataState]);
 
-  //onDataStateChange
+
   const onDataStateChange = (e) => {
     //let updatedState = createDataState(e.dataState);
     setDataState(e.dataState);
     // setResult(process(mockData, e.dataState));
   };
 
-  /****EDIT ROW WITH EXTERNAL FORMS******** */
-  const [openForm, setOpenForm] = React.useState(false);
-  const [editItem, setEditItem] = React.useState({
-    id: 1,
-  });
-
-  const enterEdit = (item) => {
-    setOpenForm(true);
-    setEditItem(item);
-  };
-  const handleCancelEdit = () => {
-    setOpenForm(false);
-  };
-  const handleSubmit = (event) => {
-    let newData = data.map((item) => {
-      if (event.id === item.id) {
-        item = {
-          ...event,
-        };
-      }
-      return item;
-    });
-    setData(newData); // Update the data state with the new data
-    setResult(process(newData, dataState)); // Update the result state with processed data
-    setOpenForm(false); // Close the edit form
-  };
-  const EditCommandCell = (props) => {
-    return (
-      <td {...props.tdProps}>
-        <ModeRoundedIcon
-          onClick={() => props.enterEdit(props.dataItem)}
-          id="edit"
-        />
-      </td>
-    );
-  };
-  const MyEditCommandCell = (props) => (
-    <EditCommandCell {...props} enterEdit={enterEdit} />
-  );
-  /***********************EDIT EXTERNAL FORM EDNS************************************* */
-
   /*********EXCEL EXPORT ON TOOL BAR OF THE GRID********* */
-  const _export = React.useRef(null);
 
+  const _export = React.useRef(null);
   const excelExport = () => {
     if (_export.current !== null) {
       _export.current.save();
     }
   };
+
   /*********EXCEL EXPORT ON TOOL BAR OF THE GRID ENDS********* */
 
   /*******************HANDLE INVOICE DOWNLOAD ON EVERY ROW********************************** */
@@ -150,6 +104,46 @@ const Archivkendo = () => {
     );
   };
   /*******************HANDLE INVOICE DOWNLOAD ON EVERY ROW ENDS********************************** */
+   /****EDIT ROW WITH EXTERNAL FORMS******** */
+   const [openForm, setOpenForm] = React.useState(false);
+   const [editItem, setEditItem] = React.useState({
+     id: 1,
+   });
+ 
+   const enterEdit = (item) => {
+     setOpenForm(true);
+     setEditItem(item);
+   };
+   const handleCancelEdit = () => {
+     setOpenForm(false);
+   };
+   const handleSubmit = (event) => {
+     let newData = data.map((item) => {
+       if (event.id === item.id) {
+         item = {
+           ...event,
+         };
+       }
+       return item;
+     });
+     setData(newData); // Update the data state with the new data
+     setResult(process(newData, dataState)); // Update the result state with processed data
+     setOpenForm(false); // Close the edit form
+   };
+   const EditCommandCell = (props) => {
+     return (
+       <td {...props.tdProps}>
+         <ModeRoundedIcon
+           onClick={() => props.enterEdit(props.dataItem)}
+           id="edit"
+         />
+       </td>
+     );
+   };
+   const MyEditCommandCell = (props) => (
+     <EditCommandCell {...props} enterEdit={enterEdit} />
+   );
+   /***********************EDIT EXTERNAL FORM EDNS************************************* */
 
   /************************MARKIERUNG TEMPLATE******************************************************* */
   let loc = { width: "31px", height: "24px" };
@@ -177,7 +171,6 @@ const Archivkendo = () => {
     );
   };
   /************************MARKIERUNG TEMPLATE ENDS******************************************************* */
-
   return (
     <Box>
       <Header title="ARCHIV" subtitle="Datagrid using Kendo"></Header>
@@ -203,19 +196,19 @@ const Archivkendo = () => {
           {...dataState}
         >
           <Grid
-            /****GRID PROPERTIES*****/
-
             data={result}
+            //navigatable = {true}
             // filterable={true}
             sortable={true}
             groupable={true}
             resizable={true}
             pageable={true}
             reorderable={true}
-            navigatable={true}
+          
             onDataStateChange={onDataStateChange}
             {...dataState}
-            total={mockData.length}
+            //total={mockData.length}
+            total={result.length}
           >
             <GridToolbar>
               <div className="export-btns-container">
@@ -228,7 +221,7 @@ const Archivkendo = () => {
               width="90px"
               cells={{ data: template }}
             />
-            <GridColumn title="Edit" width="90px" cell={MyEditCommandCell} />
+             <GridColumn title="Edit" width="90px" cell={MyEditCommandCell} />
             <GridColumn
               field="markierung"
               title="Markierung"
@@ -259,7 +252,7 @@ const Archivkendo = () => {
               field="strasse"
               title="Strasse"
               width="150px"
-              columnMenu={ColumnMenuCheckboxFilter}
+              
             />
             <GridColumn
               field="ort"
@@ -319,36 +312,35 @@ const Archivkendo = () => {
             />
             <GridColumn field="seitenzahl" title="Seiten" width="100px" />
           </Grid>
-         
-          {/*********OVERWRITE THE STYLING OF THE DATA GRID******* */ 
-           
+          {
+            /*********OVERWRITE THE STYLING OF THE DATA GRID******* */
+
             <style>
               {`
-                .k-table-thead{
-                    background :${
-                      theme.palette.mode === "dark"
-                        ? colors.indigo[100]
-                        : colors.blueAccent[200]
-                    };
-                  }
-                  .k-column-title {
-                    color: ${theme.palette.mode==="dark" ? 'white':'darkblue'}
-                  } 
-                  .k-column-title:hover {
-                    color: ${theme.palette.mode==="dark" ? '#dfe6f5':'#010169'}
-                  } 
-                  .k-svg-i-more-vertical {
-                    color: ${theme.palette.mode==="dark" ? 'white':'darkblue'}
-                  }
-                  .k-svg-i-more-vertical:hover {
-                    color: ${theme.palette.mode==="dark" ? '#dfe6f5':'#010169'}
-                  }
-            `}
+             .k-table-thead{
+                 background :${
+                   theme.palette.mode === "dark"
+                     ? colors.indigo[100]
+                     : colors.blueAccent[200]
+                 };
+               }
+               .k-column-title {
+                 color: ${theme.palette.mode === "dark" ? "white" : "darkblue"}
+               } 
+               .k-column-title:hover {
+                 color: ${theme.palette.mode === "dark" ? "#dfe6f5" : "#010169"}
+               } 
+               .k-svg-i-more-vertical {
+                 color: ${theme.palette.mode === "dark" ? "white" : "darkblue"}
+               }
+               .k-svg-i-more-vertical:hover {
+                 color: ${theme.palette.mode === "dark" ? "#dfe6f5" : "#010169"}
+               }
+         `}
             </style>
-             /*********END STYLE OVERWRITING******* */ 
+            /*********END STYLE OVERWRITING******* */
           }
-
-          {/**OPEN THE EXTERNAL FORM/DIALOG BOX *******************/}
+           {/**OPEN THE EXTERNAL FORM/DIALOG BOX *******************/}
           {openForm && (
             <EditForm
               cancelEdit={handleCancelEdit}

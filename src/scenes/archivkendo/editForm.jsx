@@ -92,14 +92,14 @@ const EditForm = (props) => {
               />
             </FieldWrapper>
 
-            <FieldWrapper>
+            {/* <FieldWrapper>
               <fieldset>
                 <DatePicker
                   placeholder="Dokumentendatum"
                   name={"dokumentendatum"}
                 />
               </fieldset>
-            </FieldWrapper>
+            </FieldWrapper> */}
             <FieldWrapper>
               <Field
                 name={"notizen"}
