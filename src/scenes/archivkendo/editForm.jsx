@@ -1,20 +1,21 @@
 //imports
 import * as React from "react";
-import { Dialog, DialogActionsBar } from "@progress/kendo-react-dialogs";
+
+import { Dialog, DialogActionsBar } from "@progress/kendo-react-dialogs"; //KENDO DIALOG COMPONENT
 import {
   Form,
   Field,
   FormElement,
   FieldWrapper,
-} from "@progress/kendo-react-form";
+} from "@progress/kendo-react-form"; //KENDO FORM COMPONENT
+//KENDO INPUT COMPONENTS
 import { TextBox, NumericTextBox } from "@progress/kendo-react-inputs";
 import { DropDownList } from "@progress/kendo-react-dropdowns";
 import { DatePicker } from "@progress/kendo-react-dateinputs";
 import { Error, Label } from "@progress/kendo-react-labels";
 import { Button } from "@progress/kendo-react-buttons";
 import { cancelIcon, saveIcon } from "@progress/kendo-svg-icons";
-//dummy data
-import { mockData } from "../../data/mockData";
+
 const TextBoxField = (fieldRenderProps) => {
   const { validationMessage, visited, label, id, valid, ...others } =
     fieldRenderProps;
@@ -37,6 +38,7 @@ const EditForm = (props) => {
       initialValues={props.item}
       onSubmit={onSubmit}
       render={(renderProps) => (
+        /*****INITIALIZE THE DIALOG BOX N SIZE */
         <Dialog
           onClose={cancelEdit}
           //title={`Edit ${item.thema}`}
@@ -106,6 +108,7 @@ const EditForm = (props) => {
               />
             </FieldWrapper>
           </FormElement>
+          {/* DIALOG ACTION BAR  */}
           <DialogActionsBar layout="start">
             <Button
               type={"submit"}
