@@ -40,6 +40,7 @@ body,
 }
 .dashboard-container {
   display: flex; 
+  width: 100%;
 }
 .top-content{
   width: 100%;

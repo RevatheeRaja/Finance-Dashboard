@@ -169,13 +169,7 @@ const Sideboard = () => {
               selected={selected}
               setSelected={setSelected}
             />
-            <Item
-              title="ArchivSyncFusion"
-              to="/archivsyncfusion"
-              icon={<InventoryIcon />}
-              selected={selected}
-              setSelected={setSelected}
-            />
+           
             <Item
               title="ArchivKendo"
               to="/archivkendo"
@@ -201,13 +195,6 @@ const Sideboard = () => {
               setSelected={setSelected}
             />
             <Item
-              title="Aufgabe"
-              to="/aufgabe"
-              icon={<AssignmentIcon />}
-              selected={selected}
-              setSelected={setSelected}
-            />
-            <Item
               title="Workflow"
               to="/workflow"
               icon={<AssignmentIcon />}
@@ -224,16 +211,16 @@ const Sideboard = () => {
               Charts
             </Typography>
             <Item
-              title="Line Chart"
-              to="/charts"
-              icon={<TimelineIcon />}
+              title="Area Chart"
+              to="/areachart"
+              icon={<SsidChartIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
-              title="Area Chart"
-              to="/areachart"
-              icon={<SsidChartIcon />}
+              title="Line Chart"
+              to="/linechart"
+              icon={<TimelineIcon />}
               selected={selected}
               setSelected={setSelected}
             />

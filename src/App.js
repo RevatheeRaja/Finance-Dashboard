@@ -13,14 +13,12 @@ import ResetPassword from './scenes/login/resetpassword.jsx'
 import ForgetPassword from "./scenes/login/forgetpassword.jsx"
 import Dashboard from "./scenes/dashboard"; //Dashboard
 import Archiv from "./scenes/archiv"; // archiv
-import Archivsyncfusion from "./scenes/archivsyncfusion"; // Datagrid using syncfusion
+
 import Archivkendo from "./scenes/archivkendo";
 import Schedule from "./scenes/schedule";
-import Aufgabe from "./scenes/aufgabe";
 import Workflow from "./scenes/workflow";
-import Charts from "./scenes/charts";
-import Areachart from "./scenes/areaChart";
-
+import Areachart from "./scenes/areachart";
+import Linechart from "./scenes/linechart";
  //import context Provider
  import { useStateContext } from "./contexts/ContextProvider";
  
@@ -38,26 +36,23 @@ const App = () => {
             <Route
               path="/*"
               element={
-                <div className="dashboard-container">
+                 <div className="dashboard-container">
                   <Sideboard />
-                  <div className="top-content">
+                  {/* <div className="top-content"> */}
                     <Topbar />
                     <main className="content">
                       <Routes>
-                      
                         <Route path="/dashboard" element={<Dashboard />} />
                         <Route path="/archiv" element={<Archiv />} />
-                        <Route path="/archivsyncfusion" element={<Archivsyncfusion />} />
                         <Route path="/archivkendo" element={<Archivkendo />} />
                         <Route path="/schedule" element={<Schedule />} />
-                        <Route path="/aufgabe" element={<Aufgabe />} />
                         <Route path="/workflow" element={<Workflow />} />
-                        <Route path="/charts" element={<Charts />} />
                         <Route path="/areachart" element={<Areachart />} />
+                        <Route path="/linechart" element={<Linechart />} />
                       </Routes>
                     </main>
-                  </div>
-                </div>
+                  {/* </div> */}
+                 </div>
               }
             />
           </Routes>
