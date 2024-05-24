@@ -19,6 +19,7 @@ import Schedule from "./scenes/schedule";
 import Workflow from "./scenes/workflow";
 import Areachart from "./scenes/areachart";
 import Linechart from "./scenes/linechart";
+import Piechart from "./scenes/piechart";
  //import context Provider
  import { useStateContext } from "./contexts/ContextProvider";
  
@@ -49,6 +50,7 @@ const App = () => {
                         <Route path="/workflow" element={<Workflow />} />
                         <Route path="/areachart" element={<Areachart />} />
                         <Route path="/linechart" element={<Linechart />} />
+                        <Route path="/piechart" element={<Piechart />} />
                       </Routes>
                     </main>
                   {/* </div> */}
