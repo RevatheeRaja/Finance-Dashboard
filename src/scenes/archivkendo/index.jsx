@@ -2,10 +2,18 @@ import React, { useState, useEffect } from "react";
 import { Box, SvgIcon, useTheme } from "@mui/material";
 //the color palletes
 import { ColorModeContext, tokens } from "../../theme";
-import Header from "../../components/Headers";
+import Header from "../../components/Headers"; //Dashboard title
 import { Grid, GridColumn, GridToolbar } from "@progress/kendo-react-grid";
-import { ColumnMenu, ColumnMenuCheckboxFilter } from "./ColumnMenu";
+import { ColumnMenu, ColumnMenuCheckboxFilter } from "./ColumnMenu"; //filter with menu
+
 import { process } from "@progress/kendo-data-query";
+import {
+  getGroupIds,
+  setExpandedState,
+  setGroupIds,
+} from "@progress/kendo-react-data-tools"; //for grouping
+
+import { getter } from '@progress/kendo-react-common'; //GETTER
 import { ExcelExport } from "@progress/kendo-react-excel-export";
 import { Button } from "@progress/kendo-react-buttons";
 import "@progress/kendo-theme-material/dist/all.css";
@@ -16,22 +24,42 @@ import mockPDF from "../../data/mockPDF.pdf";
 //icons
 import DownloadIcon from "@mui/icons-material/Download";
 import ModeRoundedIcon from "@mui/icons-material/ModeRounded";
+
 //EDIT FORM FOR EDITING THE ROW
-import EditForm from "./editForm";
+import EditForm from "./editForm"; //Edit using external forms
+
+const DATA_ITEM_KEY = 'id';
+const SELECTED_FIELD = 'selected';
+
+const initialDataState = {
+  take: 20,
+  skip: 0,
+  group: []
+}
+
+const processWithGroups = (data, dataState) => {
+  const newDataState = process(data, dataState);
+  setGroupIds({
+    data: newDataState.data,
+    group: dataState.group
+  });
+  return newDataState;
+};
 
 const Archivkendo = () => {
+
   //color theme
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
-
-  const [dataState, setDataState] = React.useState({ skip: 0, take: 20 });
+  const [currentSelectedState, setCurrentSelectedState] = React.useState({});
+  const [dataState, setDataState] = React.useState(initialDataState);
   //MOCK DATA
-  // const [result, setResult] = React.useState(process(mockData, dataState));
-  // const [data, setData] = React.useState(mockData);
+  const [result, setResult] = React.useState(processWithGroups(mockData, dataState));
+  const [data, setData] = React.useState(mockData);
 
   /******API DATA****** */
-const [result, setResult] = useState([]);
-const [data, setData] = useState([]);
+  /*const [result, setResult] = useState([]);
+    const [data, setData] = useState([]);
 
 // Fetch data from the external API when component mounts or when dataState changes
 useEffect(() => {
@@ -51,15 +79,37 @@ useEffect(() => {
     }
   };
   fetchData();
-}, [dataState]);
+}, [dataState]);*/
 
-
-  const onDataStateChange = (e) => {
-    //let updatedState = createDataState(e.dataState);
+  // const onDataStateChange = (e) => {
+  //   //let updatedState = createDataState(e.dataState);
+  //   setDataState(e.dataState);
+  //   setResult(processWithGroups(mockData, e.dataState));
+  // };
+  const onDataStateChange = React.useCallback(e => {
     setDataState(e.dataState);
-    // setResult(process(mockData, e.dataState));
-  };
+    const newDataState = processWithGroups(mockData, e.dataState);
+  setResult(newDataState);
+  }, []);
+  
 
+  /***************HANDLE GROUPING; COLLAPSE EXPAND *******/
+ 
+  const [collapsedState, setCollapsedState] = React.useState([]);
+  const onExpandChange = React.useCallback(event => {
+    const item = event.dataItem;
+    if (item.groupId) {
+      const collapsedIds = !event.value ? [...collapsedState, item.groupId] : collapsedState.filter(groupId => groupId !== item.groupId);
+      setCollapsedState(collapsedIds);
+    }
+  }, [collapsedState]);
+  
+  const newData = setExpandedState({
+    data: result.data,
+    collapsedIds: collapsedState
+  }); 
+  
+  /****************ENDE HANDLE GROUPING; COLLAPSE EXPAND ***** */
   /*********EXCEL EXPORT ON TOOL BAR OF THE GRID********* */
 
   const _export = React.useRef(null);
@@ -104,46 +154,46 @@ useEffect(() => {
     );
   };
   /*******************HANDLE INVOICE DOWNLOAD ON EVERY ROW ENDS********************************** */
-   /****EDIT ROW WITH EXTERNAL FORMS******** */
-   const [openForm, setOpenForm] = React.useState(false);
-   const [editItem, setEditItem] = React.useState({
-     id: 1,
-   });
- 
-   const enterEdit = (item) => {
-     setOpenForm(true);
-     setEditItem(item);
-   };
-   const handleCancelEdit = () => {
-     setOpenForm(false);
-   };
-   const handleSubmit = (event) => {
-     let newData = data.map((item) => {
-       if (event.id === item.id) {
-         item = {
-           ...event,
-         };
-       }
-       return item;
-     });
-     setData(newData); // Update the data state with the new data
-     setResult(process(newData, dataState)); // Update the result state with processed data
-     setOpenForm(false); // Close the edit form
-   };
-   const EditCommandCell = (props) => {
-     return (
-       <td {...props.tdProps}>
-         <ModeRoundedIcon
-           onClick={() => props.enterEdit(props.dataItem)}
-           id="edit"
-         />
-       </td>
-     );
-   };
-   const MyEditCommandCell = (props) => (
-     <EditCommandCell {...props} enterEdit={enterEdit} />
-   );
-   /***********************EDIT EXTERNAL FORM EDNS************************************* */
+  /****EDIT ROW WITH EXTERNAL FORMS******** */
+  const [openForm, setOpenForm] = React.useState(false);
+  const [editItem, setEditItem] = React.useState({
+    id: 1,
+  });
+
+  const enterEdit = (item) => {
+    setOpenForm(true);
+    setEditItem(item);
+  };
+  const handleCancelEdit = () => {
+    setOpenForm(false);
+  };
+  const handleSubmit = (event) => {
+    let newData = data.map((item) => {
+      if (event.id === item.id) {
+        item = {
+          ...event,
+        };
+      }
+      return item;
+    });
+    setData(newData); // Update the data state with the new data
+    setResult(process(newData, dataState)); // Update the result state with processed data
+    setOpenForm(false); // Close the edit form
+  };
+  const EditCommandCell = (props) => {
+    return (
+      <td {...props.tdProps}>
+        <ModeRoundedIcon
+          onClick={() => props.enterEdit(props.dataItem)}
+          id="edit"
+        />
+      </td>
+    );
+  };
+  const MyEditCommandCell = (props) => (
+    <EditCommandCell {...props} enterEdit={enterEdit} />
+  );
+  /***********************EDIT EXTERNAL FORM EDNS************************************* */
 
   /************************MARKIERUNG TEMPLATE******************************************************* */
   let loc = { width: "31px", height: "24px" };
@@ -190,25 +240,28 @@ useEffect(() => {
         }}
       >
         <ExcelExport
-          data={data}
+          data={result}
           ref={_export}
           onDataStateChange={onDataStateChange}
           {...dataState}
         >
           <Grid
-            data={result}
+            
             //navigatable = {true}
             // filterable={true}
             sortable={true}
-            groupable={true}
+           
             resizable={true}
-            pageable={true}
+            pageable={{
+              pageSizes: true
+            }}
+            groupable={true}  onExpandChange={onExpandChange} expandField="expanded"
             reorderable={true}
-          
+            data={newData}
             onDataStateChange={onDataStateChange}
             {...dataState}
             //total={mockData.length}
-            total={result.length}
+            total={result.total}
           >
             <GridToolbar>
               <div className="export-btns-container">
@@ -221,7 +274,7 @@ useEffect(() => {
               width="90px"
               cells={{ data: template }}
             />
-             <GridColumn title="Edit" width="90px" cell={MyEditCommandCell} />
+            <GridColumn title="Edit" width="90px" cell={MyEditCommandCell} />
             <GridColumn
               field="markierung"
               title="Markierung"
@@ -248,12 +301,7 @@ useEffect(() => {
               width="250px"
               columnMenu={ColumnMenuCheckboxFilter}
             />
-            <GridColumn
-              field="strasse"
-              title="Strasse"
-              width="150px"
-              
-            />
+            <GridColumn field="strasse" title="Strasse" width="150px" />
             <GridColumn
               field="ort"
               title="Ort"
@@ -340,7 +388,7 @@ useEffect(() => {
             </style>
             /*********END STYLE OVERWRITING******* */
           }
-           {/**OPEN THE EXTERNAL FORM/DIALOG BOX *******************/}
+          {/**OPEN THE EXTERNAL FORM/DIALOG BOX *******************/}
           {openForm && (
             <EditForm
               cancelEdit={handleCancelEdit}
