@@ -1,5 +1,5 @@
 
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import { ColorModeContext, useMode } from "./theme"; /* import from theme.js*/
 /*CssBaseline will reset our css to the default, and ThemeProvider- would provide us the ability to pass the themes in light/dark mode*/
 import { CssBaseline, ThemeProvider } from "@mui/material";
@@ -11,17 +11,19 @@ import Sideboard from "./scenes/global/sidebar";
 import Login from "./scenes/login"
 import ResetPassword from './scenes/login/resetpassword.jsx'
 import ForgetPassword from "./scenes/login/forgetpassword.jsx"
-import Dashboard from "./scenes/dashboard"; //Dashboard
-import Archiv from "./scenes/archiv"; // archiv
 
-import Archivkendo from "./scenes/archivkendo";
-import Schedule from "./scenes/schedule";
-import Workflow from "./scenes/workflow";
+import Dashboard from "./scenes/dashboard"; //Dashboard
+import Archiv from "./scenes/archiv"; // archiv Material UI
+import Archivkendo from "./scenes/archivkendo"; //DATA GRID kENDO
+import Schedule from "./scenes/schedule"; //CALENDAR
+import Workflow from "./scenes/workflow"; //AUFGABE
+//CHARTS AND GAUGES
 import Areachart from "./scenes/areachart";
 import Linechart from "./scenes/linechart";
 import Piechart from "./scenes/piechart";
+import Taskgauge from "./scenes/taskgauge";
  //import context Provider
- import { useStateContext } from "./contexts/ContextProvider";
+ //import { useStateContext } from "./contexts/ContextProvider";
  
 const App = () => {
   const [theme, colorMode] = useMode();
@@ -51,6 +53,7 @@ const App = () => {
                         <Route path="/areachart" element={<Areachart />} />
                         <Route path="/linechart" element={<Linechart />} />
                         <Route path="/piechart" element={<Piechart />} />
+                        <Route path="/taskgauge" element={<Taskgauge />} />
                       </Routes>
                     </main>
                   {/* </div> */}

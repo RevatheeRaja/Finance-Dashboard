@@ -6,14 +6,14 @@ import { mockData } from "../../data/mockData";
 
 /***********API DATABINDING**************/
 const API_ENDPOINT = "https://fibutronwebapi.fibutron.de/Archiv?MandantNr=923";
- //2. set the state for the data
- 
+const MARKIERUNG_FILTER_VALUES = ["Important", "Red", "Category", "Other"];
 
 export const ColumnMenu = props => {
   return <div>
         <GridColumnMenuFilter {...props} expanded={true} />
       </div>;
 };
+
 export const ColumnMenuCheckboxFilter = props => {
   const [rowData, setRowData] = useState([]);
  //3.
@@ -38,3 +38,10 @@ export const ColumnMenuCheckboxFilter = props => {
         <GridColumnMenuCheckboxFilter {...props} data={rowData} expanded={true} />
       </div>;
 };
+export const ColumnMenuMarkierungFilter = (props) =>{
+  return (
+    <div>
+      <GridColumnMenuCheckboxFilter {...props} data = {mockData}  expanded={true} />
+    </div>
+  )
+}

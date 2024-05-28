@@ -7,7 +7,7 @@ import { ColorModeContext, tokens } from "../../theme";
 
 /********ESSENTIAL KENDO REACT GRID COMPONENTS************************ */
 import { Grid, GridColumn, GridToolbar } from "@progress/kendo-react-grid";
-import { ColumnMenu, ColumnMenuCheckboxFilter } from "./ColumnMenu";
+import { ColumnMenu, ColumnMenuCheckboxFilter, ColumnMenuMarkierungFilter} from "./ColumnMenu";
 import { process } from "@progress/kendo-data-query";
 import {
   setGroupIds,
@@ -282,7 +282,7 @@ const Archivkendo = () => {
             title="Markierung"
             width="150px"
             cells={{ data: markTemplate }}
-            columnMenu={ColumnMenuCheckboxFilter}
+            columnMenu={ColumnMenuMarkierungFilter}
           />
           <GridColumn
             field="id"

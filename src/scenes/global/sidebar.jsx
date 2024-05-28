@@ -17,6 +17,8 @@ import MenuIcon from "@mui/icons-material/Menu";
 import TimelineIcon from "@mui/icons-material/Timeline";
 import SsidChartIcon from "@mui/icons-material/SsidChart";
 import PieChartIcon from '@mui/icons-material/PieChart';
+
+
 const Item = ({ title, to, icon, selected, setSelected }) => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
@@ -227,6 +229,13 @@ const Sideboard = () => {
             <Item
               title="Pie Chart"
               to="/piechart"
+              icon={<PieChartIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
+             <Item
+              title="Arc Gauge"
+              to="/taskgauge"
               icon={<PieChartIcon />}
               selected={selected}
               setSelected={setSelected}

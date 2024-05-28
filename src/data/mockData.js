@@ -149,7 +149,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": ""
+    "markierung": null
   },
   {
     "id": 74644793,
@@ -909,7 +909,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644753,
@@ -928,7 +928,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644752,
@@ -947,7 +947,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644751,
@@ -966,7 +966,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644750,
@@ -985,7 +985,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644749,
@@ -1004,7 +1004,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644748,
@@ -1023,7 +1023,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644747,
@@ -1042,7 +1042,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644746,
@@ -1061,7 +1061,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644745,
@@ -1080,7 +1080,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644744,
@@ -1099,7 +1099,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644743,
@@ -1118,7 +1118,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644742,
@@ -1137,7 +1137,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644741,
@@ -1156,7 +1156,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644740,
@@ -1175,7 +1175,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644739,
@@ -1194,7 +1194,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644738,
@@ -1213,7 +1213,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644737,
@@ -1232,7 +1232,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644736,
@@ -1251,7 +1251,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644735,
@@ -1270,7 +1270,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644734,
@@ -1289,7 +1289,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644733,
@@ -1308,7 +1308,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644732,
@@ -1327,7 +1327,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644731,
@@ -1346,7 +1346,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644730,
@@ -1365,7 +1365,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644729,
@@ -1384,7 +1384,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644728,
@@ -1403,7 +1403,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644727,
@@ -1422,7 +1422,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644726,
@@ -1441,7 +1441,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644725,
@@ -1460,7 +1460,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644724,
@@ -1479,7 +1479,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644723,
@@ -1498,7 +1498,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644722,
@@ -1517,7 +1517,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644721,
@@ -1536,7 +1536,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644720,
@@ -1555,7 +1555,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644719,
@@ -1574,7 +1574,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644718,
@@ -1593,7 +1593,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644717,
@@ -1612,7 +1612,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644716,
@@ -1631,7 +1631,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644715,
@@ -1650,7 +1650,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644714,
@@ -1669,7 +1669,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644713,
@@ -1688,7 +1688,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644712,
@@ -1707,7 +1707,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644711,
@@ -1726,7 +1726,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644710,
@@ -1745,7 +1745,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644709,
@@ -1764,7 +1764,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644708,
@@ -1783,7 +1783,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644707,
@@ -1802,7 +1802,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644706,
@@ -1821,7 +1821,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644705,
@@ -1840,7 +1840,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644704,
@@ -1859,7 +1859,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644703,
@@ -1878,7 +1878,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644702,
@@ -1897,7 +1897,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644701,
@@ -1916,7 +1916,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644700,
@@ -1935,7 +1935,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644699,
@@ -1954,7 +1954,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644698,
@@ -1973,7 +1973,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644697,
@@ -1992,7 +1992,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644696,
@@ -2011,7 +2011,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644695,
@@ -2030,7 +2030,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644694,
@@ -2049,7 +2049,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644693,
@@ -2068,7 +2068,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644692,
@@ -2087,7 +2087,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644691,
@@ -2106,7 +2106,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644690,
@@ -2125,7 +2125,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644689,
@@ -2144,7 +2144,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644688,
@@ -2163,7 +2163,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644687,
@@ -2182,7 +2182,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644686,
@@ -2201,7 +2201,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644685,
@@ -2220,7 +2220,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644684,
@@ -2239,7 +2239,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644683,
@@ -2258,7 +2258,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644682,
@@ -2277,7 +2277,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644681,
@@ -2296,7 +2296,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644680,
@@ -2315,7 +2315,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644679,
@@ -2334,7 +2334,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644678,
@@ -2353,7 +2353,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644677,
@@ -2372,7 +2372,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644676,
@@ -2391,7 +2391,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644675,
@@ -2410,7 +2410,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644674,
@@ -2429,7 +2429,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644673,
@@ -2448,7 +2448,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644672,
@@ -2467,7 +2467,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644671,
@@ -2486,7 +2486,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644670,
@@ -2505,7 +2505,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644669,
@@ -2524,7 +2524,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644668,
@@ -2543,7 +2543,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644667,
@@ -2562,7 +2562,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644666,
@@ -2581,7 +2581,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644665,
@@ -2600,7 +2600,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644664,
@@ -2619,7 +2619,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644663,
@@ -2638,7 +2638,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644662,
@@ -2657,7 +2657,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644661,
@@ -2676,7 +2676,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644660,
@@ -2695,7 +2695,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644659,
@@ -2714,7 +2714,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644658,
@@ -2733,7 +2733,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644657,
@@ -2752,7 +2752,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644656,
@@ -2771,7 +2771,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644655,
@@ -2790,7 +2790,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644654,
@@ -2809,7 +2809,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644653,
@@ -2828,7 +2828,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644652,
@@ -2847,7 +2847,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644651,
@@ -2866,7 +2866,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644650,
@@ -2885,7 +2885,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644649,
@@ -2904,7 +2904,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644648,
@@ -2923,7 +2923,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644647,
@@ -2942,7 +2942,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644646,
@@ -2961,7 +2961,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644645,
@@ -2980,7 +2980,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644644,
@@ -2999,7 +2999,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644643,
@@ -3018,7 +3018,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644642,
@@ -3037,7 +3037,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644641,
@@ -3056,7 +3056,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644640,
@@ -3075,7 +3075,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644639,
@@ -3094,7 +3094,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644638,
@@ -3113,7 +3113,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644637,
@@ -3132,7 +3132,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644636,
@@ -3151,7 +3151,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644635,
@@ -3170,7 +3170,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644634,
@@ -3189,7 +3189,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644633,
@@ -3208,7 +3208,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644632,
@@ -3227,7 +3227,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644631,
@@ -3246,7 +3246,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644630,
@@ -3265,7 +3265,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644629,
@@ -3284,7 +3284,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644628,
@@ -3303,7 +3303,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644627,
@@ -3322,7 +3322,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644626,
@@ -3341,7 +3341,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644625,
@@ -3360,7 +3360,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644624,
@@ -3379,7 +3379,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644623,
@@ -3398,7 +3398,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644622,
@@ -3417,7 +3417,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644621,
@@ -3436,7 +3436,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644620,
@@ -3455,7 +3455,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644619,
@@ -3474,7 +3474,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644618,
@@ -3493,7 +3493,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644617,
@@ -3512,7 +3512,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644616,
@@ -3531,7 +3531,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644615,
@@ -3550,7 +3550,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644614,
@@ -3569,7 +3569,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644613,
@@ -3588,7 +3588,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644612,
@@ -3607,7 +3607,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644611,
@@ -3626,7 +3626,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644610,
@@ -3645,7 +3645,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644609,
@@ -3664,7 +3664,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644608,
@@ -3683,7 +3683,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644607,
@@ -3702,7 +3702,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644606,
@@ -3721,7 +3721,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644605,
@@ -3740,7 +3740,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644604,
@@ -3759,7 +3759,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644603,
@@ -3778,7 +3778,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644602,
@@ -3797,7 +3797,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644601,
@@ -3816,7 +3816,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644600,
@@ -3835,7 +3835,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644599,
@@ -3854,7 +3854,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644598,
@@ -3873,7 +3873,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644597,
@@ -3892,7 +3892,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644596,
@@ -3911,7 +3911,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644595,
@@ -3930,7 +3930,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644594,
@@ -3949,7 +3949,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644593,
@@ -3968,7 +3968,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644592,
@@ -3987,7 +3987,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644591,
@@ -4006,7 +4006,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644590,
@@ -4025,7 +4025,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644589,
@@ -4044,7 +4044,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644588,
@@ -4063,7 +4063,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644587,
@@ -4082,7 +4082,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644586,
@@ -4101,7 +4101,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644585,
@@ -4120,7 +4120,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644584,
@@ -4139,7 +4139,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644583,
@@ -4158,7 +4158,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644582,
@@ -4177,7 +4177,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644581,
@@ -4196,7 +4196,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644580,
@@ -4215,7 +4215,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644579,
@@ -4234,7 +4234,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644578,
@@ -4253,7 +4253,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644577,
@@ -4272,7 +4272,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644576,
@@ -4291,7 +4291,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644575,
@@ -4310,7 +4310,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644574,
@@ -4329,7 +4329,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644573,
@@ -4348,7 +4348,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644572,
@@ -4367,7 +4367,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644571,
@@ -4386,7 +4386,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644570,
@@ -4405,7 +4405,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644569,
@@ -4424,7 +4424,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644568,
@@ -4443,7 +4443,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644567,
@@ -4462,7 +4462,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644566,
@@ -4481,7 +4481,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644565,
@@ -4500,7 +4500,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644564,
@@ -4519,7 +4519,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644563,
@@ -4538,7 +4538,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644562,
@@ -4557,7 +4557,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644561,
@@ -4576,7 +4576,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644560,
@@ -4595,7 +4595,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644559,
@@ -4614,7 +4614,7 @@ export const mockData = [
     "storeDate": "2024-04-08T17:42:31",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644429,
@@ -4633,7 +4633,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644428,
@@ -4652,7 +4652,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644427,
@@ -4671,7 +4671,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644426,
@@ -4690,7 +4690,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644425,
@@ -4709,7 +4709,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644424,
@@ -4728,7 +4728,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644423,
@@ -4747,7 +4747,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644422,
@@ -4766,7 +4766,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644421,
@@ -4785,7 +4785,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644420,
@@ -4804,7 +4804,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644419,
@@ -4823,7 +4823,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644418,
@@ -4842,7 +4842,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644417,
@@ -4861,7 +4861,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644416,
@@ -4880,7 +4880,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644415,
@@ -4899,7 +4899,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644414,
@@ -4918,7 +4918,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644413,
@@ -4937,7 +4937,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644412,
@@ -4956,7 +4956,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644411,
@@ -4975,7 +4975,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644410,
@@ -4994,7 +4994,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644409,
@@ -5013,7 +5013,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644408,
@@ -5032,7 +5032,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644407,
@@ -5051,7 +5051,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644406,
@@ -5070,7 +5070,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644405,
@@ -5089,7 +5089,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644404,
@@ -5108,7 +5108,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644403,
@@ -5127,7 +5127,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644402,
@@ -5146,7 +5146,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644401,
@@ -5165,7 +5165,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644400,
@@ -5184,7 +5184,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644399,
@@ -5203,7 +5203,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644398,
@@ -5222,7 +5222,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644397,
@@ -5241,7 +5241,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644396,
@@ -5260,7 +5260,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644395,
@@ -5279,7 +5279,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644394,
@@ -5298,7 +5298,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644393,
@@ -5317,7 +5317,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644392,
@@ -5336,7 +5336,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644391,
@@ -5355,7 +5355,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644390,
@@ -5374,7 +5374,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644389,
@@ -5393,7 +5393,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644388,
@@ -5412,7 +5412,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644387,
@@ -5431,7 +5431,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644386,
@@ -5450,7 +5450,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644385,
@@ -5469,7 +5469,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644384,
@@ -5488,7 +5488,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644383,
@@ -5507,7 +5507,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644382,
@@ -5526,7 +5526,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644381,
@@ -5545,7 +5545,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644380,
@@ -5564,7 +5564,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644378,
@@ -5583,7 +5583,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644377,
@@ -5602,7 +5602,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644376,
@@ -5621,7 +5621,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644375,
@@ -5640,7 +5640,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644374,
@@ -5659,7 +5659,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644373,
@@ -5678,7 +5678,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644372,
@@ -5697,7 +5697,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644371,
@@ -5716,7 +5716,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644370,
@@ -5735,7 +5735,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644369,
@@ -5754,7 +5754,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644368,
@@ -5773,7 +5773,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644367,
@@ -5792,7 +5792,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644366,
@@ -5811,7 +5811,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644365,
@@ -5830,7 +5830,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644364,
@@ -5849,7 +5849,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644363,
@@ -5868,7 +5868,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644362,
@@ -5887,7 +5887,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644361,
@@ -5906,7 +5906,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644360,
@@ -5925,7 +5925,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644359,
@@ -5944,7 +5944,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644358,
@@ -5963,7 +5963,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644357,
@@ -5982,7 +5982,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644356,
@@ -6001,7 +6001,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644355,
@@ -6020,7 +6020,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644354,
@@ -6039,7 +6039,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644353,
@@ -6058,7 +6058,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644352,
@@ -6077,7 +6077,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644351,
@@ -6096,7 +6096,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644350,
@@ -6115,7 +6115,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644349,
@@ -6134,7 +6134,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644348,
@@ -6153,7 +6153,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644347,
@@ -6172,7 +6172,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644346,
@@ -6191,7 +6191,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644345,
@@ -6210,7 +6210,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644344,
@@ -6229,7 +6229,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644343,
@@ -6248,7 +6248,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644342,
@@ -6267,7 +6267,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644341,
@@ -6286,7 +6286,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644340,
@@ -6305,7 +6305,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644339,
@@ -6324,7 +6324,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644338,
@@ -6343,7 +6343,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644337,
@@ -6362,7 +6362,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644336,
@@ -6381,7 +6381,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644335,
@@ -6400,7 +6400,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644334,
@@ -6419,7 +6419,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644333,
@@ -6438,7 +6438,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644332,
@@ -6457,7 +6457,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644331,
@@ -6476,7 +6476,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644330,
@@ -6495,7 +6495,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644328,
@@ -6514,7 +6514,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644327,
@@ -6533,7 +6533,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644326,
@@ -6552,7 +6552,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644325,
@@ -6571,7 +6571,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644324,
@@ -6590,7 +6590,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644323,
@@ -6609,7 +6609,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644322,
@@ -6628,7 +6628,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644321,
@@ -6647,7 +6647,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644320,
@@ -6666,7 +6666,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644319,
@@ -6685,7 +6685,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644318,
@@ -6704,7 +6704,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644317,
@@ -6723,7 +6723,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644316,
@@ -6742,7 +6742,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644315,
@@ -6761,7 +6761,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644314,
@@ -6780,7 +6780,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644313,
@@ -6799,7 +6799,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644312,
@@ -6818,7 +6818,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644311,
@@ -6837,7 +6837,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644310,
@@ -6856,7 +6856,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644309,
@@ -6875,7 +6875,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644308,
@@ -6894,7 +6894,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644307,
@@ -6913,7 +6913,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644306,
@@ -6932,7 +6932,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644305,
@@ -6951,7 +6951,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644304,
@@ -6970,7 +6970,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644303,
@@ -6989,7 +6989,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644302,
@@ -7008,7 +7008,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644301,
@@ -7027,7 +7027,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644300,
@@ -7046,7 +7046,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644299,
@@ -7065,7 +7065,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644298,
@@ -7084,7 +7084,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644297,
@@ -7103,7 +7103,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644296,
@@ -7122,7 +7122,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644295,
@@ -7141,7 +7141,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644294,
@@ -7160,7 +7160,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644293,
@@ -7179,7 +7179,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644292,
@@ -7198,7 +7198,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644291,
@@ -7217,7 +7217,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644290,
@@ -7236,7 +7236,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644289,
@@ -7255,7 +7255,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644288,
@@ -7274,7 +7274,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644287,
@@ -7293,7 +7293,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644286,
@@ -7312,7 +7312,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644285,
@@ -7331,7 +7331,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644284,
@@ -7350,7 +7350,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644283,
@@ -7369,7 +7369,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644282,
@@ -7388,7 +7388,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644281,
@@ -7407,7 +7407,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644280,
@@ -7426,7 +7426,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644279,
@@ -7445,7 +7445,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644278,
@@ -7464,7 +7464,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644277,
@@ -7483,7 +7483,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644276,
@@ -7502,7 +7502,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644275,
@@ -7521,7 +7521,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644274,
@@ -7540,7 +7540,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644273,
@@ -7559,7 +7559,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644272,
@@ -7578,7 +7578,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644271,
@@ -7597,7 +7597,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644270,
@@ -7616,7 +7616,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644269,
@@ -7635,7 +7635,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644268,
@@ -7654,7 +7654,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644267,
@@ -7673,7 +7673,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644266,
@@ -7692,7 +7692,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644265,
@@ -7711,7 +7711,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644264,
@@ -7730,7 +7730,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644263,
@@ -7749,7 +7749,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644262,
@@ -7768,7 +7768,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644261,
@@ -7787,7 +7787,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644260,
@@ -7806,7 +7806,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644259,
@@ -7825,7 +7825,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644258,
@@ -7844,7 +7844,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644257,
@@ -7863,7 +7863,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644256,
@@ -7882,7 +7882,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644255,
@@ -7901,7 +7901,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644254,
@@ -7920,7 +7920,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644253,
@@ -7939,7 +7939,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644252,
@@ -7958,7 +7958,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644251,
@@ -7977,7 +7977,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644250,
@@ -7996,7 +7996,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644249,
@@ -8015,7 +8015,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644248,
@@ -8034,7 +8034,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644247,
@@ -8053,7 +8053,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644246,
@@ -8072,7 +8072,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644245,
@@ -8091,7 +8091,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644244,
@@ -8110,7 +8110,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644243,
@@ -8129,7 +8129,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644242,
@@ -8148,7 +8148,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644241,
@@ -8167,7 +8167,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644240,
@@ -8186,7 +8186,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644239,
@@ -8205,7 +8205,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644238,
@@ -8224,7 +8224,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644237,
@@ -8243,7 +8243,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644236,
@@ -8262,7 +8262,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644235,
@@ -8281,7 +8281,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644234,
@@ -8300,7 +8300,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644233,
@@ -8319,7 +8319,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644232,
@@ -8338,7 +8338,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644231,
@@ -8357,7 +8357,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644230,
@@ -8376,7 +8376,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644229,
@@ -8395,7 +8395,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644228,
@@ -8414,7 +8414,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644227,
@@ -8433,7 +8433,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644225,
@@ -8452,7 +8452,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644224,
@@ -8471,7 +8471,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644223,
@@ -8490,7 +8490,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644222,
@@ -8509,7 +8509,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644221,
@@ -8528,7 +8528,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644220,
@@ -8547,7 +8547,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644219,
@@ -8566,7 +8566,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644218,
@@ -8585,7 +8585,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644217,
@@ -8604,7 +8604,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644216,
@@ -8623,7 +8623,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644215,
@@ -8642,7 +8642,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644214,
@@ -8661,7 +8661,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644213,
@@ -8680,7 +8680,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644212,
@@ -8699,7 +8699,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644211,
@@ -8718,7 +8718,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644210,
@@ -8737,7 +8737,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644209,
@@ -8756,7 +8756,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644208,
@@ -8775,7 +8775,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644207,
@@ -8794,7 +8794,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644206,
@@ -8813,7 +8813,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644205,
@@ -8832,7 +8832,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644204,
@@ -8851,7 +8851,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644203,
@@ -8870,7 +8870,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644202,
@@ -8889,7 +8889,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644201,
@@ -8908,7 +8908,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644200,
@@ -8927,7 +8927,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644199,
@@ -8946,7 +8946,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644198,
@@ -8965,7 +8965,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644197,
@@ -8984,7 +8984,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644196,
@@ -9003,7 +9003,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644195,
@@ -9022,7 +9022,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644194,
@@ -9041,7 +9041,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644193,
@@ -9060,7 +9060,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644192,
@@ -9079,7 +9079,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644191,
@@ -9098,7 +9098,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644190,
@@ -9117,7 +9117,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644189,
@@ -9136,7 +9136,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644188,
@@ -9155,7 +9155,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644187,
@@ -9174,7 +9174,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644186,
@@ -9193,7 +9193,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644185,
@@ -9212,7 +9212,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644184,
@@ -9231,7 +9231,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644183,
@@ -9250,7 +9250,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644182,
@@ -9269,7 +9269,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644181,
@@ -9288,7 +9288,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644180,
@@ -9307,7 +9307,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644179,
@@ -9326,7 +9326,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644178,
@@ -9345,7 +9345,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644177,
@@ -9364,7 +9364,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644176,
@@ -9383,7 +9383,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644175,
@@ -9402,7 +9402,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644174,
@@ -9421,7 +9421,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644173,
@@ -9440,7 +9440,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644172,
@@ -9459,7 +9459,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644171,
@@ -9478,7 +9478,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644170,
@@ -9497,7 +9497,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644169,
@@ -9516,7 +9516,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644168,
@@ -9535,7 +9535,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644167,
@@ -9554,7 +9554,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644166,
@@ -9573,7 +9573,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644165,
@@ -9592,7 +9592,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644164,
@@ -9611,7 +9611,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644163,
@@ -9630,7 +9630,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644162,
@@ -9649,7 +9649,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644161,
@@ -9668,7 +9668,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644160,
@@ -9687,7 +9687,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644159,
@@ -9706,7 +9706,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644158,
@@ -9725,7 +9725,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644157,
@@ -9744,7 +9744,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644156,
@@ -9763,7 +9763,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644155,
@@ -9782,7 +9782,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644154,
@@ -9801,7 +9801,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644153,
@@ -9820,7 +9820,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644152,
@@ -9839,7 +9839,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644151,
@@ -9858,7 +9858,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644150,
@@ -9877,7 +9877,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644149,
@@ -9896,7 +9896,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644148,
@@ -9915,7 +9915,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644147,
@@ -9934,7 +9934,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644146,
@@ -9953,7 +9953,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644145,
@@ -9972,7 +9972,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644144,
@@ -9991,7 +9991,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644143,
@@ -10010,7 +10010,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644142,
@@ -10029,7 +10029,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644141,
@@ -10048,7 +10048,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644140,
@@ -10067,7 +10067,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644139,
@@ -10086,7 +10086,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644138,
@@ -10105,7 +10105,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644137,
@@ -10124,7 +10124,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644136,
@@ -10143,7 +10143,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644135,
@@ -10162,7 +10162,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644134,
@@ -10181,7 +10181,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644133,
@@ -10200,7 +10200,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644132,
@@ -10219,7 +10219,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644131,
@@ -10238,7 +10238,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644130,
@@ -10257,7 +10257,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644129,
@@ -10276,7 +10276,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644128,
@@ -10295,7 +10295,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644127,
@@ -10314,7 +10314,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644126,
@@ -10333,7 +10333,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644125,
@@ -10352,7 +10352,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644124,
@@ -10371,7 +10371,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644123,
@@ -10390,7 +10390,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644122,
@@ -10409,7 +10409,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644121,
@@ -10428,7 +10428,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644120,
@@ -10447,7 +10447,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644119,
@@ -10466,7 +10466,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644118,
@@ -10485,7 +10485,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644117,
@@ -10504,7 +10504,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644116,
@@ -10523,7 +10523,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644115,
@@ -10542,7 +10542,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644114,
@@ -10561,7 +10561,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644113,
@@ -10580,7 +10580,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644112,
@@ -10599,7 +10599,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644111,
@@ -10618,7 +10618,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644110,
@@ -10637,7 +10637,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644109,
@@ -10656,7 +10656,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644108,
@@ -10675,7 +10675,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644107,
@@ -10694,7 +10694,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644106,
@@ -10713,7 +10713,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644105,
@@ -10732,7 +10732,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644104,
@@ -10751,7 +10751,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644103,
@@ -10770,7 +10770,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644102,
@@ -10789,7 +10789,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644101,
@@ -10808,7 +10808,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644100,
@@ -10827,7 +10827,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644099,
@@ -10846,7 +10846,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644098,
@@ -10865,7 +10865,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644097,
@@ -10884,7 +10884,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:30",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644096,
@@ -10903,7 +10903,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644095,
@@ -10922,7 +10922,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644094,
@@ -10941,7 +10941,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644093,
@@ -10960,7 +10960,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644092,
@@ -10979,7 +10979,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644091,
@@ -10998,7 +10998,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644090,
@@ -11017,7 +11017,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644089,
@@ -11036,7 +11036,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644088,
@@ -11055,7 +11055,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644087,
@@ -11074,7 +11074,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644086,
@@ -11093,7 +11093,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644085,
@@ -11112,7 +11112,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644084,
@@ -11131,7 +11131,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644083,
@@ -11150,7 +11150,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644082,
@@ -11169,7 +11169,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644081,
@@ -11188,7 +11188,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644080,
@@ -11207,7 +11207,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644079,
@@ -11226,7 +11226,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644078,
@@ -11245,7 +11245,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644077,
@@ -11264,7 +11264,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644076,
@@ -11283,7 +11283,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644075,
@@ -11302,7 +11302,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644074,
@@ -11321,7 +11321,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644073,
@@ -11340,7 +11340,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644072,
@@ -11359,7 +11359,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644071,
@@ -11378,7 +11378,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644070,
@@ -11397,7 +11397,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644069,
@@ -11416,7 +11416,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644068,
@@ -11435,7 +11435,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644067,
@@ -11454,7 +11454,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644066,
@@ -11473,7 +11473,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644065,
@@ -11492,7 +11492,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644064,
@@ -11511,7 +11511,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644063,
@@ -11530,7 +11530,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644062,
@@ -11549,7 +11549,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644061,
@@ -11568,7 +11568,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644060,
@@ -11587,7 +11587,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644059,
@@ -11606,7 +11606,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644058,
@@ -11625,7 +11625,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644057,
@@ -11644,7 +11644,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644056,
@@ -11663,7 +11663,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644055,
@@ -11682,7 +11682,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644054,
@@ -11701,7 +11701,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644053,
@@ -11720,7 +11720,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644052,
@@ -11739,7 +11739,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644051,
@@ -11758,7 +11758,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644050,
@@ -11777,7 +11777,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644049,
@@ -11796,7 +11796,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644048,
@@ -11815,7 +11815,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644047,
@@ -11834,7 +11834,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644046,
@@ -11853,7 +11853,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644045,
@@ -11872,7 +11872,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644044,
@@ -11891,7 +11891,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644043,
@@ -11910,7 +11910,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644042,
@@ -11929,7 +11929,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644041,
@@ -11948,7 +11948,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644040,
@@ -11967,7 +11967,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644038,
@@ -11986,7 +11986,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644037,
@@ -12005,7 +12005,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644036,
@@ -12024,7 +12024,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644035,
@@ -12043,7 +12043,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644034,
@@ -12062,7 +12062,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644033,
@@ -12081,7 +12081,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644032,
@@ -12100,7 +12100,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644031,
@@ -12119,7 +12119,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644030,
@@ -12138,7 +12138,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644029,
@@ -12157,7 +12157,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644028,
@@ -12176,7 +12176,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644027,
@@ -12195,7 +12195,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644026,
@@ -12214,7 +12214,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644025,
@@ -12233,7 +12233,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644024,
@@ -12252,7 +12252,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644023,
@@ -12271,7 +12271,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644022,
@@ -12290,7 +12290,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644021,
@@ -12309,7 +12309,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644020,
@@ -12328,7 +12328,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644019,
@@ -12347,7 +12347,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644018,
@@ -12366,7 +12366,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644017,
@@ -12385,7 +12385,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644016,
@@ -12404,7 +12404,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644015,
@@ -12423,7 +12423,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644014,
@@ -12442,7 +12442,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644013,
@@ -12461,7 +12461,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644012,
@@ -12480,7 +12480,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644011,
@@ -12499,7 +12499,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644010,
@@ -12518,7 +12518,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644009,
@@ -12537,7 +12537,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644008,
@@ -12556,7 +12556,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644007,
@@ -12575,7 +12575,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644006,
@@ -12594,7 +12594,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644005,
@@ -12613,7 +12613,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644004,
@@ -12632,7 +12632,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644003,
@@ -12651,7 +12651,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644002,
@@ -12670,7 +12670,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644001,
@@ -12689,7 +12689,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74644000,
@@ -12708,7 +12708,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643999,
@@ -12727,7 +12727,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643998,
@@ -12746,7 +12746,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643997,
@@ -12765,7 +12765,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643996,
@@ -12784,7 +12784,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643995,
@@ -12803,7 +12803,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643994,
@@ -12822,7 +12822,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643993,
@@ -12841,7 +12841,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643992,
@@ -12860,7 +12860,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643991,
@@ -12879,7 +12879,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643990,
@@ -12898,7 +12898,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643989,
@@ -12917,7 +12917,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643988,
@@ -12936,7 +12936,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643987,
@@ -12955,7 +12955,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643986,
@@ -12974,7 +12974,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643985,
@@ -12993,7 +12993,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643984,
@@ -13012,7 +13012,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643983,
@@ -13031,7 +13031,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643982,
@@ -13050,7 +13050,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643981,
@@ -13069,7 +13069,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643980,
@@ -13088,7 +13088,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643978,
@@ -13107,7 +13107,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643977,
@@ -13126,7 +13126,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643976,
@@ -13145,7 +13145,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643975,
@@ -13164,7 +13164,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643974,
@@ -13183,7 +13183,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643973,
@@ -13202,7 +13202,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643972,
@@ -13221,7 +13221,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643971,
@@ -13240,7 +13240,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643970,
@@ -13259,7 +13259,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643969,
@@ -13278,7 +13278,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643968,
@@ -13297,7 +13297,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643967,
@@ -13316,7 +13316,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643966,
@@ -13335,7 +13335,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643965,
@@ -13354,7 +13354,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643964,
@@ -13373,7 +13373,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643963,
@@ -13392,7 +13392,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643962,
@@ -13411,7 +13411,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643961,
@@ -13430,7 +13430,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643960,
@@ -13449,7 +13449,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643959,
@@ -13468,7 +13468,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643958,
@@ -13487,7 +13487,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643957,
@@ -13506,7 +13506,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643956,
@@ -13525,7 +13525,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643955,
@@ -13544,7 +13544,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643954,
@@ -13563,7 +13563,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643952,
@@ -13582,7 +13582,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643951,
@@ -13601,7 +13601,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643950,
@@ -13620,7 +13620,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643949,
@@ -13639,7 +13639,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643948,
@@ -13658,7 +13658,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643947,
@@ -13677,7 +13677,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643946,
@@ -13696,7 +13696,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643945,
@@ -13715,7 +13715,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643944,
@@ -13734,7 +13734,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643943,
@@ -13753,7 +13753,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643942,
@@ -13772,7 +13772,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643941,
@@ -13791,7 +13791,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643940,
@@ -13810,7 +13810,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643939,
@@ -13829,7 +13829,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643938,
@@ -13848,7 +13848,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643937,
@@ -13867,7 +13867,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643936,
@@ -13886,7 +13886,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643935,
@@ -13905,7 +13905,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643934,
@@ -13924,7 +13924,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643933,
@@ -13943,7 +13943,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643932,
@@ -13962,7 +13962,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643931,
@@ -13981,7 +13981,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643930,
@@ -14000,7 +14000,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643929,
@@ -14019,7 +14019,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643928,
@@ -14038,7 +14038,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643927,
@@ -14057,7 +14057,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643926,
@@ -14076,7 +14076,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643925,
@@ -14095,7 +14095,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643924,
@@ -14114,7 +14114,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643923,
@@ -14133,7 +14133,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643922,
@@ -14152,7 +14152,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643921,
@@ -14171,7 +14171,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643920,
@@ -14190,7 +14190,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643919,
@@ -14209,7 +14209,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643918,
@@ -14228,7 +14228,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643917,
@@ -14247,7 +14247,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643916,
@@ -14266,7 +14266,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643915,
@@ -14285,7 +14285,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643913,
@@ -14304,7 +14304,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643912,
@@ -14323,7 +14323,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643911,
@@ -14342,7 +14342,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643910,
@@ -14361,7 +14361,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643909,
@@ -14380,7 +14380,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643908,
@@ -14399,7 +14399,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643907,
@@ -14418,7 +14418,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643906,
@@ -14437,7 +14437,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643905,
@@ -14456,7 +14456,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643904,
@@ -14475,7 +14475,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643903,
@@ -14494,7 +14494,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643902,
@@ -14513,7 +14513,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643901,
@@ -14532,7 +14532,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643900,
@@ -14551,7 +14551,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643899,
@@ -14570,7 +14570,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643898,
@@ -14589,7 +14589,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643897,
@@ -14608,7 +14608,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643896,
@@ -14627,7 +14627,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643895,
@@ -14646,7 +14646,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643894,
@@ -14665,7 +14665,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643893,
@@ -14684,7 +14684,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643892,
@@ -14703,7 +14703,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643891,
@@ -14722,7 +14722,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643890,
@@ -14741,7 +14741,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643889,
@@ -14760,7 +14760,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643888,
@@ -14779,7 +14779,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643887,
@@ -14798,7 +14798,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643886,
@@ -14817,7 +14817,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643885,
@@ -14836,7 +14836,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643884,
@@ -14855,7 +14855,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643883,
@@ -14874,7 +14874,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643882,
@@ -14893,7 +14893,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643881,
@@ -14912,7 +14912,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643880,
@@ -14931,7 +14931,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643879,
@@ -14950,7 +14950,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643878,
@@ -14969,7 +14969,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643877,
@@ -14988,7 +14988,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643876,
@@ -15007,7 +15007,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643875,
@@ -15026,7 +15026,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643874,
@@ -15045,7 +15045,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643873,
@@ -15064,7 +15064,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643872,
@@ -15083,7 +15083,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643871,
@@ -15102,7 +15102,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643870,
@@ -15121,7 +15121,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643869,
@@ -15140,7 +15140,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643868,
@@ -15159,7 +15159,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643867,
@@ -15178,7 +15178,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643866,
@@ -15197,7 +15197,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643865,
@@ -15216,7 +15216,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643864,
@@ -15235,7 +15235,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643863,
@@ -15254,7 +15254,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643862,
@@ -15273,7 +15273,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643861,
@@ -15292,7 +15292,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643860,
@@ -15311,7 +15311,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643859,
@@ -15330,7 +15330,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643858,
@@ -15349,7 +15349,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643857,
@@ -15368,7 +15368,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643856,
@@ -15387,7 +15387,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643855,
@@ -15406,7 +15406,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643854,
@@ -15425,7 +15425,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643853,
@@ -15444,7 +15444,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643852,
@@ -15463,7 +15463,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643851,
@@ -15482,7 +15482,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643850,
@@ -15501,7 +15501,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643849,
@@ -15520,7 +15520,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643848,
@@ -15539,7 +15539,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643847,
@@ -15558,7 +15558,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643846,
@@ -15577,7 +15577,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643845,
@@ -15596,7 +15596,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643844,
@@ -15615,7 +15615,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643843,
@@ -15634,7 +15634,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643842,
@@ -15653,7 +15653,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643841,
@@ -15672,7 +15672,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643840,
@@ -15691,7 +15691,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643839,
@@ -15710,7 +15710,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643838,
@@ -15729,7 +15729,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643837,
@@ -15748,7 +15748,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643836,
@@ -15767,7 +15767,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643835,
@@ -15786,7 +15786,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643834,
@@ -15805,7 +15805,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643833,
@@ -15824,7 +15824,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643832,
@@ -15843,7 +15843,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643831,
@@ -15862,7 +15862,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643830,
@@ -15881,7 +15881,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643829,
@@ -15900,7 +15900,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643828,
@@ -15919,7 +15919,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643827,
@@ -15938,7 +15938,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643826,
@@ -15957,7 +15957,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643825,
@@ -15976,7 +15976,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643824,
@@ -15995,7 +15995,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643823,
@@ -16014,7 +16014,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643822,
@@ -16033,7 +16033,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643821,
@@ -16052,7 +16052,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643820,
@@ -16071,7 +16071,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643819,
@@ -16090,7 +16090,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643818,
@@ -16109,7 +16109,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643817,
@@ -16128,7 +16128,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643816,
@@ -16147,7 +16147,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643815,
@@ -16166,7 +16166,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643814,
@@ -16185,7 +16185,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643813,
@@ -16204,7 +16204,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643812,
@@ -16223,7 +16223,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643811,
@@ -16242,7 +16242,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643810,
@@ -16261,7 +16261,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643809,
@@ -16280,7 +16280,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643808,
@@ -16299,7 +16299,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643807,
@@ -16318,7 +16318,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643806,
@@ -16337,7 +16337,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643805,
@@ -16356,7 +16356,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643804,
@@ -16375,7 +16375,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643803,
@@ -16394,7 +16394,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643802,
@@ -16413,7 +16413,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643801,
@@ -16432,7 +16432,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643800,
@@ -16451,7 +16451,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643799,
@@ -16470,7 +16470,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643798,
@@ -16489,7 +16489,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643797,
@@ -16508,7 +16508,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643796,
@@ -16527,7 +16527,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643795,
@@ -16546,7 +16546,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643794,
@@ -16565,7 +16565,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643793,
@@ -16584,7 +16584,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643792,
@@ -16603,7 +16603,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643791,
@@ -16622,7 +16622,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643790,
@@ -16641,7 +16641,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643789,
@@ -16660,7 +16660,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643788,
@@ -16679,7 +16679,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643787,
@@ -16698,7 +16698,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643786,
@@ -16717,7 +16717,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643785,
@@ -16736,7 +16736,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643784,
@@ -16755,7 +16755,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643783,
@@ -16774,7 +16774,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643782,
@@ -16793,7 +16793,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643781,
@@ -16812,7 +16812,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643780,
@@ -16831,7 +16831,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643779,
@@ -16850,7 +16850,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643778,
@@ -16869,7 +16869,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643777,
@@ -16888,7 +16888,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643776,
@@ -16907,7 +16907,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643775,
@@ -16926,7 +16926,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643774,
@@ -16945,7 +16945,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643773,
@@ -16964,7 +16964,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643772,
@@ -16983,7 +16983,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643771,
@@ -17002,7 +17002,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643770,
@@ -17021,7 +17021,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643769,
@@ -17040,7 +17040,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643768,
@@ -17059,7 +17059,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643767,
@@ -17078,7 +17078,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643766,
@@ -17097,7 +17097,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643764,
@@ -17116,7 +17116,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643763,
@@ -17135,7 +17135,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643762,
@@ -17154,7 +17154,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643761,
@@ -17173,7 +17173,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643760,
@@ -17192,7 +17192,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643759,
@@ -17211,7 +17211,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643758,
@@ -17230,7 +17230,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643757,
@@ -17249,7 +17249,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643756,
@@ -17268,7 +17268,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643755,
@@ -17287,7 +17287,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643754,
@@ -17306,7 +17306,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643753,
@@ -17325,7 +17325,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643752,
@@ -17344,7 +17344,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643751,
@@ -17363,7 +17363,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643750,
@@ -17382,7 +17382,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643749,
@@ -17401,7 +17401,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643748,
@@ -17420,7 +17420,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643747,
@@ -17439,7 +17439,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643746,
@@ -17458,7 +17458,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643745,
@@ -17477,7 +17477,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643744,
@@ -17496,7 +17496,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643743,
@@ -17515,7 +17515,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643742,
@@ -17534,7 +17534,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643741,
@@ -17553,7 +17553,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643740,
@@ -17572,7 +17572,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643739,
@@ -17591,7 +17591,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643738,
@@ -17610,7 +17610,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643737,
@@ -17629,7 +17629,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643736,
@@ -17648,7 +17648,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643735,
@@ -17667,7 +17667,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643734,
@@ -17686,7 +17686,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643733,
@@ -17705,7 +17705,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643732,
@@ -17724,7 +17724,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643731,
@@ -17743,7 +17743,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643730,
@@ -17762,7 +17762,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643729,
@@ -17781,7 +17781,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643728,
@@ -17800,7 +17800,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643727,
@@ -17819,7 +17819,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643726,
@@ -17838,7 +17838,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643725,
@@ -17857,7 +17857,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643724,
@@ -17876,7 +17876,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643723,
@@ -17895,7 +17895,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643722,
@@ -17914,7 +17914,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643721,
@@ -17933,7 +17933,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643720,
@@ -17952,7 +17952,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643719,
@@ -17971,7 +17971,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643718,
@@ -17990,7 +17990,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643717,
@@ -18009,7 +18009,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643716,
@@ -18028,7 +18028,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643715,
@@ -18047,7 +18047,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643714,
@@ -18066,7 +18066,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643713,
@@ -18085,7 +18085,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643712,
@@ -18104,7 +18104,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643711,
@@ -18123,7 +18123,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643710,
@@ -18142,7 +18142,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643709,
@@ -18161,7 +18161,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643708,
@@ -18180,7 +18180,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643707,
@@ -18199,7 +18199,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643706,
@@ -18218,7 +18218,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643705,
@@ -18237,7 +18237,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643704,
@@ -18256,7 +18256,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643703,
@@ -18275,7 +18275,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643702,
@@ -18294,7 +18294,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643701,
@@ -18313,7 +18313,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643700,
@@ -18332,7 +18332,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643699,
@@ -18351,7 +18351,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643698,
@@ -18370,7 +18370,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643697,
@@ -18389,7 +18389,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643696,
@@ -18408,7 +18408,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643695,
@@ -18427,7 +18427,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643694,
@@ -18446,7 +18446,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643693,
@@ -18465,7 +18465,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643692,
@@ -18484,7 +18484,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643691,
@@ -18503,7 +18503,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643690,
@@ -18522,7 +18522,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:29",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643689,
@@ -18541,7 +18541,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:28",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643688,
@@ -18560,7 +18560,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:28",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643687,
@@ -18579,7 +18579,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:28",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643686,
@@ -18598,7 +18598,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:28",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643685,
@@ -18617,7 +18617,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:28",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643684,
@@ -18636,7 +18636,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:28",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643683,
@@ -18655,7 +18655,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:28",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643682,
@@ -18674,7 +18674,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:28",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643681,
@@ -18693,7 +18693,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:28",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643680,
@@ -18712,7 +18712,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:28",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643679,
@@ -18731,7 +18731,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:28",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643678,
@@ -18750,7 +18750,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:28",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643677,
@@ -18769,7 +18769,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:28",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643676,
@@ -18788,7 +18788,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:28",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643675,
@@ -18807,7 +18807,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:28",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643674,
@@ -18826,7 +18826,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:28",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643673,
@@ -18845,7 +18845,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:28",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643672,
@@ -18864,7 +18864,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:28",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643671,
@@ -18883,7 +18883,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:28",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643670,
@@ -18902,7 +18902,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:28",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643669,
@@ -18921,7 +18921,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:28",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643668,
@@ -18940,7 +18940,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:28",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643667,
@@ -18959,7 +18959,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:28",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643666,
@@ -18978,7 +18978,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:28",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643665,
@@ -18997,7 +18997,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:28",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643664,
@@ -19016,7 +19016,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:28",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643663,
@@ -19035,7 +19035,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:28",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643662,
@@ -19054,7 +19054,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:28",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643661,
@@ -19073,7 +19073,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:28",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643660,
@@ -19092,7 +19092,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:28",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643659,
@@ -19111,7 +19111,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:28",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643658,
@@ -19130,7 +19130,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:28",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643657,
@@ -19149,7 +19149,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:28",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643656,
@@ -19168,7 +19168,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:28",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643655,
@@ -19187,7 +19187,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:28",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643654,
@@ -19206,7 +19206,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:28",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643653,
@@ -19225,7 +19225,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:28",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643652,
@@ -19244,7 +19244,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:28",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643651,
@@ -19263,7 +19263,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:28",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643650,
@@ -19282,7 +19282,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:28",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643649,
@@ -19301,7 +19301,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:28",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643648,
@@ -19320,7 +19320,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:28",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643647,
@@ -19339,7 +19339,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:28",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643646,
@@ -19358,7 +19358,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:28",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643645,
@@ -19377,7 +19377,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:28",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643644,
@@ -19396,7 +19396,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:28",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643643,
@@ -19415,7 +19415,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:28",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643642,
@@ -19434,7 +19434,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:28",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643641,
@@ -19453,7 +19453,7 @@ export const mockData = [
     "storeDate": "2024-03-14T17:57:28",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643640,
@@ -19472,7 +19472,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643639,
@@ -19491,7 +19491,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643638,
@@ -19510,7 +19510,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643637,
@@ -19529,7 +19529,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643636,
@@ -19548,7 +19548,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643635,
@@ -19567,7 +19567,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643634,
@@ -19586,7 +19586,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643633,
@@ -19605,7 +19605,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643632,
@@ -19624,7 +19624,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643631,
@@ -19643,7 +19643,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643630,
@@ -19662,7 +19662,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643629,
@@ -19681,7 +19681,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643628,
@@ -19700,7 +19700,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643627,
@@ -19719,7 +19719,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643626,
@@ -19738,7 +19738,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643625,
@@ -19757,7 +19757,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643624,
@@ -19776,7 +19776,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643623,
@@ -19795,7 +19795,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643621,
@@ -19814,7 +19814,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643620,
@@ -19833,7 +19833,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643619,
@@ -19852,7 +19852,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643618,
@@ -19871,7 +19871,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643617,
@@ -19890,7 +19890,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643616,
@@ -19909,7 +19909,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643615,
@@ -19928,7 +19928,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643614,
@@ -19947,7 +19947,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643613,
@@ -19966,7 +19966,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643612,
@@ -19985,7 +19985,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643611,
@@ -20004,7 +20004,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643610,
@@ -20023,7 +20023,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643608,
@@ -20042,7 +20042,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643607,
@@ -20061,7 +20061,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643606,
@@ -20080,7 +20080,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643605,
@@ -20099,7 +20099,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643604,
@@ -20118,7 +20118,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643603,
@@ -20137,7 +20137,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643602,
@@ -20156,7 +20156,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643601,
@@ -20175,7 +20175,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643600,
@@ -20194,7 +20194,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643599,
@@ -20213,7 +20213,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643598,
@@ -20232,7 +20232,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643597,
@@ -20251,7 +20251,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643596,
@@ -20270,7 +20270,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643595,
@@ -20289,7 +20289,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643594,
@@ -20308,7 +20308,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643593,
@@ -20327,7 +20327,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643592,
@@ -20346,7 +20346,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643591,
@@ -20365,7 +20365,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643590,
@@ -20384,7 +20384,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643589,
@@ -20403,7 +20403,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643588,
@@ -20422,7 +20422,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643587,
@@ -20441,7 +20441,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643586,
@@ -20460,7 +20460,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643585,
@@ -20479,7 +20479,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643584,
@@ -20498,7 +20498,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643583,
@@ -20517,7 +20517,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643582,
@@ -20536,7 +20536,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643581,
@@ -20555,7 +20555,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643580,
@@ -20574,7 +20574,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643579,
@@ -20593,7 +20593,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643578,
@@ -20612,7 +20612,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643577,
@@ -20631,7 +20631,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643576,
@@ -20650,7 +20650,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643575,
@@ -20669,7 +20669,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643574,
@@ -20688,7 +20688,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643573,
@@ -20707,7 +20707,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643572,
@@ -20726,7 +20726,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643571,
@@ -20745,7 +20745,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643570,
@@ -20764,7 +20764,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643569,
@@ -20783,7 +20783,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643568,
@@ -20802,7 +20802,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643567,
@@ -20821,7 +20821,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643566,
@@ -20840,7 +20840,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643565,
@@ -20859,7 +20859,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643564,
@@ -20878,7 +20878,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643563,
@@ -20897,7 +20897,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643562,
@@ -20916,7 +20916,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643561,
@@ -20935,7 +20935,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643560,
@@ -20954,7 +20954,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643559,
@@ -20973,7 +20973,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643558,
@@ -20992,7 +20992,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643557,
@@ -21011,7 +21011,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643556,
@@ -21030,7 +21030,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643555,
@@ -21049,7 +21049,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643554,
@@ -21068,7 +21068,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643553,
@@ -21087,7 +21087,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643552,
@@ -21106,7 +21106,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643551,
@@ -21125,7 +21125,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:45",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643550,
@@ -21144,7 +21144,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643549,
@@ -21163,7 +21163,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643548,
@@ -21182,7 +21182,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643547,
@@ -21201,7 +21201,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643546,
@@ -21220,7 +21220,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643545,
@@ -21239,7 +21239,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643544,
@@ -21258,7 +21258,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643542,
@@ -21277,7 +21277,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643541,
@@ -21296,7 +21296,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643540,
@@ -21315,7 +21315,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643539,
@@ -21334,7 +21334,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643538,
@@ -21353,7 +21353,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643537,
@@ -21372,7 +21372,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643536,
@@ -21391,7 +21391,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643535,
@@ -21410,7 +21410,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643534,
@@ -21429,7 +21429,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643533,
@@ -21448,7 +21448,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643532,
@@ -21467,7 +21467,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643531,
@@ -21486,7 +21486,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643530,
@@ -21505,7 +21505,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643529,
@@ -21524,7 +21524,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643528,
@@ -21543,7 +21543,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643527,
@@ -21562,7 +21562,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643526,
@@ -21581,7 +21581,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643525,
@@ -21600,7 +21600,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643524,
@@ -21619,7 +21619,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643523,
@@ -21638,7 +21638,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643522,
@@ -21657,7 +21657,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643521,
@@ -21676,7 +21676,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643520,
@@ -21695,7 +21695,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643518,
@@ -21714,7 +21714,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643517,
@@ -21733,7 +21733,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643516,
@@ -21752,7 +21752,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643515,
@@ -21771,7 +21771,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643514,
@@ -21790,7 +21790,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643513,
@@ -21809,7 +21809,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643512,
@@ -21828,7 +21828,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643511,
@@ -21847,7 +21847,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643510,
@@ -21866,7 +21866,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643509,
@@ -21885,7 +21885,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643508,
@@ -21904,7 +21904,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643507,
@@ -21923,7 +21923,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643506,
@@ -21942,7 +21942,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643505,
@@ -21961,7 +21961,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643504,
@@ -21980,7 +21980,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643503,
@@ -21999,7 +21999,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643502,
@@ -22018,7 +22018,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643501,
@@ -22037,7 +22037,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643500,
@@ -22056,7 +22056,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643499,
@@ -22075,7 +22075,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643498,
@@ -22094,7 +22094,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643497,
@@ -22113,7 +22113,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643496,
@@ -22132,7 +22132,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643495,
@@ -22151,7 +22151,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643494,
@@ -22170,7 +22170,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643493,
@@ -22189,7 +22189,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643492,
@@ -22208,7 +22208,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643491,
@@ -22227,7 +22227,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643490,
@@ -22246,7 +22246,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643488,
@@ -22265,7 +22265,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643487,
@@ -22284,7 +22284,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643486,
@@ -22303,7 +22303,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643485,
@@ -22322,7 +22322,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643484,
@@ -22341,7 +22341,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643483,
@@ -22360,7 +22360,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643482,
@@ -22379,7 +22379,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643481,
@@ -22398,7 +22398,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643480,
@@ -22417,7 +22417,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643479,
@@ -22436,7 +22436,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643478,
@@ -22455,7 +22455,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643477,
@@ -22474,7 +22474,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643476,
@@ -22493,7 +22493,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643475,
@@ -22512,7 +22512,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643474,
@@ -22531,7 +22531,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643473,
@@ -22550,7 +22550,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643472,
@@ -22569,7 +22569,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643471,
@@ -22588,7 +22588,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643470,
@@ -22607,7 +22607,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643469,
@@ -22626,7 +22626,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643468,
@@ -22645,7 +22645,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643467,
@@ -22664,7 +22664,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643466,
@@ -22683,7 +22683,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643465,
@@ -22702,7 +22702,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643464,
@@ -22721,7 +22721,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643463,
@@ -22740,7 +22740,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643461,
@@ -22759,7 +22759,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643460,
@@ -22778,7 +22778,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643459,
@@ -22797,7 +22797,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643458,
@@ -22816,7 +22816,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643457,
@@ -22835,7 +22835,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643456,
@@ -22854,7 +22854,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643455,
@@ -22873,7 +22873,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643454,
@@ -22892,7 +22892,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643453,
@@ -22911,7 +22911,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643452,
@@ -22930,7 +22930,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643451,
@@ -22949,7 +22949,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643450,
@@ -22968,7 +22968,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643449,
@@ -22987,7 +22987,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643448,
@@ -23006,7 +23006,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643447,
@@ -23025,7 +23025,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643446,
@@ -23044,7 +23044,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643445,
@@ -23063,7 +23063,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643444,
@@ -23082,7 +23082,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643443,
@@ -23101,7 +23101,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643442,
@@ -23120,7 +23120,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643441,
@@ -23139,7 +23139,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643440,
@@ -23158,7 +23158,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643439,
@@ -23177,7 +23177,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643438,
@@ -23196,7 +23196,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643437,
@@ -23215,7 +23215,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643436,
@@ -23234,7 +23234,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643435,
@@ -23253,7 +23253,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643434,
@@ -23272,7 +23272,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643433,
@@ -23291,7 +23291,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643432,
@@ -23310,7 +23310,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643431,
@@ -23329,7 +23329,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643430,
@@ -23348,7 +23348,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643429,
@@ -23367,7 +23367,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643428,
@@ -23386,7 +23386,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643427,
@@ -23405,7 +23405,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643426,
@@ -23424,7 +23424,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643425,
@@ -23443,7 +23443,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643424,
@@ -23462,7 +23462,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643423,
@@ -23481,7 +23481,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643422,
@@ -23500,7 +23500,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643421,
@@ -23519,7 +23519,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643420,
@@ -23538,7 +23538,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643419,
@@ -23557,7 +23557,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643418,
@@ -23576,7 +23576,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643417,
@@ -23595,7 +23595,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643416,
@@ -23614,7 +23614,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643415,
@@ -23633,7 +23633,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643414,
@@ -23652,7 +23652,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643413,
@@ -23671,7 +23671,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643412,
@@ -23690,7 +23690,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643411,
@@ -23709,7 +23709,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643410,
@@ -23728,7 +23728,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643408,
@@ -23747,7 +23747,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643406,
@@ -23766,7 +23766,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643405,
@@ -23785,7 +23785,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643404,
@@ -23804,7 +23804,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643403,
@@ -23823,7 +23823,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643402,
@@ -23842,7 +23842,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643401,
@@ -23861,7 +23861,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643400,
@@ -23880,7 +23880,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643399,
@@ -23899,7 +23899,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643398,
@@ -23918,7 +23918,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643397,
@@ -23937,7 +23937,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643396,
@@ -23956,7 +23956,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643395,
@@ -23975,7 +23975,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643394,
@@ -23994,7 +23994,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643393,
@@ -24013,7 +24013,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643392,
@@ -24032,7 +24032,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643391,
@@ -24051,7 +24051,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643390,
@@ -24070,7 +24070,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643389,
@@ -24089,7 +24089,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643388,
@@ -24108,7 +24108,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643387,
@@ -24127,7 +24127,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643386,
@@ -24146,7 +24146,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643385,
@@ -24165,7 +24165,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643384,
@@ -24184,7 +24184,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643383,
@@ -24203,7 +24203,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643382,
@@ -24222,7 +24222,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643381,
@@ -24241,7 +24241,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643380,
@@ -24260,7 +24260,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643379,
@@ -24279,7 +24279,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643378,
@@ -24298,7 +24298,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643377,
@@ -24317,7 +24317,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643376,
@@ -24336,7 +24336,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643375,
@@ -24355,7 +24355,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643374,
@@ -24374,7 +24374,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643373,
@@ -24393,7 +24393,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643372,
@@ -24412,7 +24412,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643371,
@@ -24431,7 +24431,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643370,
@@ -24450,7 +24450,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643369,
@@ -24469,7 +24469,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643368,
@@ -24488,7 +24488,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643367,
@@ -24507,7 +24507,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643366,
@@ -24526,7 +24526,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643365,
@@ -24545,7 +24545,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643364,
@@ -24564,7 +24564,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643363,
@@ -24583,7 +24583,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643362,
@@ -24602,7 +24602,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643361,
@@ -24621,7 +24621,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643360,
@@ -24640,7 +24640,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643359,
@@ -24659,7 +24659,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643358,
@@ -24678,7 +24678,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643357,
@@ -24697,7 +24697,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643356,
@@ -24716,7 +24716,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643355,
@@ -24735,7 +24735,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643354,
@@ -24754,7 +24754,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643353,
@@ -24773,7 +24773,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643352,
@@ -24792,7 +24792,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643351,
@@ -24811,7 +24811,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643350,
@@ -24830,7 +24830,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643349,
@@ -24849,7 +24849,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643348,
@@ -24868,7 +24868,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643347,
@@ -24887,7 +24887,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643346,
@@ -24906,7 +24906,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643345,
@@ -24925,7 +24925,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643344,
@@ -24944,7 +24944,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643343,
@@ -24963,7 +24963,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643342,
@@ -24982,7 +24982,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643341,
@@ -25001,7 +25001,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643340,
@@ -25020,7 +25020,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643339,
@@ -25039,7 +25039,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643337,
@@ -25058,7 +25058,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643335,
@@ -25077,7 +25077,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643334,
@@ -25096,7 +25096,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643333,
@@ -25115,7 +25115,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643332,
@@ -25134,7 +25134,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643331,
@@ -25153,7 +25153,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643330,
@@ -25172,7 +25172,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643329,
@@ -25191,7 +25191,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643328,
@@ -25210,7 +25210,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643327,
@@ -25229,7 +25229,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643326,
@@ -25248,7 +25248,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643325,
@@ -25267,7 +25267,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643324,
@@ -25286,7 +25286,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643323,
@@ -25305,7 +25305,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643322,
@@ -25324,7 +25324,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643321,
@@ -25343,7 +25343,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643320,
@@ -25362,7 +25362,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643319,
@@ -25381,7 +25381,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643318,
@@ -25400,7 +25400,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643317,
@@ -25419,7 +25419,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643316,
@@ -25438,7 +25438,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643315,
@@ -25457,7 +25457,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643314,
@@ -25476,7 +25476,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643313,
@@ -25495,7 +25495,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643312,
@@ -25514,7 +25514,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643311,
@@ -25533,7 +25533,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643310,
@@ -25552,7 +25552,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643309,
@@ -25571,7 +25571,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643308,
@@ -25590,7 +25590,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643307,
@@ -25609,7 +25609,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643306,
@@ -25628,7 +25628,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643305,
@@ -25647,7 +25647,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643304,
@@ -25666,7 +25666,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643303,
@@ -25685,7 +25685,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643302,
@@ -25704,7 +25704,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643301,
@@ -25723,7 +25723,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643300,
@@ -25742,7 +25742,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643299,
@@ -25761,7 +25761,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643298,
@@ -25780,7 +25780,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643297,
@@ -25799,7 +25799,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643296,
@@ -25818,7 +25818,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643295,
@@ -25837,7 +25837,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643294,
@@ -25856,7 +25856,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643293,
@@ -25875,7 +25875,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643292,
@@ -25894,7 +25894,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643291,
@@ -25913,7 +25913,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643290,
@@ -25932,7 +25932,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643289,
@@ -25951,7 +25951,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643288,
@@ -25970,7 +25970,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643287,
@@ -25989,7 +25989,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643286,
@@ -26008,7 +26008,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643285,
@@ -26027,7 +26027,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643284,
@@ -26046,7 +26046,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643283,
@@ -26065,7 +26065,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643282,
@@ -26084,7 +26084,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643281,
@@ -26103,7 +26103,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643280,
@@ -26122,7 +26122,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643279,
@@ -26141,7 +26141,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643278,
@@ -26160,7 +26160,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643277,
@@ -26179,7 +26179,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643276,
@@ -26198,7 +26198,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643275,
@@ -26217,7 +26217,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643274,
@@ -26236,7 +26236,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643273,
@@ -26255,7 +26255,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643272,
@@ -26274,7 +26274,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643271,
@@ -26293,7 +26293,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643270,
@@ -26312,7 +26312,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643269,
@@ -26331,7 +26331,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643268,
@@ -26350,7 +26350,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643267,
@@ -26369,7 +26369,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643266,
@@ -26388,7 +26388,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643265,
@@ -26407,7 +26407,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643264,
@@ -26426,7 +26426,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643263,
@@ -26445,7 +26445,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643262,
@@ -26464,7 +26464,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643261,
@@ -26483,7 +26483,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643260,
@@ -26502,7 +26502,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643259,
@@ -26521,7 +26521,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643258,
@@ -26540,7 +26540,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643257,
@@ -26559,7 +26559,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643255,
@@ -26578,7 +26578,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643254,
@@ -26597,7 +26597,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643253,
@@ -26616,7 +26616,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643252,
@@ -26635,7 +26635,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643251,
@@ -26654,7 +26654,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643250,
@@ -26673,7 +26673,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643249,
@@ -26692,7 +26692,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643248,
@@ -26711,7 +26711,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643247,
@@ -26730,7 +26730,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643246,
@@ -26749,7 +26749,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643245,
@@ -26768,7 +26768,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643244,
@@ -26787,7 +26787,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643243,
@@ -26806,7 +26806,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643242,
@@ -26825,7 +26825,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643241,
@@ -26844,7 +26844,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643240,
@@ -26863,7 +26863,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643239,
@@ -26882,7 +26882,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643238,
@@ -26901,7 +26901,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643237,
@@ -26920,7 +26920,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643236,
@@ -26939,7 +26939,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643235,
@@ -26958,7 +26958,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643234,
@@ -26977,7 +26977,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643232,
@@ -26996,7 +26996,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643231,
@@ -27015,7 +27015,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643229,
@@ -27034,7 +27034,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643228,
@@ -27053,7 +27053,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643227,
@@ -27072,7 +27072,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643226,
@@ -27091,7 +27091,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643225,
@@ -27110,7 +27110,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643224,
@@ -27129,7 +27129,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643223,
@@ -27148,7 +27148,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643222,
@@ -27167,7 +27167,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643221,
@@ -27186,7 +27186,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643220,
@@ -27205,7 +27205,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643219,
@@ -27224,7 +27224,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643218,
@@ -27243,7 +27243,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643217,
@@ -27262,7 +27262,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643216,
@@ -27281,7 +27281,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643215,
@@ -27300,7 +27300,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643214,
@@ -27319,7 +27319,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643213,
@@ -27338,7 +27338,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643212,
@@ -27357,7 +27357,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643211,
@@ -27376,7 +27376,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643210,
@@ -27395,7 +27395,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643209,
@@ -27414,7 +27414,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643208,
@@ -27433,7 +27433,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643207,
@@ -27452,7 +27452,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643205,
@@ -27471,7 +27471,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643204,
@@ -27490,7 +27490,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643203,
@@ -27509,7 +27509,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643202,
@@ -27528,7 +27528,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643201,
@@ -27547,7 +27547,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643200,
@@ -27566,7 +27566,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643199,
@@ -27585,7 +27585,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643198,
@@ -27604,7 +27604,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643197,
@@ -27623,7 +27623,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643196,
@@ -27642,7 +27642,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643195,
@@ -27661,7 +27661,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643194,
@@ -27680,7 +27680,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643193,
@@ -27699,7 +27699,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643192,
@@ -27718,7 +27718,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643191,
@@ -27737,7 +27737,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643190,
@@ -27756,7 +27756,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643189,
@@ -27775,7 +27775,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643188,
@@ -27794,7 +27794,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643187,
@@ -27813,7 +27813,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643186,
@@ -27832,7 +27832,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643185,
@@ -27851,7 +27851,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643184,
@@ -27870,7 +27870,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643183,
@@ -27889,7 +27889,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643182,
@@ -27908,7 +27908,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643181,
@@ -27927,7 +27927,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643180,
@@ -27946,7 +27946,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643179,
@@ -27965,7 +27965,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643178,
@@ -27984,7 +27984,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643177,
@@ -28003,7 +28003,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643176,
@@ -28022,7 +28022,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643175,
@@ -28041,7 +28041,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643174,
@@ -28060,7 +28060,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643173,
@@ -28079,7 +28079,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643172,
@@ -28098,7 +28098,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643171,
@@ -28117,7 +28117,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643170,
@@ -28136,7 +28136,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643169,
@@ -28155,7 +28155,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643168,
@@ -28174,7 +28174,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643167,
@@ -28193,7 +28193,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643166,
@@ -28212,7 +28212,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643165,
@@ -28231,7 +28231,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643164,
@@ -28250,7 +28250,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643163,
@@ -28269,7 +28269,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643162,
@@ -28288,7 +28288,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643161,
@@ -28307,7 +28307,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643160,
@@ -28326,7 +28326,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643159,
@@ -28345,7 +28345,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643158,
@@ -28364,7 +28364,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643157,
@@ -28383,7 +28383,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643156,
@@ -28402,7 +28402,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643155,
@@ -28421,7 +28421,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643154,
@@ -28440,7 +28440,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643153,
@@ -28459,7 +28459,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643152,
@@ -28478,7 +28478,7 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   },
   {
     "id": 74643151,
@@ -28497,6 +28497,6 @@ export const mockData = [
     "storeDate": "2024-03-13T23:13:44",
     "status": "Gebucht",
     "lastUpdate": "2024-04-09T08:38:29.15",
-    "markierung": null
+   "markierung": ""
   }
 ]
