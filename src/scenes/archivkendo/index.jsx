@@ -32,6 +32,7 @@ import { mockData } from "../../data/mockData";
 import mockPDF from "../../data/mockPDF.pdf";
 /************* */
 
+
 /*****INITIAL DATA STATE********** */
 /***FOR INITIAL SETUP; show 10 items skip 0 items and set initial grouping to null/empty******* */
 /*****Pagination n grouping initialization**** */
@@ -44,8 +45,6 @@ const initialDataState = {
 /*****INITIAL DATA STATE ENDS********** */
 
 /***********PROCESSWITHGROUPS********************** */
-/**processes the data with grouing as well */
-
 const processWithGroups = (data, dataState) => {
   const newDataState = process(data, dataState);
   setGroupIds({
@@ -59,21 +58,21 @@ const Archivkendo = () => {
   //color theme
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
-
   const [dataState, setDataState] = useState(initialDataState);
+  const [data, setData] = useState([]);
   const [collapsedState, setCollapsedState] = useState([]);
-  //mock data
+  /****************MOCK DATA************************************ */
   //const [result, setResult] = useState(processWithGroups(mockData, initialDataState));
 
   /*****************EXTERNAL API DATA BINDING************************************ */
   const [result, setResult] = useState({ data: [], total: 0 });
-  const [data, setData] = useState([]);
-
+  //3.
   useEffect(() => {
     const fetchData = async () => {
       try {
+        // Fetch data from your localhost API
         const response = await fetch(
-          "https://fibutronwebapi.fibutron.de/Archiv?MandantNr=923"
+          "https://fibutronwebapi.fibutron.de/Archiv?MandantNr=100"
         );
         if (!response.ok) {
           throw new Error("Failed to fetch data");
@@ -85,8 +84,9 @@ const Archivkendo = () => {
         console.error("Error fetching data:", error);
       }
     };
+
     fetchData();
-  }, [dataState]);
+  }, []);
   /***************************DATA BINDING ENDS*******************************************************/
 
   /**********************ONDATASTATECHANGE*************************************************** */
@@ -99,8 +99,6 @@ const Archivkendo = () => {
     },
     [data]
   );
-
-  /**********************ONDATASTATECHANGE ENDS*************************************************** */
 
   /***************GROUPING WITH EXPAND AND COLLAPSE FUNCTIONS*********************** */
   const onExpandChange = useCallback(
@@ -130,7 +128,6 @@ const Archivkendo = () => {
     }
   };
   /*******************HANDLE EXCEL EXPORT ON DATAGRID TOOLBAR ENDS********************************** */
-
   /*******************HANDLE INVOICE DOWNLOAD ON EVERY ROW********************************** */
   const handlePdfDownload = async () => {
     try {
@@ -165,78 +162,79 @@ const Archivkendo = () => {
   };
   /*******************HANDLE INVOICE DOWNLOAD ON EVERY ROW ENDS********************************** */
 
-   /****EDIT ROW WITH EXTERNAL FORMS******** */
-   const [openForm, setOpenForm] = React.useState(false);
-   const [editItem, setEditItem] = React.useState({
-     id: 1,
-   });
- 
-   const enterEdit = (item) => {
-     setOpenForm(true);
-     setEditItem(item);
-   };
-   const handleCancelEdit = () => {
-     setOpenForm(false);
-   };
-   const handleSubmit = (event) => {
-     let newData = data.map((item) => {
-       if (event.id === item.id) {
-         item = {
-           ...event,
-         };
-       }
-       return item;
-     });
-     setData(newData); // Update the data state with the new data
-     setResult(process(newData, dataState)); // Update the result state with processed data
-     setOpenForm(false); // Close the edit form
-   };
-   const EditCommandCell = (props) => {
-     return (
-       <td {...props.tdProps}>
-         <ModeRoundedIcon
-           onClick={() => props.enterEdit(props.dataItem)}
-           id="edit"
-         />
-       </td>
-     );
-   };
-   const MyEditCommandCell = (props) => (
-     <EditCommandCell {...props} enterEdit={enterEdit} />
-   );
-   /***********************EDIT EXTERNAL FORM ENDS************************************* */
+  /****EDIT ROW WITH EXTERNAL FORMS******** */
+  const [openForm, setOpenForm] = React.useState(false);
+  const [editItem, setEditItem] = React.useState({
+    id: 1,
+  });
 
-   /************************MARKIERUNG TEMPLATE******************************************************* */
-   let loc = { width: "31px", height: "24px" };
-   const markTemplate = (props) => {
-     const { dataItem } = props;
-     let MarkImage =
-       // console.log("props.markierung:", props.dataItem.markierung);
-       props.dataItem.markierung === "Important"
-         ? `${process.env.PUBLIC_URL}/assets/image/important.png`
-         : props.dataItem.markierung === "Read"
-         ? `${process.env.PUBLIC_URL}/assets/image/readCategory.png`
-         : props.dataItem.markierung === "Green Category"
-         ? `${process.env.PUBLIC_URL}/assets/image/greenCategory.png`
-         : props.dataItem.markierung === "Blue Category"
-         ? `${process.env.PUBLIC_URL}/assets/image/blueCategory.png`
-         : props.dataItem.markierung === "Red Category"
-         ? `${process.env.PUBLIC_URL}/assets/image/redCategory.png`
-         : null;
-     // console.log(MarkImage)
-     return (
-       <td {...props.tdProps}>
-         {MarkImage && <img style={loc} src={MarkImage} alt="" />}
-         {/* <span id="Marktext">{props.markierung}</span> */}
-       </td>
-     );
-   };
-   /************************MARKIERUNG TEMPLATE ENDS******************************************************* */
+  const enterEdit = (item) => {
+    setOpenForm(true);
+    setEditItem(item);
+  };
+  const handleCancelEdit = () => {
+    setOpenForm(false);
+  };
+  const handleSubmit = (event) => {
+    let newData = data.map((item) => {
+      if (event.id === item.id) {
+        item = {
+          ...event,
+        };
+      }
+      return item;
+    });
+    setData(newData); // Update the data state with the new data
+    setResult(process(newData, dataState)); // Update the result state with processed data
+    setOpenForm(false); // Close the edit form
+  };
+  const EditCommandCell = (props) => {
+    return (
+      <td {...props.tdProps}>
+        <ModeRoundedIcon
+          onClick={() => props.enterEdit(props.dataItem)}
+          id="edit"
+        />
+      </td>
+    );
+  };
+  const MyEditCommandCell = (props) => (
+    <EditCommandCell {...props} enterEdit={enterEdit} />
+  );
+  /***********************EDIT EXTERNAL FORM ENDS************************************* */
+  /************************MARKIERUNG TEMPLATE******************************************************* */
+  let loc = { width: "31px", height: "24px" };
+  const markTemplate = (props) => {
+    const { dataItem } = props;
+    let MarkImage =
+      // console.log("props.markierung:", props.dataItem.markierung);
+      props.dataItem.markierung === "Important"
+        ? `${process.env.PUBLIC_URL}/assets/image/important.png`
+        : props.dataItem.markierung === "Read"
+        ? `${process.env.PUBLIC_URL}/assets/image/readCategory.png`
+        : props.dataItem.markierung === "Green Category"
+        ? `${process.env.PUBLIC_URL}/assets/image/greenCategory.png`
+        : props.dataItem.markierung === "Blue Category"
+        ? `${process.env.PUBLIC_URL}/assets/image/blueCategory.png`
+        : props.dataItem.markierung === "Red Category"
+        ? `${process.env.PUBLIC_URL}/assets/image/redCategory.png`
+        : null;
+    // console.log(MarkImage)
+    return (
+      <td {...props.tdProps}>
+        {MarkImage && <img style={loc} src={MarkImage} alt="" />}
+        {/* <span id="Marktext">{props.markierung}</span> */}
+      </td>
+    );
+  };
+  /************************MARKIERUNG TEMPLATE ENDS******************************************************* */
+
 
   return (
     <Box>
       <Header title="ARCHIV" subtitle="Datagrid using Kendo"></Header>
-      <Box m="40px 0 0 0"
+      <Box
+        m="40px 0 0 0"
         height="75vh"
         sx={{
           "&. k-table-tbody": {
@@ -248,126 +246,125 @@ const Archivkendo = () => {
               backgroundColor: colors.primary[300],
             },
           },
-        }}>
-      <ExcelExport data={result.data} ref={_export} onDataStateChange={onDataStateChange}
-    
-          {...dataState}>
-        <Grid
-          data={newData}
-          sortable={true}
-          groupable={true}
-          resizable={true}
-          pageable={{ pageSizes: true }}
-          reorderable={true}
-          onDataStateChange={onDataStateChange}
-          {...dataState}
-          total={result.total}
-          onExpandChange={onExpandChange}
-          expandField="expanded"
-        >
-          <GridToolbar>
-            <div className="export-btns-container">
-              <Button onClick={excelExport}>Export to Excel</Button>
-            </div>
-          </GridToolbar>
-          <GridColumn
+        }}
+      >
+        <ExcelExport data={result.data} ref={_export}>
+          <Grid
+            data={newData}
+            sortable={true}
+            groupable={true}
+            resizable={true}
+            pageable={{ pageSizes: true }}
+            reorderable={true}
+            onDataStateChange={onDataStateChange}
+            {...dataState}
+            total={result.total}
+            onExpandChange={onExpandChange}
+            expandField="expanded"
+          >
+            <GridToolbar>
+              <div className="export-btns-container">
+                <Button onClick={excelExport}>Export to Excel</Button>
+              </div>
+            </GridToolbar>
+            <GridColumn
             // field=" "
             title="Download"
             width="90px"
             cells={{ data: template }}
           />
-          <GridColumn title="Edit" width="90px" cell={MyEditCommandCell} />
-          <GridColumn
+            <GridColumn title="Edit" width="90px" cell={MyEditCommandCell} />
+            <GridColumn
             field="markierung"
             title="Markierung"
             width="150px"
             cells={{ data: markTemplate }}
-            columnMenu={ColumnMenuMarkierungFilter}
-          />
-          <GridColumn
-            field="id"
-            title="Id"
-            width="150px"
-            filter={"numeric"}
             columnMenu={ColumnMenu}
           />
-          <GridColumn
-            field="thema"
-            title="Thema"
-            width="150px"
-            columnMenu={ColumnMenuCheckboxFilter}
-          />
-          <GridColumn
-            field="name"
-            title="Name"
-            width="250px"
-            columnMenu={ColumnMenuCheckboxFilter}
-          />
-          <GridColumn
-            field="strasse"
-            title="Strasse"
-            width="150px"
-            columnMenu={ColumnMenuCheckboxFilter}
-          />
-          <GridColumn
-            field="ort"
-            title="Ort"
-            width="180px"
-            columnMenu={ColumnMenuCheckboxFilter}
-          />
-          <GridColumn
-            field="vorgangsart"
-            title="Vorgangsart"
-            width="200px"
-            columnMenu={ColumnMenuCheckboxFilter}
-          />
-          <GridColumn
-            field="belegnummer"
-            title="Belegnummer"
-            width="200px"
-            filter={"numeric"}
-            columnMenu={ColumnMenu}
-          />
-          <GridColumn
-            field="partnerkategorie"
-            title="Partnerkategorie"
-            width="120px"
-            columnMenu={ColumnMenuCheckboxFilter}
-          />
-          <GridColumn
-            field="kundenliefkonto"
-            title="Konto"
-            width="100px"
-            columnMenu={ColumnMenuCheckboxFilter}
-          />
-          <GridColumn
-            field="stichwort"
-            title="Projekt"
-            width="100px"
-            columnMenu={ColumnMenuCheckboxFilter}
-          />
-          <GridColumn
-            field="dokumentendatum"
-            title="Datum"
-            width="200px"
-            columnMenu={ColumnMenuCheckboxFilter}
-          />
-          <GridColumn
-            field="barcode"
-            title="Barcode"
-            width="100px"
-            filter={"numeric"}
-            columnMenu={ColumnMenu}
-          />
-          <GridColumn
-            field="notizen"
-            title="Notizen"
-            width="100px"
-            columnMenu={ColumnMenuCheckboxFilter}
-          />
-          <GridColumn field="seitenzahl" title="Seiten" width="100px" />
-        </Grid>
-        {
+            <GridColumn
+              field="id"
+              title="Id"
+              width="150px"
+              filter={"numeric"}
+              columnMenu={ColumnMenu}
+            />
+            <GridColumn
+              field="thema"
+              title="Thema"
+              width="150px"
+              columnMenu={ColumnMenuCheckboxFilter}
+            />
+            <GridColumn
+              field="name"
+              title="Name"
+              width="250px"
+              columnMenu={ColumnMenuCheckboxFilter}
+            />
+            <GridColumn
+              field="strasse"
+              title="Strasse"
+              width="150px"
+              columnMenu={ColumnMenuCheckboxFilter}
+            />
+            <GridColumn
+              field="ort"
+              title="Ort"
+              width="180px"
+              columnMenu={ColumnMenuCheckboxFilter}
+            />
+            <GridColumn
+              field="vorgangsart"
+              title="Vorgangsart"
+              width="200px"
+              columnMenu={ColumnMenuCheckboxFilter}
+            />
+            <GridColumn
+              field="belegnummer"
+              title="Belegnummer"
+              width="200px"
+              filter={"numeric"}
+              columnMenu={ColumnMenu}
+            />
+            <GridColumn
+              field="partnerkategorie"
+              title="Partnerkategorie"
+              width="120px"
+              columnMenu={ColumnMenuCheckboxFilter}
+            />
+            <GridColumn
+              field="kundenliefkonto"
+              title="Konto"
+              width="100px"
+              columnMenu={ColumnMenuCheckboxFilter}
+            />
+            <GridColumn
+              field="stichwort"
+              title="Projekt"
+              width="100px"
+              columnMenu={ColumnMenuCheckboxFilter}
+            />
+            <GridColumn
+              field="dokumentendatum"
+              title="Datum"
+              width="200px"
+              columnMenu={ColumnMenuCheckboxFilter}
+            />
+            <GridColumn
+              field="barcode"
+              title="Barcode"
+              width="100px"
+              filter={"numeric"}
+              columnMenu={ColumnMenu}
+            />
+            <GridColumn
+              field="notizen"
+              title="Notizen"
+              width="100px"
+              columnMenu={ColumnMenuCheckboxFilter}
+            />
+            <GridColumn field="seitenzahl" title="Seiten" width="100px" />
+          </Grid>
+          {
             /*********OVERWRITE THE STYLING OF THE DATA GRID******* */
             <style>
               {`
@@ -394,7 +391,7 @@ const Archivkendo = () => {
             </style>
             /*********END STYLE OVERWRITING******* */
           }
-         {/**OPEN THE EXTERNAL FORM/DIALOG BOX *******************/}
+            {/**OPEN THE EXTERNAL FORM/DIALOG BOX *******************/}
          {openForm && (
             <EditForm
               cancelEdit={handleCancelEdit}
@@ -403,9 +400,10 @@ const Archivkendo = () => {
             />
           )}
           {/* END EXTERNAL FORM/DIALOG BOX */}
-      </ExcelExport>
+        </ExcelExport>
       </Box>
     </Box>
   );
 };
+
 export default Archivkendo;

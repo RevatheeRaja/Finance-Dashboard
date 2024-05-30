@@ -9,6 +9,8 @@ import { tokens } from "../../theme";
 //IMPORTING NECESSARY ICONSs
 import HomeIcon from "@mui/icons-material/Home"; //Home
 import InventoryIcon from "@mui/icons-material/Inventory"; //Archiv
+import PeopleIcon from '@mui/icons-material/People';
+import LocalShippingIcon from '@mui/icons-material/LocalShipping';
 import CalendarMonthIcon from "@mui/icons-material/CalendarMonth"; //Calendar
 import AssignmentIcon from "@mui/icons-material/Assignment";
 import HelpIcon from "@mui/icons-material/Help"; //Support Center
@@ -179,7 +181,28 @@ const Sideboard = () => {
               selected={selected}
               setSelected={setSelected}
             />
-
+           <Typography
+              variant="h6"
+              color={colors.blueAccent[500]}
+              fontWeight="bold"
+              sx={{ m: "15px 0 5px 20px" }}
+            >
+              OPs
+            </Typography>
+            <Item
+              title="Kunden OP"
+              to="/kundenop"
+              icon={<PeopleIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
+            <Item
+              title="Lieferant OP"
+              to="/lieferantop"
+              icon={<LocalShippingIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
             <Typography
               variant="h6"
               color={colors.blueAccent[500]}

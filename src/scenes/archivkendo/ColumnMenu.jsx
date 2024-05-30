@@ -38,10 +38,10 @@ export const ColumnMenuCheckboxFilter = props => {
         <GridColumnMenuCheckboxFilter {...props} data={rowData} expanded={true} />
       </div>;
 };
-export const ColumnMenuMarkierungFilter = (props) =>{
-  return (
-    <div>
-      <GridColumnMenuCheckboxFilter {...props} data = {mockData}  expanded={true} />
-    </div>
-  )
-}
+// export const ColumnMenuMarkierungFilter = (props) =>{
+//   return (
+//     <div>
+//       <GridColumnMenuCheckboxFilter {...props} data = {mockData}  expanded={true} />
+//     </div>
+//   )
+// }
