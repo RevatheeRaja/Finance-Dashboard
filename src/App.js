@@ -22,6 +22,7 @@ import Piechart from "./scenes/piechart";
 import Taskgauge from "./scenes/taskgauge";
 //Open Positions (OP)*************
 import Lieferantop from "./scenes/lieferantop";
+import VerbindungDataGrid from "./scenes/lieferantop/verbindungDataGrid.jsx"
 import Kundenop from "./scenes/kundenop";
 
 //import context Provider
@@ -52,6 +53,7 @@ const App = () => {
                       <Route path="/archivkendo" element={<Archivkendo />} />
                       {/* OPS */}
                       <Route path="/lieferantop" element={<Lieferantop />} />
+                      <Route path="/verbindungDataGrid" element={<VerbindungDataGrid />} />
                       <Route path="/kundenop" element={<Kundenop />} />
                         {/* PAGES */}
                       <Route path="/schedule" element={<Schedule />} />

@@ -37,7 +37,7 @@ const LieferantopForm = () => {
 
   useEffect(() => {
     const bank = mockData.bankAccounts.find((bank) => bank.bankName === selectedBank);
-    console.log(bank);
+    //console.log(bank);
     setBankBalance(bank ? bank.balance : 0);
   }, [selectedBank]);
   //console.log(bankBalance);
