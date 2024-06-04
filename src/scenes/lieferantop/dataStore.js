@@ -1,6 +1,6 @@
 // dataStore.js
 export let selectedRows = [];
-let deletedRows = []; // New array to store deleted rows
+export let deletedRows = []; // New array to store deleted rows
 export const getSelectedRows = () => selectedRows;
 export const getDeletedRows = () => deletedRows;
 
@@ -15,6 +15,12 @@ export const addSelectedRows = (rows) => {
   );
    // Log the deleted rows
    console.log('Deleted rows:', deletedRows);
+};
+export const addDeletedRows = (rows) => {
+  deletedRows.push(...rows);
+};
+export const resetDeletedRows = () => {
+  deletedRows = [];
 };
 /* export const removeSelectedRow = (row) => {
     console.log("Removing row:", row);

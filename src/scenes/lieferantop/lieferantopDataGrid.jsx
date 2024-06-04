@@ -24,7 +24,9 @@ import {
   addSelectedRows,
   resetSelectedRows,
   getSelectedRows,
+  getDeletedRows,
   removeSelectedRow,
+  resetDeletedRows,
 } from "./dataStore";
 /********DUMMY DATA FOR TEST****************** */
 import { mockverbindlichkeit } from "../../data/mockverbindlichkeit";
@@ -69,6 +71,7 @@ const LieferantopDataGrid = () => {
   const [data, setData] = useState([]);
   const [collapsedState, setCollapsedState] = useState([]);
   const [selectedRows, setSelectedRows] = useState([]);
+  const [updatedData, setUpdatedData] = useState([]);
   // const [verbindugArray, setVerbindungArray] = useState([])
   //MOCK DATA
   /*  const [result, setResult] = useState(() => {
@@ -289,20 +292,28 @@ useEffect(() => {
     });
     // Clear the current selected state
     setCurrentSelectedState({});
-    console.log("Parent grid data after update:", updatedData);
+    console.log("Parent grid data after removing selected rows:", updatedData);
     //after this update write this updated data to the API using put/post and rerender the datagrid.
     //refer the sample code saved as lieferentopDatagrid_getPostAPI in backups
-    //navigate("/verbindungDataGrid");
+
     // Step 4: Add selected rows to child grid
     addSelectedRows(selectedItems);
     navigate("/verbindungDataGrid");
   };
-  const handleRowDelete = (dataItem) => {
-    setSelectedRows((prevRows) =>
-      prevRows.filter(
-        (row) => row.interneBelegnummer !== dataItem.interneBelegnummer
-      )
-    );
+  const handleAppendDeletedRow = (dataItem) => {
+    console.log("Appending deleted row back to parent grid:", dataItem);
+
+    // Append the deleted row to the updatedData
+    const newUpdatedData = [...updatedData, dataItem];
+    setResult((prevState) => ({
+      ...prevState,
+      data: newUpdatedData,
+    }));
+    setUpdatedData(newUpdatedData); // Ensure updatedData state is in sync
+    // Log the updated data
+    console.log("Updated data after appending deleted row from child grid:", newUpdatedData);
+    // Reset the intermediate deleted rows array in datastore.
+    resetDeletedRows();
   };
   /************handleZahlung Ends******************* */
   /**************handleBank********************** */
@@ -393,7 +404,7 @@ useEffect(() => {
           />
         </Grid>
       </ExcelExport>
-      <VerbindungDataGrid selectedRows={selectedRows} />
+      <VerbindungDataGrid onAppendDeletedRow={handleAppendDeletedRow} />
     </>
   );
 };

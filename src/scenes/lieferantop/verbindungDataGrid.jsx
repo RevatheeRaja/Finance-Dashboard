@@ -2,11 +2,12 @@ import React, { useState, useEffect, useCallback, useRef } from "react";
 import { Grid, GridColumn, GridToolbar } from "@progress/kendo-react-grid";
 import {
   selectedRows,
-  addSelectedRows,
+  addDeletedRows ,
   resetSelectedRows,
   getSelectedRows,
   getDeletedRows,
   removeSelectedRow,
+  deletedRows
 } from "./dataStore";
 import DeleteIcon from "@mui/icons-material/Delete";
 import { Button } from "@progress/kendo-react-buttons";
@@ -21,7 +22,7 @@ const formatDate = (dateString) => {
 const DateCell = (props) => <td>{formatDate(props.dataItem[props.field])}</td>;
 /***********DATE FORMAT ENDS*************************** */
 
-const VerbindungDataGrid = () => {
+const VerbindungDataGrid = ({onAppendDeletedRow  }) => {
   // Now you can use verbindungArray as your data
   console.log("Selected Rows", selectedRows); // Example usage: logging the array
 
@@ -34,8 +35,17 @@ const VerbindungDataGrid = () => {
     removeSelectedRow(dataItem); // Remove from data store
     setGridData(getSelectedRows()); // Update grid data
     console.log("Updated Selected Rows:", getSelectedRows());
-    console.log("Deleted Rows:", getDeletedRows());
-  };
+    console.log("Deleted Rows:",dataItem);
+      // Notify parent about the deleted row
+   /*  addDeletedRows([dataItem]);
+    window.alert(`Appended ${dataItem} row(s) back to the parent grid.`); */
+    // Notify parent about the deleted row
+    if (onAppendDeletedRow && typeof onAppendDeletedRow === "function") {
+      onAppendDeletedRow(dataItem);
+    }
+
+    window.alert(`Appended ${JSON.stringify(dataItem)} row(s) back to the parent grid.`);
+  }; 
   const template = (props) => {
     return (
       <td {...props.tdProps}>
