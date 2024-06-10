@@ -20,7 +20,7 @@ const Lieferantop = () => {
     {
       col:1,
       colSpan:5,
-      rowSpan:4
+      rowSpan:3
     },
   ]);
   const tiles = [

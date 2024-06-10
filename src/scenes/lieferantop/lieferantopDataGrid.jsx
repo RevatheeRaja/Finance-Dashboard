@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback, useRef } from "react";
 import { useNavigate } from "react-router-dom";
-
+import Swal from "sweetalert2"; //Alerts
 /********ESSENTIAL KENDO REACT GRID COMPONENTS************************ */
 import {
   Grid,
@@ -17,21 +17,17 @@ import {
 import { ExcelExport } from "@progress/kendo-react-excel-export";
 import { Button } from "@progress/kendo-react-buttons";
 import { getter } from "@progress/kendo-react-common";
+import { Input } from "@progress/kendo-react-inputs";
+import { DropDownList } from "@progress/kendo-react-dropdowns";
 /********ESSENTIAL KENDO REACT GRID COMPONENTS ENDS************************ */
 import VerbindungDataGrid from "./verbindungDataGrid";
-import {
-  selectedRows,
-  addSelectedRows,
-  resetSelectedRows,
-  getSelectedRows,
-  getDeletedRows,
-  removeSelectedRow,
-  resetDeletedRows,
-} from "./dataStore";
+import { addSelectedRows, resetDeletedRows } from "./dataStore"; //Datastore to hanlde intermediate arrays for add & delete selected rows
+//EDIT FORM FOR EDITING THE ROW
+import BankChangeForm from "./bankChangeForm"; //Edit using external forms
 /********DUMMY DATA FOR TEST****************** */
 import { mockverbindlichkeit } from "../../data/mockverbindlichkeit";
 /************* */
-import { verbindungArray } from "./selectedRow";
+
 /***********DATE FORMATTER TEMPLATE*************************** */
 const formatDate = (dateString) => {
   const date = new Date(dateString);
@@ -50,9 +46,20 @@ const initialDataState = {
   take: 10,
   skip: 0,
   group: [], // Add default groups if needed
+  filter: {
+    logic: "and",
+    filters: [],
+  },
 };
 /*****INITIAL DATA STATE ENDS********** */
-
+const allInEdit = mockverbindlichkeit.map((item) =>
+  Object.assign(
+    {
+      inEdit: true,
+    },
+    item
+  )
+);
 /***********PROCESSWITHGROUPS********************** */
 const processWithGroups = (data, dataState) => {
   const newDataState = process(data, dataState);
@@ -64,16 +71,17 @@ const processWithGroups = (data, dataState) => {
 };
 /***********PROCESSWITHGROUPS ENDS********************** */
 const idGetter = getter("interneBelegnummer");
+
 const LieferantopDataGrid = () => {
   const navigate = useNavigate();
+  const EDIT_FIELD = "inEdit";
   const [currentSelectedState, setCurrentSelectedState] = useState({}); //OBEJECT
   const [dataState, setDataState] = React.useState(initialDataState);
-  const [data, setData] = useState([]);
   const [collapsedState, setCollapsedState] = useState([]);
-  const [selectedRows, setSelectedRows] = useState([]);
   const [updatedData, setUpdatedData] = useState([]);
+  const [filteredData, setFilteredData] = useState([]);
   // const [verbindugArray, setVerbindungArray] = useState([])
-  //MOCK DATA
+  //MOCK DATA with Sessions and local storage
   /*  const [result, setResult] = useState(() => {
     const savedState = localStorage.getItem("gridState");
     return savedState
@@ -108,6 +116,17 @@ const LieferantopDataGrid = () => {
       initialDataState
     )
   );
+  /**********REMOTE DATA BINDING************************** */
+  /* const [result, setResult] = useState(
+    processWithGroups(
+      allInEdit.map((item) => ({
+        ...item,
+        ["selected"]: currentSelectedState[idGetter(item)],
+      })),
+      initialDataState
+    )
+  ); */
+  /**********REMOTE DATA BINDING ENDS************************** */
   useEffect(() => {
     console.log("UPdated data after desired operation:", result.data);
   }, [result.data]);
@@ -151,6 +170,7 @@ useEffect(() => {
         })),
         e.dataState
       );
+      //FOR API
       /* const newDataState = processWithGroups(
         data.map((item) => ({
           ...item,
@@ -164,6 +184,7 @@ useEffect(() => {
     },
     [currentSelectedState]
   );
+
   /***************ONDATASTATECHANGE ENDS**************** */
 
   /***************GROUPING WITH EXPAND AND COLLAPSE FUNCTIONS*********************** */
@@ -180,6 +201,7 @@ useEffect(() => {
     [collapsedState]
   );
   /***************GROUPING WITH EXPAND AND COLLAPSE FUNCTIONS ENDS *********************** */
+  /*******************ROW SELECTION ON GRID******************************** */
   const setSelectedValue = (data) => {
     let newData = data.map((item) => {
       if (item.items) {
@@ -196,6 +218,7 @@ useEffect(() => {
     });
     return newData;
   };
+  //Update data after select n group
   let newData = setExpandedState({
     data: setSelectedValue(result.data),
     collapsedIds: collapsedState,
@@ -231,6 +254,7 @@ useEffect(() => {
     [newData, currentSelectedState]
   );
   /********************onHeaderSelectionChange ends****************** */
+  /*****************onSelectionChange************************** */
   const onSelectionChange = useCallback(
     (event) => {
       const newSelectedState = getSelectedState({
@@ -242,6 +266,7 @@ useEffect(() => {
     },
     [currentSelectedState]
   );
+  /*****************onSelectionChange Ends************************** */
   /***************checkHeaderSelectionValue*************************** */
   const checkHeaderSelectionValue = () => {
     const pageDataItems = getCurrentPageDataItems(newData);
@@ -252,54 +277,229 @@ useEffect(() => {
     );
   };
   /**************checkHeaderSelectionValue ENDS************************ */
+  /*******************ROW SELECTION ON GRID ENDS******************************** */
+
   /*******************HANDLE GRID EXCEL EXPORT**************************** */
   const _export = useRef(null);
   const excelExport = () => {
     if (_export.current !== null) {
       _export.current.save();
+      Swal.fire({
+        icon: "success",
+        title: "Der Export ist erfolgreich",
+        text: "Der Excel-Export ist erfolgreich. Bitte schauen Sie in Ihrem Download-Ordner nach, um die Datei zu sehen. Danke!",
+        customClass: {
+          confirmButton: "btn-custom-class",
+          title: "title-class",
+        },
+        buttonsStyling: false,
+      });
     }
   };
   /*******************EXCEL EXPORT ENDS**************************** */
-  /**************handleZahlung********************** */
-  const handleZahlung = () => {
-    console.log("Button pressed");
 
-    // Step 1: Get the selected rows
+  /*************handleZahlung w/O API****************************** */
+  /* const handleZahlung = () => {
+    // Step 1: Get the selected rows based on the current selected state
     const selectedItems = Object.keys(currentSelectedState)
       .filter((key) => currentSelectedState[key])
-      .map((key) =>
-        result.data.find((item) => item.interneBelegnummer === key)
-      );
+      .map((key) => {
+        const findSelectedItem = (items) => {
+          for (let item of items) {
+            if (item.items) {
+              // If the item has a `items` property, it means it's a group
+              const found = findSelectedItem(item.items);
+              if (found) return found;
+            } else if (item.interneBelegnummer === key) {
+              return item;
+            }
+          }
+          return null;
+        };
+        return findSelectedItem(result.data);
+      })
+      .filter((item) => item !== null);
     console.log("Selected items for Zahlung:", selectedItems);
     // Step 2: Remove selected rows from the parent data
-    const updatedData = result.data.filter(
-      (item) =>
-        !selectedItems.some(
-          (selected) => selected.interneBelegnummer === item.interneBelegnummer
-        )
-    );
+    const removeSelectedItems = (items) => {
+      return items
+        .map((item) => {
+          if (item.items) {
+            // If the item has a `items` property, it means it's a group
+            const newItems = removeSelectedItems(item.items);
+            return {
+              ...item,
+              items: newItems,
+            };
+          } else {
+            // If it's a data item, check if it's not selected
+            if (
+              !selectedItems.some(
+                (selected) =>
+                  selected.interneBelegnummer === item.interneBelegnummer
+              )
+            ) {
+              return item;
+            }
+          }
+          return null;
+        })
+        .filter((item) => item !== null);
+    };
+    const updatedData = removeSelectedItems(result.data);
     console.log("Parent grid data before update:", result.data);
     console.log("Updated data:", updatedData);
-    // Step 3: Update the state
+  
+    // Step 4: Update the state
+     setResult((prevState) => ({
+      ...prevState,
+      data: updatedData,
+      total: prevState.total - selectedItems.length,
+    })); 
+
+    let newData = setExpandedState({
+      data: setSelectedValue(updatedData),
+      collapsedIds: collapsedState,
+    });
+
+    // Clear the current selected state
+    setCurrentSelectedState({});
+    console.log("Parent grid data after removing selected rows:", updatedData);
+    Swal.fire({
+      icon: "success",
+      title: "Erfolgreich",
+      text: "Die ausgewählte Rechnung wurde erfolgreich zur Zahlung verschoben. Danke!",
+      customClass: {
+        confirmButton: "btn-custom-class",
+        title: "title-class",
+      },
+      buttonsStyling: false,
+    });
+    // Step 5: Add selected rows to child grid
+    addSelectedRows(selectedItems);
+    navigate("/verbindungDataGrid");
+  }; */
+  const handleZahlung = async () => {
+    // Step 1: Get the selected rows based on the current selected state
+    const selectedItems = Object.keys(currentSelectedState)
+      .filter((key) => currentSelectedState[key])
+      .map((key) => {
+        const findSelectedItem = (items) => {
+          for (let item of items) {
+            if (item.items) {
+              // If the item has a `items` property, it means it's a group
+              const found = findSelectedItem(item.items);
+              if (found) return found;
+            } else if (item.interneBelegnummer === key) {
+              return item;
+            }
+          }
+          return null;
+        };
+        return findSelectedItem(result.data);
+      })
+      .filter((item) => item !== null);
+
+    console.log("Selected items for Zahlung:", selectedItems);
+
+    // Step 2: Remove selected rows from the parent data
+    const removeSelectedItems = (items) => {
+      return items
+        .map((item) => {
+          if (item.items) {
+            // If the item has a `items` property, it means it's a group
+            const newItems = removeSelectedItems(item.items);
+            return {
+              ...item,
+              items: newItems,
+            };
+          } else {
+            // If it's a data item, check if it's not selected
+            if (
+              !selectedItems.some(
+                (selected) =>
+                  selected.interneBelegnummer === item.interneBelegnummer
+              )
+            ) {
+              return item;
+            }
+          }
+          return null;
+        })
+        .filter((item) => item !== null);
+    };
+
+    const updatedData = removeSelectedItems(result.data);
+
+    console.log("Parent grid data before update:", result.data);
+    console.log("Updated data:", updatedData);
+
+    // Step 3: Update the data using the Insert API in POST method
+    console.log("Selected items sent in POST request:", selectedItems);
+    try {
+        const response = await fetch('https://fibutronwebapi.fibutron.de/api/operation-process/insert-verbindlickeit-information?Mandantnummer=923', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(selectedItems),
+        });
+
+        if (!response.ok) {
+          throw new Error('Failed to update data');
+        }
+
+        // Assuming the response contains the updated data
+        const responseData = await response.json();
+
+        // Log the response data
+        console.log('Response Data:', responseData);
+
+        // Update the state with the updated data
+        setResult((prevState) => ({
+          ...prevState,
+          data: responseData, // Use the updated data from the response
+          total: responseData.length, // Assuming the response contains the total count
+        }));
+    } catch (error) {
+        console.error('Error updating data:', error);
+        // Handle error
+    }
+
+    // Step 4: Update the state
     setResult((prevState) => ({
       ...prevState,
       data: updatedData,
       total: prevState.total - selectedItems.length,
     }));
+
     let newData = setExpandedState({
       data: setSelectedValue(updatedData),
       collapsedIds: collapsedState,
     });
+
     // Clear the current selected state
     setCurrentSelectedState({});
     console.log("Parent grid data after removing selected rows:", updatedData);
-    //after this update write this updated data to the API using put/post and rerender the datagrid.
-    //refer the sample code saved as lieferentopDatagrid_getPostAPI in backups
-
-    // Step 4: Add selected rows to child grid
+    Swal.fire({
+      icon: "success",
+      title: "Erfolgreich",
+      text: "Die ausgewählte Rechnung wurde erfolgreich zur Zahlung verschoben. Danke!",
+      customClass: {
+        confirmButton: "btn-custom-class",
+        title: "title-class",
+      },
+      buttonsStyling: false,
+    });
+    // Step 5: Add selected rows to child grid
     addSelectedRows(selectedItems);
     navigate("/verbindungDataGrid");
-  };
+};
+
+  /************handleZahlung Ends******************* */
+
+  /************handleAppendDeletedRow********************** */
+  /**Appends the deleted rows from the child grid back to parent** */
   const handleAppendDeletedRow = (dataItem) => {
     console.log("Appending deleted row back to parent grid:", dataItem);
 
@@ -311,20 +511,168 @@ useEffect(() => {
     }));
     setUpdatedData(newUpdatedData); // Ensure updatedData state is in sync
     // Log the updated data
-    console.log("Updated data after appending deleted row from child grid:", newUpdatedData);
+    console.log(
+      "Updated data after appending deleted row from child grid:",
+      newUpdatedData
+    );
     // Reset the intermediate deleted rows array in datastore.
     resetDeletedRows();
+    const postData = {
+      Mandantnummer: '923',
+         // Other data fields as needed
+        // For example:
+         rowData: dataItem
+    }
+    // Send a POST request to the backend to insert the row
+    fetch('https://fibutronwebapi.fibutron.de/api/operation-process/insert-verbindlickeit-information?Mandantnummer=923', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(dataItem),
+   // body: JSON.stringify(postData),//use this if Mandatnummer is also needed
+  })
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('Failed to insert row');
+      }
+      return response.json();
+    })
+    .then(data => {
+      console.log('Row inserted successfully:', data);
+      // Handle success response if needed
+    })
+    .catch(error => {
+      console.error('Error inserting row:', error);
+      // Handle error if needed
+    });
   };
-  /************handleZahlung Ends******************* */
-  /**************handleBank********************** */
-  const handleBank = () => {
-    console.log("Bank Button pressed");
+  /************handleAppendDeletedRow Ends********************** */
+
+  /************handleBezeichnungFilter******************* */
+  const handleBezeichnungFilter = (e) => {
+    const value = e.target.value;
+    const newDataState = {
+      ...dataState,
+      filter: {
+        logic: "and",
+        filters: value ? [{ field: "name", operator: "contains", value }] : [],
+      },
+    };
+    setDataState(newDataState);
+    setResult(
+      processWithGroups(
+        mockverbindlichkeit.map((item) => ({
+          ...item,
+          ["selected"]: currentSelectedState[idGetter(item)],
+        })),
+        newDataState
+      )
+    );
   };
-  /************handleBank Ends******************* */
+  /************handleBezeichnungFilter Ends******************* */
+
+  /************handlePaymentTypeFilter************************** */
+  const paymentTypes = [
+    { text: "", value: "" },
+    { text: "fällige Bankeinzüge", value: "fällige Bankeinzüge" },
+    { text: "Überweisung", value: "Überweisung" },
+    { text: "AuslandÜberweisung", value: "AuslandÜberweisung" },
+    { text: "Ausgeblendete", value: "Ausgeblendete" },
+  ];
+  const handlePaymentTypeFilter = (e) => {
+    const selectedValue = e.target.value;
+    console.log("Selected Filter value", selectedValue);
+    let filteredData = [];
+    if (selectedValue.value === "fällige Bankeinzüge") {
+      filteredData = mockverbindlichkeit.filter(
+        (item) => item.zahlungsart === "E" || item.zahlungsart === "A"
+      );
+    } else if (selectedValue.value === "Überweisung") {
+      filteredData = mockverbindlichkeit.filter(
+        (item) => item.zahlungsart === "U" || item.zahlungsart === ""
+      );
+    } else if (selectedValue.value === "AuslandÜberweisung") {
+      filteredData = mockverbindlichkeit.filter(
+        (item) => item.zahlungsart === "X"
+      );
+    } else if (selectedValue.value === "Ausgeblendete") {
+      filteredData = mockverbindlichkeit.filter(
+        (item) => item.zahlungsart === "AB"
+      );
+    } else {
+      // If no filter is selected, show all data
+      filteredData = result.data;
+    }
+    // Set the filtered data
+    setFilteredData(filteredData);
+    console.log("Filtered Data:", filteredData);
+    // Update the result state
+    setResult(
+      processWithGroups(
+        filteredData.map((item) => ({
+          ...item,
+          ["selected"]: currentSelectedState[idGetter(item)],
+        })),
+        dataState
+      )
+    );
+  };
   useEffect(() => {
     //console.log("Updated newData:", newData);
   }, [newData]);
-
+  /************handlePaymentTypeFilter ENDS************************** */
+  /*******CALUCULATE THE SUM FOR CHART******** */
+  const sumBetrag = mockverbindlichkeit.reduce(
+    (total, item) => total + item.betrag,
+    0
+  );
+  const sumBankeinzuge = result.data.reduce((total, item) => {
+    if (item.zahlungsart === "A" || item.zahlungsart === "E") {
+      return total + item.betrag;
+    }
+    return total;
+  }, 0);
+  /*******CALUCULATE THE SUM FOR CHART ENDS******** */
+  const [data, setData] = React.useState(allInEdit);
+  const itemChange = (e) => {
+    console.log("edit enabled");
+    let newData = data.map((item) => {
+      if (item.interneBelegnummer === e.dataItem.interneBelegnummer) {
+        return { ...item, [e.field]: e.value };
+      }
+      return item;
+    });
+    setData(newData);
+    // Update the data state
+    setDataState({
+      ...dataState,
+      data: newData,
+    });
+  };
+  /************EDIT FORM FOR BANK************************** */
+  const [openForm, setOpenForm] = useState(false);
+  const enterEdit = () => {
+    setOpenForm(true);
+  };
+  const handleCancelEdit = () => {
+    setOpenForm(false);
+  };
+  const handleSubmit = (event) => {
+    // Logic to handle form submission
+    Swal.fire({
+      icon: "success",
+      title: "Erfolgreich aktualisiert",
+      text: "Die Bankverbindung wurde erfolgreich aktualisiert. Danke!",
+      customClass: {
+        confirmButton: "btn-custom-class",
+        title: "title-class",
+      },
+      buttonsStyling: false,
+    });
+    setOpenForm(false); // Close the edit form after submission
+  };
+  /******************EDIT FORM FOR BANK ENDS******************************** */
   return (
     <>
       <ExcelExport data={result.data} ref={_export}>
@@ -334,6 +682,8 @@ useEffect(() => {
           resizable={true}
           reorderable={true}
           sortable={true}
+          onItemChange={itemChange}
+          editField="inEdit"
           pageable={{ pageSizes: true }}
           onExpandChange={onExpandChange}
           expandField="expanded"
@@ -346,6 +696,17 @@ useEffect(() => {
           total={result.total}
         >
           <GridToolbar>
+            <Input
+              onChange={handleBezeichnungFilter}
+              placeholder="Filter by Bezeichnung"
+              width={140}
+            />
+            <DropDownList
+              data={paymentTypes}
+              textField="text"
+              dataItemKey="value"
+              onChange={handlePaymentTypeFilter}
+            />
             <div className="export-btns-container">
               <Button onClick={excelExport}>Excel export</Button> <br />
             </div>
@@ -355,56 +716,104 @@ useEffect(() => {
               </Button>
             </div>
             <div className="export-btns-container">
-              <Button onClick={handleBank}>Bankverbindung ändern</Button>
+              <Button onClick={enterEdit}>Bankverbindung ändern</Button>
             </div>
           </GridToolbar>
           <GridColumn field="selected" width={80} />
-          <GridColumn field="betrag" title="OP Freigeben" width={120} />
-          <GridColumn field="betrag" title="Betrag Ändern" width={120} />
-          <GridColumn field="belegnummer" title="Belegnummer" width={200} />
+          <GridColumn
+            field="betrag"
+            title="OP Freigeben"
+            width={120}
+            editable={false}
+            aggregate="sum"
+          />
+          <GridColumn
+            field="betrag"
+            title="Betrag Ändern"
+            width={150}
+            editable={true}
+            editor="numeric"
+          />
+          <GridColumn
+            field="belegnummer"
+            title="Belegnummer"
+            width={200}
+            editable={false}
+          />
           <GridColumn
             field="interneBelegnummer"
             title="interneBelegnummer"
             width={200}
+            editable={false}
           />
-          <GridColumn field="name" title="Bezeichnung" width={300} />
-          <GridColumn field="text" title="Text" width={200} />
+          <GridColumn
+            field="name"
+            title="Bezeichnung"
+            width={300}
+            editable={false}
+          />
+          <GridColumn field="text" title="Text" width={200} editable={false} />
           <GridColumn
             field="valuta"
             title="Valuta"
             width={120}
             cells={{ data: DateCell }}
+            editable={false}
           />
           <GridColumn
             field="faellig"
             title="Fällig"
             width={120}
             cells={{ data: DateCell }}
+            editable={false}
           />
           <GridColumn
             field="skonto1Bis"
             title="SkontoFrist"
             cells={{ data: DateCell }}
             width={120}
+            editable={false}
           />
-          <GridColumn field="skonto1Prozent" title="Skonto%" />
-          <GridColumn field="saldo" title="Saldo" width={120} />
-          <GridColumn field="ibanNummer" title="IBAN" width={120} />
-          <GridColumn field="swifT_Adr" title="BIC" width={120} />
+          <GridColumn field="skonto1Prozent" title="Skonto%" editable={false} />
+          <GridColumn
+            field="saldo"
+            title="Saldo"
+            width={120}
+            editable={false}
+          />
+          <GridColumn
+            field="ibanNummer"
+            title="IBAN"
+            width={120}
+            editable={false}
+          />
+          <GridColumn
+            field="swifT_Adr"
+            title="BIC"
+            width={120}
+            editable={false}
+          />
           <GridColumn
             field="belegdatum"
             title="Belegdatum"
             width={120}
             cells={{ data: DateCell }}
+            editable={false}
           />
           <GridColumn
             field="kdNrBeiKreditor"
             title="KdNrBeiKreditor"
             width={120}
+            editable={false}
           />
         </Grid>
       </ExcelExport>
-      <VerbindungDataGrid onAppendDeletedRow={handleAppendDeletedRow} />
+      {/* <div>Total Betrag: {sumBetrag}</div>
+      <div>Bankeinzuge Sum: {sumBankeinzuge}</div> */}
+      {/* <VerbindungDataGrid onAppendDeletedRow={handleAppendDeletedRow} /> */}
+      {openForm && (
+        <BankChangeForm cancelEdit={handleCancelEdit} onSubmit={handleSubmit} />
+      )}
     </>
   );
 };
