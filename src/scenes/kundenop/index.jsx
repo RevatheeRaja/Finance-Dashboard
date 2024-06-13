@@ -5,13 +5,20 @@ import { TileLayout } from '@progress/kendo-react-layout'
 import KundenopChart from './kundenopChart'
 import KundenopDataGrid from './KundenopDataGrid'
 import KundenopForm from './kundenopForm'
+import KundenMahnwesen from './kundenMahnwesen'
+
 const Kundenop = () => {
   const [data, setData] = React.useState([
     {
        col: 1,
        colSpan: 2,
-       rowSpan: 2,
+       rowSpan: 1,
      },
+     {
+      col: 1,
+      colSpan: 2,
+      rowSpan: 1,
+    },
      {
        col: 3,
        colSpan: 3,
@@ -20,7 +27,7 @@ const Kundenop = () => {
      {
        col:1,
        colSpan:5,
-       rowSpan:3
+       rowSpan:4
      },
    ]);
    const tiles = [
@@ -30,12 +37,17 @@ const Kundenop = () => {
       reorderable: true,
     },
     {
+      header: 'Mahn System',
+      body: <KundenMahnwesen/>,
+      reorderable: true,
+    },
+    {
       header: 'Transaktionsübersicht',
       body: <KundenopChart/>,
       reorderable: true,
     },
     {
-      header: 'Transaktions Data',
+      header: 'Trasnsaktionsdaten',
       body: <KundenopDataGrid/>,
       reorderable: false,
     },

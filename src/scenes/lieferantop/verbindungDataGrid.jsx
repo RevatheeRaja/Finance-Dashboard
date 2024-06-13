@@ -21,7 +21,7 @@ const DateCell = (props) => <td>{formatDate(props.dataItem[props.field])}</td>;
 
 const VerbindungDataGrid = ({ onAppendDeletedRow }) => {
   // Now you can use verbindungArray as your data
-  console.log("Selected Rows", selectedRows); // Example usage: logging the array
+  //console.log("Selected Rows", selectedRows); // Example usage: logging the array
 
   /***********HANDLE ROW DELETE*************************** */
   const [gridData, setGridData] = useState(getSelectedRows());

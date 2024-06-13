@@ -8,13 +8,13 @@ export const addSelectedRows = (rows) => {
   selectedRows.push(...rows);
 };
 
- export const removeSelectedRow = (row) => {
+export const removeSelectedRow = (row) => {
   deletedRows.push(row);
   selectedRows = selectedRows.filter(
     (item) => item.interneBelegnummer !== row.interneBelegnummer
   );
-   // Log the deleted rows
-   console.log('Deleted rows:', deletedRows);
+  // Log the deleted rows
+  console.log("Deleted rows:", deletedRows);
 };
 export const addDeletedRows = (rows) => {
   deletedRows.push(...rows);

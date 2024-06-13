@@ -21,11 +21,11 @@ import { Input } from "@progress/kendo-react-inputs";
 import { DropDownList } from "@progress/kendo-react-dropdowns";
 /********ESSENTIAL KENDO REACT GRID COMPONENTS ENDS************************ */
 import VerbindungDataGrid from "./verbindungDataGrid";
-import { addSelectedRows, resetDeletedRows } from "./dataStore"; //Datastore to hanlde intermediate arrays for add & delete selected rows
-//EDIT FORM FOR EDITING THE ROW
-import BankChangeForm from "./bankChangeForm"; //Edit using external forms
+import { addSelectedRows, resetDeletedRows } from "./dataStore";
 /********DUMMY DATA FOR TEST****************** */
 import { mockverbindlichkeit } from "../../data/mockverbindlichkeit";
+//EDIT FORM FOR EDITING THE ROW
+import BankChangeForm from "./bankChangeForm"; //Edit using external forms
 /************* */
 
 /***********DATE FORMATTER TEMPLATE*************************** */
@@ -43,23 +43,12 @@ const DateCell = (props) => <td>{formatDate(props.dataItem[props.field])}</td>;
 /***FOR INITIAL SETUP; show 10 items skip 0 items and set initial grouping to null/empty******* */
 /*****Pagination n grouping initialization**** */
 const initialDataState = {
-  take: 10,
+  take: 5,
   skip: 0,
   group: [], // Add default groups if needed
-  filter: {
-    logic: "and",
-    filters: [],
-  },
 };
 /*****INITIAL DATA STATE ENDS********** */
-const allInEdit = mockverbindlichkeit.map((item) =>
-  Object.assign(
-    {
-      inEdit: true,
-    },
-    item
-  )
-);
+
 /***********PROCESSWITHGROUPS********************** */
 const processWithGroups = (data, dataState) => {
   const newDataState = process(data, dataState);
@@ -71,43 +60,16 @@ const processWithGroups = (data, dataState) => {
 };
 /***********PROCESSWITHGROUPS ENDS********************** */
 const idGetter = getter("interneBelegnummer");
-
 const LieferantopDataGrid = () => {
   const navigate = useNavigate();
-  const EDIT_FIELD = "inEdit";
   const [currentSelectedState, setCurrentSelectedState] = useState({}); //OBEJECT
   const [dataState, setDataState] = React.useState(initialDataState);
+  const [data, setData] = useState([]);
   const [collapsedState, setCollapsedState] = useState([]);
   const [updatedData, setUpdatedData] = useState([]);
   const [filteredData, setFilteredData] = useState([]);
-  // const [verbindugArray, setVerbindungArray] = useState([])
-  //MOCK DATA with Sessions and local storage
-  /*  const [result, setResult] = useState(() => {
-    const savedState = localStorage.getItem("gridState");
-    return savedState
-      ? JSON.parse(savedState)
-      : processWithGroups(
-          mockverbindlichkeit.map((item) => ({
-            ...item,
-            ["selected"]: currentSelectedState[idGetter(item)],
-          })),
-          initialDataState
-        );
-  });
-
-  useEffect(() => {
-    localStorage.setItem("gridState", JSON.stringify(result));
-  }, [result]);
-  useEffect(() => {
-    console.log("Current selected state:", currentSelectedState);
-  }, [currentSelectedState]);
-
-  useEffect(() => {
-    console.log("Result state:", result);
-  }, [result]);
- */
   //MOCK DATA
-  const [result, setResult] = React.useState(
+  /* const [result, setResult] = React.useState(
     processWithGroups(
       mockverbindlichkeit.map((item) => ({
         ...item,
@@ -115,76 +77,65 @@ const LieferantopDataGrid = () => {
       })),
       initialDataState
     )
-  );
-  /**********REMOTE DATA BINDING************************** */
-  /* const [result, setResult] = useState(
-    processWithGroups(
-      allInEdit.map((item) => ({
-        ...item,
-        ["selected"]: currentSelectedState[idGetter(item)],
-      })),
-      initialDataState
-    )
   ); */
-  /**********REMOTE DATA BINDING ENDS************************** */
-  useEffect(() => {
-    console.log("UPdated data after desired operation:", result.data);
-  }, [result.data]);
 
   /*****************EXTERNAL API DATA BINDING************************************ */
-  /*const [result, setResult] = useState({ data: [], total: 0 });
-//3.
-useEffect(() => {
-  const fetchData = async () => {
-    try {
-      // Fetch data from your localhost API
-      const response = await fetch(
-        "https://fibutronwebapi.fibutron.de/api/operation-process/get-verbindlichkeit-inforamtion?Mandantnummer=923"
-      );
-      if (!response.ok) {
-        throw new Error("Failed to fetch data");
+  const [result, setResult] = useState({ data: [], total: 0 });
+  //3.
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        // Fetch data from your localhost API
+        const response = await fetch(
+          "https://fibutronwebapi.fibutron.de/api/operation-process/get-verbindlichkeit-inforamtion?Mandantnummer=100"
+        );
+        if (!response.ok) {
+          throw new Error("Failed to fetch data");
+        }
+        const data = await response.json();
+        setData(data);
+        setResult(
+          processWithGroups(
+            data.map((item) => ({
+              ...item,
+              ["selected"]: currentSelectedState[idGetter(item)],
+            })),
+            dataState
+          )
+        );
+      } catch (error) {
+        console.error("Error fetching data:", error);
       }
-      const data = await response.json();
-      setData(data);
-      setResult(processWithGroups(data.map((item) => ({
-        ...item,
-        ['selected'] : currentSelectedState[idGetter(item)],
-      })), dataState));
-    } catch (error) {
-      console.error("Error fetching data:", error);
-    }
-  };
+    };
 
-  fetchData();
-}, []);*/
+    fetchData();
+  }, []);
   /***************************DATA BINDING ENDS*******************************************************/
 
   /***************ONDATASTATECHANGE**************** */
   const onDataStateChange = useCallback(
     (e) => {
       //let updatedState = createDataState(e.dataState);
-      const newDataState = processWithGroups(
+      /*  const newDataState = processWithGroups(
         mockverbindlichkeit.map((item) => ({
           ...item,
           ["selected"]: currentSelectedState[idGetter(item)],
         })),
         e.dataState
-      );
-      //FOR API
-      /* const newDataState = processWithGroups(
+      ); */
+      const newDataState = processWithGroups(
         data.map((item) => ({
           ...item,
           ["selected"]: currentSelectedState[idGetter(item)],
         })),
         e.dataState
-      ); */
+      );
       //const newDataState = processWithGroups(data, e.dataState);
       setDataState(e.dataState);
       setResult(newDataState);
     },
-    [currentSelectedState]
+    [data]
   );
-
   /***************ONDATASTATECHANGE ENDS**************** */
 
   /***************GROUPING WITH EXPAND AND COLLAPSE FUNCTIONS*********************** */
@@ -201,7 +152,6 @@ useEffect(() => {
     [collapsedState]
   );
   /***************GROUPING WITH EXPAND AND COLLAPSE FUNCTIONS ENDS *********************** */
-  /*******************ROW SELECTION ON GRID******************************** */
   const setSelectedValue = (data) => {
     let newData = data.map((item) => {
       if (item.items) {
@@ -218,8 +168,7 @@ useEffect(() => {
     });
     return newData;
   };
-  //Update data after select n group
-  let newData = setExpandedState({
+  const newData = setExpandedState({
     data: setSelectedValue(result.data),
     collapsedIds: collapsedState,
   });
@@ -254,7 +203,6 @@ useEffect(() => {
     [newData, currentSelectedState]
   );
   /********************onHeaderSelectionChange ends****************** */
-  /*****************onSelectionChange************************** */
   const onSelectionChange = useCallback(
     (event) => {
       const newSelectedState = getSelectedState({
@@ -266,7 +214,6 @@ useEffect(() => {
     },
     [currentSelectedState]
   );
-  /*****************onSelectionChange Ends************************** */
   /***************checkHeaderSelectionValue*************************** */
   const checkHeaderSelectionValue = () => {
     const pageDataItems = getCurrentPageDataItems(newData);
@@ -277,8 +224,6 @@ useEffect(() => {
     );
   };
   /**************checkHeaderSelectionValue ENDS************************ */
-  /*******************ROW SELECTION ON GRID ENDS******************************** */
-
   /*******************HANDLE GRID EXCEL EXPORT**************************** */
   const _export = useRef(null);
   const excelExport = () => {
@@ -297,9 +242,9 @@ useEffect(() => {
     }
   };
   /*******************EXCEL EXPORT ENDS**************************** */
+  /**************handleZahlung as backup********************** */
+  const handleZahlung = () => {
 
-  /*************handleZahlung w/O API****************************** */
-  /* const handleZahlung = () => {
     // Step 1: Get the selected rows based on the current selected state
     const selectedItems = Object.keys(currentSelectedState)
       .filter((key) => currentSelectedState[key])
@@ -345,126 +290,12 @@ useEffect(() => {
           return null;
         })
         .filter((item) => item !== null);
+        // Display success message
     };
     const updatedData = removeSelectedItems(result.data);
     console.log("Parent grid data before update:", result.data);
     console.log("Updated data:", updatedData);
-  
-    // Step 4: Update the state
-     setResult((prevState) => ({
-      ...prevState,
-      data: updatedData,
-      total: prevState.total - selectedItems.length,
-    })); 
-
-    let newData = setExpandedState({
-      data: setSelectedValue(updatedData),
-      collapsedIds: collapsedState,
-    });
-
-    // Clear the current selected state
-    setCurrentSelectedState({});
-    console.log("Parent grid data after removing selected rows:", updatedData);
-    Swal.fire({
-      icon: "success",
-      title: "Erfolgreich",
-      text: "Die ausgewählte Rechnung wurde erfolgreich zur Zahlung verschoben. Danke!",
-      customClass: {
-        confirmButton: "btn-custom-class",
-        title: "title-class",
-      },
-      buttonsStyling: false,
-    });
-    // Step 5: Add selected rows to child grid
-    addSelectedRows(selectedItems);
-    navigate("/verbindungDataGrid");
-  }; */
-  const handleZahlung = async () => {
-    // Step 1: Get the selected rows based on the current selected state
-    const selectedItems = Object.keys(currentSelectedState)
-      .filter((key) => currentSelectedState[key])
-      .map((key) => {
-        const findSelectedItem = (items) => {
-          for (let item of items) {
-            if (item.items) {
-              // If the item has a `items` property, it means it's a group
-              const found = findSelectedItem(item.items);
-              if (found) return found;
-            } else if (item.interneBelegnummer === key) {
-              return item;
-            }
-          }
-          return null;
-        };
-        return findSelectedItem(result.data);
-      })
-      .filter((item) => item !== null);
-
-    console.log("Selected items for Zahlung:", selectedItems);
-
-    // Step 2: Remove selected rows from the parent data
-    const removeSelectedItems = (items) => {
-      return items
-        .map((item) => {
-          if (item.items) {
-            // If the item has a `items` property, it means it's a group
-            const newItems = removeSelectedItems(item.items);
-            return {
-              ...item,
-              items: newItems,
-            };
-          } else {
-            // If it's a data item, check if it's not selected
-            if (
-              !selectedItems.some(
-                (selected) =>
-                  selected.interneBelegnummer === item.interneBelegnummer
-              )
-            ) {
-              return item;
-            }
-          }
-          return null;
-        })
-        .filter((item) => item !== null);
-    };
-
-    const updatedData = removeSelectedItems(result.data);
-
-    console.log("Parent grid data before update:", result.data);
-    console.log("Updated data:", updatedData);
-
-    // Step 3: Update the data using the Insert API in POST method
-    console.log("Selected items sent in POST request:", selectedItems);
-    try {
-        const response = await fetch('https://fibutronwebapi.fibutron.de/api/operation-process/insert-verbindlickeit-information?Mandantnummer=923', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify(selectedItems),
-        });
-
-        if (!response.ok) {
-          throw new Error('Failed to update data');
-        }
-
-        // Assuming the response contains the updated data
-        const responseData = await response.json();
-
-        // Log the response data
-        console.log('Response Data:', responseData);
-
-        // Update the state with the updated data
-        setResult((prevState) => ({
-          ...prevState,
-          data: responseData, // Use the updated data from the response
-          total: responseData.length, // Assuming the response contains the total count
-        }));
-    } catch (error) {
-        console.error('Error updating data:', error);
-        // Handle error
-    }
+    //maybe i give the post request here to update the api about the change, but would need some groundwork
 
     // Step 4: Update the state
     setResult((prevState) => ({
@@ -477,7 +308,6 @@ useEffect(() => {
       data: setSelectedValue(updatedData),
       collapsedIds: collapsedState,
     });
-
     // Clear the current selected state
     setCurrentSelectedState({});
     console.log("Parent grid data after removing selected rows:", updatedData);
@@ -491,15 +321,12 @@ useEffect(() => {
       },
       buttonsStyling: false,
     });
+
     // Step 5: Add selected rows to child grid
     addSelectedRows(selectedItems);
-    navigate("/verbindungDataGrid");
-};
-
-  /************handleZahlung Ends******************* */
-
+  };
   /************handleAppendDeletedRow********************** */
-  /**Appends the deleted rows from the child grid back to parent** */
+  /**Appends the deleted rows from the child grid back to parent, w/o the API POST** */
   const handleAppendDeletedRow = (dataItem) => {
     console.log("Appending deleted row back to parent grid:", dataItem);
 
@@ -517,38 +344,8 @@ useEffect(() => {
     );
     // Reset the intermediate deleted rows array in datastore.
     resetDeletedRows();
-    const postData = {
-      Mandantnummer: '923',
-         // Other data fields as needed
-        // For example:
-         rowData: dataItem
-    }
-    // Send a POST request to the backend to insert the row
-    fetch('https://fibutronwebapi.fibutron.de/api/operation-process/insert-verbindlickeit-information?Mandantnummer=923', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify(dataItem),
-   // body: JSON.stringify(postData),//use this if Mandatnummer is also needed
-  })
-    .then(response => {
-      if (!response.ok) {
-        throw new Error('Failed to insert row');
-      }
-      return response.json();
-    })
-    .then(data => {
-      console.log('Row inserted successfully:', data);
-      // Handle success response if needed
-    })
-    .catch(error => {
-      console.error('Error inserting row:', error);
-      // Handle error if needed
-    });
   };
-  /************handleAppendDeletedRow Ends********************** */
-
+  /************handleAppendDeletedRow ENDS********************** */
   /************handleBezeichnungFilter******************* */
   const handleBezeichnungFilter = (e) => {
     const value = e.target.value;
@@ -562,7 +359,7 @@ useEffect(() => {
     setDataState(newDataState);
     setResult(
       processWithGroups(
-        mockverbindlichkeit.map((item) => ({
+        data.map((item) => ({
           ...item,
           ["selected"]: currentSelectedState[idGetter(item)],
         })),
@@ -571,7 +368,6 @@ useEffect(() => {
     );
   };
   /************handleBezeichnungFilter Ends******************* */
-
   /************handlePaymentTypeFilter************************** */
   const paymentTypes = [
     { text: "", value: "" },
@@ -585,21 +381,17 @@ useEffect(() => {
     console.log("Selected Filter value", selectedValue);
     let filteredData = [];
     if (selectedValue.value === "fällige Bankeinzüge") {
-      filteredData = mockverbindlichkeit.filter(
+      filteredData = data.filter(
         (item) => item.zahlungsart === "E" || item.zahlungsart === "A"
       );
     } else if (selectedValue.value === "Überweisung") {
-      filteredData = mockverbindlichkeit.filter(
+      filteredData = data.filter(
         (item) => item.zahlungsart === "U" || item.zahlungsart === ""
       );
     } else if (selectedValue.value === "AuslandÜberweisung") {
-      filteredData = mockverbindlichkeit.filter(
-        (item) => item.zahlungsart === "X"
-      );
+      filteredData = data.filter((item) => item.zahlungsart === "X");
     } else if (selectedValue.value === "Ausgeblendete") {
-      filteredData = mockverbindlichkeit.filter(
-        (item) => item.zahlungsart === "AB"
-      );
+      filteredData = data.filter((item) => item.zahlungsart === "AB");
     } else {
       // If no filter is selected, show all data
       filteredData = result.data;
@@ -622,34 +414,6 @@ useEffect(() => {
     //console.log("Updated newData:", newData);
   }, [newData]);
   /************handlePaymentTypeFilter ENDS************************** */
-  /*******CALUCULATE THE SUM FOR CHART******** */
-  const sumBetrag = mockverbindlichkeit.reduce(
-    (total, item) => total + item.betrag,
-    0
-  );
-  const sumBankeinzuge = result.data.reduce((total, item) => {
-    if (item.zahlungsart === "A" || item.zahlungsart === "E") {
-      return total + item.betrag;
-    }
-    return total;
-  }, 0);
-  /*******CALUCULATE THE SUM FOR CHART ENDS******** */
-  const [data, setData] = React.useState(allInEdit);
-  const itemChange = (e) => {
-    console.log("edit enabled");
-    let newData = data.map((item) => {
-      if (item.interneBelegnummer === e.dataItem.interneBelegnummer) {
-        return { ...item, [e.field]: e.value };
-      }
-      return item;
-    });
-    setData(newData);
-    // Update the data state
-    setDataState({
-      ...dataState,
-      data: newData,
-    });
-  };
   /************EDIT FORM FOR BANK************************** */
   const [openForm, setOpenForm] = useState(false);
   const enterEdit = () => {
@@ -673,6 +437,200 @@ useEffect(() => {
     setOpenForm(false); // Close the edit form after submission
   };
   /******************EDIT FORM FOR BANK ENDS******************************** */
+
+  /*********************DONT DELETE just commenting out. this handles the post request and must be uncommented when pushed on live*********************** */
+  /**************HANDLE ZAHLUNG AND HANDLE DELETE WITH API FOR LIVE PUSH************************************************* */
+  /*************API WITH POST METHOD****************************** */
+  /* const filterDataForApi = (item) => {
+    return {
+      belegnummer: String(item.belegnummer),
+      text: item.text || "null",
+      betrag: String(item.betrag),
+      valuta: item.valuta,
+      faellig: item.faellig,
+      skonto1Bis: item.skonto1Bis,
+      skonto1Prozent: String(item.skonto1Prozent),
+      saldo: String(item.saldo),
+      dvBuchungsnummer: String(item.dvBuchungsnummer),
+      zahlBANK: item.zahlBANK,
+      zahlBLZ: item.zahlBLZ,
+      auftraggeber: item.auftraggeber,
+      belegdatum: item.belegdatum,
+      kontonummer: item.kontonummer.trim(),
+      status: item.status || "",
+    };
+  };
+  const handleZahlung = async () => {
+    console.log("Handle zahlung is pressed");
+    //Step 1: Get the selected rows based on the current selected state
+    const selectedItems = Object.keys(currentSelectedState)
+      .filter((key) => currentSelectedState[key])
+      .map((key) => {
+        const findSelectedItem = (items) => {
+          for (let item of items) {
+            if (item.items) {
+              // If the item has a `items` property, it means it's a group
+              const found = findSelectedItem(item.items);
+              if (found) return found;
+            } else if (item.interneBelegnummer === key) {
+              return item;
+            }
+          }
+          return null;
+        };
+        return findSelectedItem(result.data);
+      })
+      .filter((item) => item !== null);
+    console.log("Selected items for Zahlung:", selectedItems);
+    // Step 2: Remove selected rows from the parent data
+    const removeSelectedItems = (items) => {
+      return items
+        .map((item) => {
+          if (item.items) {
+            // If the item has a `items` property, it means it's a group
+            const newItems = removeSelectedItems(item.items);
+            return {
+              ...item,
+              items: newItems,
+            };
+          } else {
+            // If it's a data item, check if it's not selected
+            if (
+              !selectedItems.some(
+                (selected) =>
+                  selected.interneBelegnummer === item.interneBelegnummer
+              )
+            ) {
+              return item;
+            }
+          }
+          return null;
+        })
+        .filter((item) => item !== null);
+    };
+    const updatedData = removeSelectedItems(result.data);
+    console.log("Parent grid data before update:", result.data);
+    console.log("Updated data:", updatedData);
+    // Step 3: Transform the data for API
+    const apiData = updatedData.map(filterDataForApi);
+    console.log("API Data:", apiData);
+
+    // Step 4: Update the API with the updated data
+    try {
+      const response = await fetch(
+        "https://fibutronwebapi.fibutron.de/api/operation-process/insert-verbindlickeit-information?Mandantnummer=923",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(apiData[0]), // Send the updated data to the server
+        }
+      );
+
+      if (!response.ok) {
+        const errorText = await response.text();
+        throw new Error(`Failed to update data on the server: ${errorText}`);
+      }
+
+      // Assuming the response contains the updated data
+      const responseData = await response.json();
+
+      // Step 7: Optionally, update the UI with the response data
+      // For example, setResult(responseData) or any other appropriate action
+      console.log("Response Data:", responseData);
+      // Update the state or perform any other actions as needed
+      setResult(responseData);
+      // Step 4: Update the state
+      setResult((prevState) => ({
+        ...prevState,
+        data: updatedData,
+        total: prevState.total - selectedItems.length,
+      }));
+      let newData = setExpandedState({
+        data: setSelectedValue(updatedData),
+        collapsedIds: collapsedState,
+      });
+      // Clear the current selected state
+      setCurrentSelectedState({});
+      console.log(
+        "Parent grid data after removing selected rows:",
+        updatedData
+      );
+      // Step 5: Add selected rows to child grid
+      addSelectedRows(selectedItems);
+    } catch (error) {
+      console.error("Error updating data:", error);
+      // Handle error
+    }
+  }; */
+
+  /*  const handleAppendDeletedRow = async (dataItem) => {
+    console.log("Appending deleted row back to parent grid:", dataItem);
+
+    // Append the deleted row to the updatedData
+    const newUpdatedData = [...updatedData, dataItem];
+    setResult((prevState) => ({
+      ...prevState,
+      data: newUpdatedData,
+    }));
+    setUpdatedData(newUpdatedData); // Ensure updatedData state is in sync
+    // Log the updated data
+    console.log(
+      "Updated data after appending deleted row from child grid:",
+      newUpdatedData
+    );
+    // Reset the intermediate deleted rows array in datastore.
+    resetDeletedRows();
+
+    // Transform the appended data for API
+    const apiData = filterDataForApi(dataItem);
+    console.log("API Data for appending deleted row:", apiData);
+
+    // Send POST request to update the API with the appended data
+    try {
+        const response = await fetch('https://fibutronwebapi.fibutron.de/api/operation-process/insert-verbindlickeit-information?Mandantnummer=923', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify([apiData]), // Send the transformed data to the server
+        });
+
+        if (!response.ok) {
+          const errorText = await response.text();
+          throw new Error(`Failed to update data on the server: ${errorText}`);
+        }
+
+        // Assuming the response contains the updated data
+        const responseData = await response.json();
+
+        console.log('Response Data:', responseData);
+
+        // Update the state with the updated data
+        setResult((prevState) => ({
+          ...prevState,
+          data: responseData, // Use the updated data from the response
+          total: responseData.length, // Assuming the response contains the total count
+        }));
+    } catch (error) {
+        console.error('Error updating data:', error);
+        // Handle error
+    }
+}; */
+
+  /************handleAppendDeletedRow Ends********************** */
+
+  /**************handleBank********************** */
+  const handleBank = () => {
+    console.log("Bank Button pressed");
+  };
+  /************handleBank Ends******************* */
+  /**************ZUM BANKFREIGABE BUTTON**************************** */
+  const handleZumBankFreigabe = () => {
+    navigate("/verbindungDataGrid");
+  };
+  /**************ZUM BANKFREIGABE BUTTON ENDS**************************** */
   return (
     <>
       <ExcelExport data={result.data} ref={_export}>
@@ -682,8 +640,6 @@ useEffect(() => {
           resizable={true}
           reorderable={true}
           sortable={true}
-          onItemChange={itemChange}
-          editField="inEdit"
           pageable={{ pageSizes: true }}
           onExpandChange={onExpandChange}
           expandField="expanded"
@@ -699,7 +655,6 @@ useEffect(() => {
             <Input
               onChange={handleBezeichnungFilter}
               placeholder="Filter by Bezeichnung"
-              width={140}
             />
             <DropDownList
               data={paymentTypes}
@@ -707,8 +662,10 @@ useEffect(() => {
               dataItemKey="value"
               onChange={handlePaymentTypeFilter}
             />
+          </GridToolbar>
+          <GridToolbar>
             <div className="export-btns-container">
-              <Button onClick={excelExport}>Excel export</Button> <br />
+              <Button onClick={excelExport}>Excel export</Button>
             </div>
             <div className="export-btns-container">
               <Button onClick={handleZahlung}>
@@ -718,99 +675,53 @@ useEffect(() => {
             <div className="export-btns-container">
               <Button onClick={enterEdit}>Bankverbindung ändern</Button>
             </div>
+            <div className="export-btns-container">
+              <Button onClick={handleZumBankFreigabe}>Zum BankFreigabe</Button>
+            </div>
           </GridToolbar>
+
           <GridColumn field="selected" width={80} />
-          <GridColumn
-            field="betrag"
-            title="OP Freigeben"
-            width={120}
-            editable={false}
-            aggregate="sum"
-          />
-          <GridColumn
-            field="betrag"
-            title="Betrag Ändern"
-            width={150}
-            editable={true}
-            editor="numeric"
-          />
-          <GridColumn
-            field="belegnummer"
-            title="Belegnummer"
-            width={200}
-            editable={false}
-          />
-          <GridColumn
-            field="interneBelegnummer"
-            title="interneBelegnummer"
-            width={200}
-            editable={false}
-          />
-          <GridColumn
-            field="name"
-            title="Bezeichnung"
-            width={300}
-            editable={false}
-          />
-          <GridColumn field="text" title="Text" width={200} editable={false} />
+          <GridColumn field="betrag" title="OP Freigeben" width={120} />
+          <GridColumn field="betrag" title="Betrag Ändern" width={120} />
+          <GridColumn field="belegnummer" title="Belegnummer" width={200} />
+          <GridColumn field="name" title="Bezeichnung" width={300} />
+          <GridColumn field="text" title="Text" width={200} />
           <GridColumn
             field="valuta"
             title="Valuta"
             width={120}
             cells={{ data: DateCell }}
-            editable={false}
           />
           <GridColumn
             field="faellig"
             title="Fällig"
             width={120}
             cells={{ data: DateCell }}
-            editable={false}
           />
           <GridColumn
             field="skonto1Bis"
             title="SkontoFrist"
             cells={{ data: DateCell }}
             width={120}
-            editable={false}
           />
-          <GridColumn field="skonto1Prozent" title="Skonto%" editable={false} />
-          <GridColumn
-            field="saldo"
-            title="Saldo"
-            width={120}
-            editable={false}
-          />
-          <GridColumn
-            field="ibanNummer"
-            title="IBAN"
-            width={120}
-            editable={false}
-          />
-          <GridColumn
-            field="swifT_Adr"
-            title="BIC"
-            width={120}
-            editable={false}
-          />
+          <GridColumn field="skonto1Prozent" title="Skonto%" />
+          <GridColumn field="saldo" title="Saldo" width={120} />
+          <GridColumn field="ibanNummer" title="IBAN" width={120} />
+          <GridColumn field="swifT_Adr" title="BIC" width={120} />
           <GridColumn
             field="belegdatum"
             title="Belegdatum"
             width={120}
             cells={{ data: DateCell }}
-            editable={false}
           />
           <GridColumn
             field="kdNrBeiKreditor"
             title="KdNrBeiKreditor"
             width={120}
-            editable={false}
           />
         </Grid>
       </ExcelExport>
-      {/* <div>Total Betrag: {sumBetrag}</div>
-      <div>Bankeinzuge Sum: {sumBankeinzuge}</div> */}
-      {/* <VerbindungDataGrid onAppendDeletedRow={handleAppendDeletedRow} /> */}
+      {/* <VerbindungDataGrid onAppendDeletedRow={handleAppendDeletedRow} />  */}
       {openForm && (
         <BankChangeForm cancelEdit={handleCancelEdit} onSubmit={handleSubmit} />
       )}

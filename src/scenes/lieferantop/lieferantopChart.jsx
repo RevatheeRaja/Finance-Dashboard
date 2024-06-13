@@ -9,7 +9,7 @@ import {
   ChartCategoryAxisItem,
 } from "@progress/kendo-react-charts";
 import "hammerjs";
-import { green } from "@mui/material/colors";
+
 
 const bankBalance = 3000;
 const categories = ["Balance", "Betrag", "Bankeinzuge"];
