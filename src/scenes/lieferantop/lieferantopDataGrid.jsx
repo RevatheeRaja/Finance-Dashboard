@@ -621,11 +621,6 @@ const LieferantopDataGrid = () => {
 
   /************handleAppendDeletedRow Ends********************** */
 
-  /**************handleBank********************** */
-  const handleBank = () => {
-    console.log("Bank Button pressed");
-  };
-  /************handleBank Ends******************* */
   /**************ZUM BANKFREIGABE BUTTON**************************** */
   const handleZumBankFreigabe = () => {
     navigate("/verbindungDataGrid");

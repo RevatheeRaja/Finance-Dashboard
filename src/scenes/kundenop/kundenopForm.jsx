@@ -9,8 +9,8 @@ import {
 import { TextBox } from "@progress/kendo-react-inputs";
 import { Label } from "@progress/kendo-react-labels";
 import { Button } from "@progress/kendo-react-buttons";
-import { mockkundenop } from "../../data/mockKundenop";
 
+import { totalBetragBeforeToday, sumBetrag } from "./calculatePayments";
 const KundenopForm = () => {
   const handleMahnwesen = () => {};
   return (
@@ -19,11 +19,29 @@ const KundenopForm = () => {
         initialValues={{ amount: 0 }}
         render={(renderProps) => (
           <FormElement>
-            <FieldWrapper>
+            {/* <FieldWrapper>
               <Label editorId={"amount"} className={"k-form-label"}>
-                Summe Forderungen{" "}
+                Summe Betrag{" "}
               </Label>
-              <TextBox style={{margin:'20px 0'}}id="amount" name="amount" value="€ 341,15" />
+              <TextBox
+                style={{ margin: "20px 0", color: "#2196f3" }}
+                id="amount"
+                name="amount"
+                value={sumBetrag}
+                disabled
+              />
+            </FieldWrapper> */}
+            <FieldWrapper>
+              <Label editorId={"faelligamount"} className={"k-form-label"}>
+                Summe Faellig Betrag{" "}
+              </Label>
+              <TextBox
+                style={{ margin: "20px 0", color: "#ff9800" }}
+                id="faelligamount"
+                name="faelligamount"
+                value={totalBetragBeforeToday}
+                disabled
+              />
             </FieldWrapper>
           </FormElement>
         )}

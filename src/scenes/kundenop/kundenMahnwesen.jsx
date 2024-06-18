@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import { Box } from "@mui/material";
 import { Button } from "@progress/kendo-react-buttons";
 const KundenMahnwesen = () => {
+  const navigate = useNavigate();
     const handleMahnwesen = () =>{
-
+      navigate("/mahnwesenDataGrid");
     }
   return (
   <Box>

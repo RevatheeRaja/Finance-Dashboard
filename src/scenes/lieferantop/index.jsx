@@ -35,7 +35,7 @@ const Lieferantop = () => {
       reorderable: true,
     },
     {
-      header: "Trasnsaktionsdaten",
+      header: "Transaktionsdaten",
       body: <LieferantopDataGrid />,
       reorderable: false,
     },

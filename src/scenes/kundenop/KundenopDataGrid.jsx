@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useCallback, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import { Box } from "@mui/material";
+import Swal from "sweetalert2"; //Alerts
 import {
   Grid,
   GridColumn,
@@ -15,8 +16,15 @@ import {
 } from "@progress/kendo-react-data-tools";
 import { getter } from "@progress/kendo-react-common";
 import { ExcelExport } from "@progress/kendo-react-excel-export";
-import { mockkundenop } from "../../data/mockKundenop";
+import { Button } from "@progress/kendo-react-buttons";
+import { Input } from "@progress/kendo-react-inputs";
+import { DropDownList } from "@progress/kendo-react-dropdowns";
 
+import { mockkundenop } from "../../data/mockKundenop";
+//EDIT FORM FOR EDITING THE ROW
+import BankChangeForm from "./bankChangeForm"; //Edit using external forms
+/************* */
+import { addSelectedRows, resetDeletedRows } from "./dataStore";
 /***********DATE FORMATTER TEMPLATE*************************** */
 const formatDate = (dateString) => {
   const date = new Date(dateString);
@@ -49,7 +57,6 @@ const processWithGroups = (data, dataState) => {
   return newDataState;
 };
 /***********PROCESSWITHGROUPS ENDS********************** */
-
 const idGetter = getter("OrginalDVBelegnummer");
 const KundenopDataGrid = () => {
   const navigate = useNavigate();
@@ -58,6 +65,7 @@ const KundenopDataGrid = () => {
   const [currentSelectedState, setCurrentSelectedState] = useState({}); //OBEJECT
   const [updatedData, setUpdatedData] = useState([]);
   const [collapsedState, setCollapsedState] = useState([]);
+  const [filteredData, setFilteredData] = useState([]);
   //MOCK DATA
   /*  const [result, setResult] = useState(
     processWithGroups(mockkundenop, initialDataState)
@@ -227,6 +235,213 @@ const KundenopDataGrid = () => {
     }
   };
   /*******************EXCEL EXPORT ENDS**************************** */
+  /************************handleZahlung**************************** */
+  const handleZahlung = () => {
+    // Step 1: Get the selected rows based on the current selected state
+    const selectedItems = Object.keys(currentSelectedState)
+      .filter((key) => currentSelectedState[key])
+      .map((key) => {
+        const findSelectedItem = (items) => {
+          for (let item of items) {
+            if (item.items) {
+              // If the item has a `items` property, it means it's a group
+              const found = findSelectedItem(item.items);
+              if (found) return found;
+            } else if (item.OrginalDVBelegnummer === key) {
+              return item;
+            }
+          }
+          return null;
+        };
+        return findSelectedItem(result.data);
+      })
+      .filter((item) => item !== null);
+    console.log("Selected items for Zahlung:", selectedItems);
+    // Step 2: Remove selected rows from the parent data
+    const removeSelectedItems = (items) => {
+      return items
+        .map((item) => {
+          if (item.items) {
+            // If the item has a `items` property, it means it's a group
+            const newItems = removeSelectedItems(item.items);
+            return {
+              ...item,
+              items: newItems,
+            };
+          } else {
+            // If it's a data item, check if it's not selected
+            if (
+              !selectedItems.some(
+                (selected) =>
+                  selected.OrginalDVBelegnummer === item.OrginalDVBelegnummer
+              )
+            ) {
+              return item;
+            }
+          }
+          return null;
+        })
+        .filter((item) => item !== null);
+      // Display success message
+    };
+    const updatedData = removeSelectedItems(result.data);
+    console.log("Parent grid data before update:", result.data);
+    console.log("Updated data:", updatedData);
+    // Step 4: Update the state
+    setResult((prevState) => ({
+      ...prevState,
+      data: updatedData,
+      total: prevState.total - selectedItems.length,
+    }));
+    let newData = setExpandedState({
+      data: setSelectedValue(updatedData),
+      collapsedIds: collapsedState,
+    });
+    // Clear the current selected state
+    setCurrentSelectedState({});
+    console.log("Parent grid data after removing selected rows:", updatedData);
+    Swal.fire({
+      icon: "success",
+      title: "Erfolgreich",
+      text: "Die ausgewählte Rechnung wurde erfolgreich zur Zahlung verschoben. Danke!",
+      customClass: {
+        confirmButton: "btn-custom-class",
+        title: "title-class",
+      },
+      buttonsStyling: false,
+    });
+    // Step 5: Add selected rows to child grid
+    addSelectedRows(selectedItems);
+  };
+  /************************handleZahlung Ends**************************** */
+  /************handleAppendDeletedRow********************** */
+  /**Appends the deleted rows from the child grid back to parent, w/o the API POST** */
+  const handleAppendDeletedRow = (dataItem) => {
+    console.log("Appending deleted row back to parent grid:", dataItem);
+    // Append the deleted row to the updatedData
+    const newUpdatedData = [...updatedData, dataItem];
+    setResult((prevState) => ({
+      ...prevState,
+      data: newUpdatedData,
+    }));
+    setUpdatedData(newUpdatedData); // Ensure updatedData state is in sync
+    // Log the updated data
+    console.log(
+      "Updated data after appending deleted row from child grid:",
+      newUpdatedData
+    );
+    // Reset the intermediate deleted rows array in datastore.
+    resetDeletedRows();
+  };
+  /************handleAppendDeletedRow ENDS********************** */
+  /*************handleZumBankFreigabe**************************** */
+  const handleZumBankFreigabe = () => {
+    navigate("/lastschriftDataGrid");
+  };
+  /*************handleZumBankFreigabe ends*********************** */
+ 
+  /************handleBezeichnungFilter******************* */
+  const handleBezeichnungFilter = (e) => {
+    const value = e.target.value;
+    const newDataState = {
+      ...dataState,
+      filter: {
+        logic: "and",
+        filters: value
+          ? [{ field: "Bezeichnung", operator: "contains", value }]
+          : [],
+      },
+    };
+    setDataState(newDataState);
+    setResult(
+      processWithGroups(
+        mockkundenop.map((item) => ({
+          ...item,
+          ["selected"]: currentSelectedState[idGetter(item)],
+        })),
+        newDataState
+      )
+    );
+  };
+  /************handleBezeichnungFilter Ends******************* */
+  /************handlePaymentTypeFilter************************** */
+  const paymentTypes = [
+    { text: "", value: "" },
+    { text: "fällige Bankeinzüge", value: "fällige Bankeinzüge" },
+    { text: "Überweisung", value: "Überweisung" },
+    { text: "AuslandÜberweisung", value: "AuslandÜberweisung" },
+    { text: "Ausgeblendete", value: "Ausgeblendete" },
+  ];
+  const handlePaymentTypeFilter = (e) => {
+    const selectedValue = e.target.value;
+    console.log("Selected Filter value", selectedValue);
+    let filteredData = [];
+    if (selectedValue.value === "fällige Bankeinzüge") {
+      filteredData = mockkundenop.filter(
+        (item) => item.ZahlungsArt === "E" || item.ZahlungsArt === "A"
+      );
+    } else if (selectedValue.value === "Überweisung") {
+      filteredData = mockkundenop.filter(
+        (item) => item.ZahlungsArt === "U" || item.ZahlungsArt === ""
+      );
+    } else if (selectedValue.value === "AuslandÜberweisung") {
+      filteredData = mockkundenop.filter((item) => item.ZahlungsArt === "X");
+    } else if (selectedValue.value === "Ausgeblendete") {
+      filteredData = mockkundenop.filter((item) => item.ZahlungsArt === "AB");
+    } else {
+      // If no filter is selected, show all data
+      filteredData = result.data;
+    }
+    // Set the filtered data
+    setFilteredData(filteredData);
+    console.log("Filtered Data:", filteredData);
+    // Update the result state
+    setResult(
+      processWithGroups(
+        filteredData.map((item) => ({
+          ...item,
+          ["selected"]: currentSelectedState[idGetter(item)],
+        })),
+        dataState
+      )
+    );
+  };
+  useEffect(() => {
+    //console.log("Updated newData:", newData);
+  }, [newData]);
+  /************handlePaymentTypeFilter ENDS************************** */
+  const sumBetragBeforeToday = (data) => {
+    const today = new Date();
+    return data.reduce((sum, entry) => {
+      return (entry.Faellig && new Date(entry.Faellig) < today) ? sum + entry.Betrag : sum;
+    }, 0);
+  }
+  const totalBetragBeforeToday = sumBetragBeforeToday(mockkundenop);
+  console.log("Total Betrag before today:", totalBetragBeforeToday);
+  const sumBetrag = mockkundenop.reduce((total, item) => total + item.Betrag, 0);
+/************EDIT FORM FOR BANK************************** */
+const [openForm, setOpenForm] = useState(false);
+const enterEdit = () => {
+  setOpenForm(true);
+};
+const handleCancelEdit = () => {
+  setOpenForm(false);
+};
+const handleSubmit = (event) => {
+  // Logic to handle form submission
+  Swal.fire({
+    icon: "success",
+    title: "Erfolgreich aktualisiert",
+    text: "Die Bankverbindung wurde erfolgreich aktualisiert. Danke!",
+    customClass: {
+      confirmButton: "btn-custom-class",
+      title: "title-class",
+    },
+    buttonsStyling: false,
+  });
+  setOpenForm(false); // Close the edit form after submission
+};
+/******************EDIT FORM FOR BANK ENDS******************************** */
   return (
     <Box>
       <ExcelExport
@@ -252,7 +467,34 @@ const KundenopDataGrid = () => {
           {...dataState}
           total={result.total}
         >
-          {" "}
+          <GridToolbar>
+            <Input
+              onChange={handleBezeichnungFilter}
+              placeholder="Filter by Bezeichnung"
+            />
+            <DropDownList
+              data={paymentTypes}
+              textField="text"
+              dataItemKey="value"
+              onChange={handlePaymentTypeFilter}
+            />
+          </GridToolbar>
+          <GridToolbar>
+            <div className="export-btns-container">
+              <Button onClick={excelExport}>Excel export</Button>
+            </div>
+            <div className="export-btns-container">
+              <Button onClick={handleZahlung}>
+                Freigegebene Zahlungen ausführen
+              </Button>
+            </div>
+            <div className="export-btns-container">
+              <Button onClick={enterEdit}>Bankverbindung ändern</Button>
+            </div>
+            <div className="export-btns-container">
+              <Button onClick={handleZumBankFreigabe}>Zum BankFreigabe</Button>
+            </div>
+          </GridToolbar>
           <GridColumn field="selected" width={80} />
           <GridColumn field="Betrag" title="OP Freigeben" width="120px" />
           <GridColumn field="Betrag" title="Betrag Ändern" width="120px" />
@@ -303,6 +545,11 @@ const KundenopDataGrid = () => {
           <GridColumn field="Workflows" title="Workflows" width="150px" />
         </Grid>
       </ExcelExport>
+      {openForm && (
+        <BankChangeForm cancelEdit={handleCancelEdit} onSubmit={handleSubmit} />
+      )}
+      {/* <div> Sum: {sumBetrag }</div> */}
+      {/* <div>Bankeinzuge Sum: {totalBetragBeforeToday }</div> */}
     </Box>
   );
 };

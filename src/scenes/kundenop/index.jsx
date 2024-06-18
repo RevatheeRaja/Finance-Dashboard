@@ -47,7 +47,7 @@ const Kundenop = () => {
       reorderable: true,
     },
     {
-      header: 'Trasnsaktionsdaten',
+      header: 'Transaktionsdaten',
       body: <KundenopDataGrid/>,
       reorderable: false,
     },

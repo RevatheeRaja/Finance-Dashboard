@@ -24,7 +24,8 @@ import Taskgauge from "./scenes/taskgauge";
 import Lieferantop from "./scenes/lieferantop";
 import VerbindungDataGrid from "./scenes/lieferantop/verbindungDataGrid.jsx"
 import Kundenop from "./scenes/kundenop";
-
+import LastschriftDataGrid from './scenes/kundenop/lastschriftDataGrid.jsx'
+import MahnwesenDataGrid from './scenes/kundenop/mahnwesenDataGrid.jsx'
 //import context Provider
 //import { useStateContext } from "./contexts/ContextProvider";
 
@@ -55,6 +56,8 @@ const App = () => {
                       <Route path="/lieferantop" element={<Lieferantop />} />
                       <Route path="/verbindungDataGrid" element={<VerbindungDataGrid />} />
                       <Route path="/kundenop" element={<Kundenop />} />
+                      <Route path="/lastschriftDataGrid" element={<LastschriftDataGrid />} />
+                      <Route path="/mahnwesenDataGrid" element={<MahnwesenDataGrid />} />
                         {/* PAGES */}
                       <Route path="/schedule" element={<Schedule />} />
                       <Route path="/workflow" element={<Workflow />} />
