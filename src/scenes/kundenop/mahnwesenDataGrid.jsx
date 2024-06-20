@@ -63,7 +63,7 @@ const MahnwesenDataGrid = () => {
   const [data, setData] = useState([]);
   const [collapsedState, setCollapsedState] = useState([]);
   const [currentSelectedState, setCurrentSelectedState] = useState({}); //OBEJECT
-  const [selectedRow, setSelectedRow] = useState(null);
+  const [selectedRows, setSelectedRows] = useState([]);
   /*******MOCK DATA********* */
   /*  const [result, setResult] = useState(
     processWithGroups(mockmahnwesen, initialDataState)
@@ -166,22 +166,27 @@ const MahnwesenDataGrid = () => {
   /******************onHeaderSelectionChange************************* */
   const onHeaderSelectionChange = useCallback(
     (event) => {
-      const pageDataItems = getCurrentPageDataItems(newData);
-      if (pageDataItems.length > 0) {
-        const checkboxElement = event.syntheticEvent.target;
-        const checked = checkboxElement.checked;
-        const newSelectedState = {
-          ...currentSelectedState,
-        };
-        pageDataItems.forEach((item) => {
-          newSelectedState[idGetter(item)] = checked;
-        });
-        setCurrentSelectedState(newSelectedState);
-        setSelectedRow(checked ? pageDataItems[0] : null);
+      const pageDataItems = getCurrentPageDataItems(result.data);
+      const checkboxElement = event.syntheticEvent.target;
+      const checked = checkboxElement.checked;
+  
+      // Update selected state for all visible rows
+      const newSelectedState = {};
+      pageDataItems.forEach((item) => {
+        newSelectedState[idGetter(item)] = checked;
+      });
+      setCurrentSelectedState(newSelectedState);
+  
+      // Update selectedRows state based on checked status
+      if (checked) {
+        setSelectedRows(pageDataItems);
+      } else {
+        setSelectedRows([]);
       }
     },
-    [newData, currentSelectedState]
+    [result]
   );
+  
   /********************onHeaderSelectionChange ends****************** */
   const onSelectionChange = useCallback(
     (event) => {
@@ -191,12 +196,21 @@ const MahnwesenDataGrid = () => {
         dataItemKey: "DVBelegnummer",
       });
       setCurrentSelectedState(newSelectedState);
-      setSelectedRow(
-        newSelectedState[idGetter(event.dataItem)] ? event.dataItem : null
+
+      const selectedRow = newSelectedState[idGetter(event.dataItem)]
+        ? event.dataItem
+        : null;
+      setSelectedRows((prevSelectedRows) =>
+        selectedRow
+          ? [...prevSelectedRows, selectedRow]
+          : prevSelectedRows.filter(
+              (row) => idGetter(row) !== idGetter(event.dataItem)
+            )
       );
     },
     [currentSelectedState]
   );
+
   /***************checkHeaderSelectionValue*************************** */
   const checkHeaderSelectionValue = () => {
     const pageDataItems = getCurrentPageDataItems(newData);
@@ -258,6 +272,7 @@ const MahnwesenDataGrid = () => {
           <Input
             onChange={handleBezeichnungFilter}
             placeholder="Filter by Bezeichnung"
+            style={{width:"190px"}}
           />
         </GridToolbar>
         <GridColumn field="selected" width={80} />
@@ -273,10 +288,14 @@ const MahnwesenDataGrid = () => {
         <GridColumn field="PLZ" title="PLZ" />
         <GridColumn field="Ort" title="Ort" />
       </Grid>
-      {selectedRow && (
+      {selectedRows.length > 0 && (
         <Box mt="20px">
-          <h2>Preview for: {selectedRow.Name1}</h2>
-          <img src={mockMahnungImage} alt="Mahnung Preview" width="100%" />
+          {selectedRows.map((row, index) => (
+            <Box key={index}>
+              <h3>Preview for: {row.Name1}</h3>
+              <img src={mockMahnungImage} alt="Mahnung Preview" width="100%" />
+            </Box>
+          ))}
         </Box>
       )}
     </Box>

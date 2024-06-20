@@ -32,20 +32,19 @@ const Areachart = () => {
   {
     return (
       <Box m="20px">
-        <Header
+        {/* <Header
           title="Area Chart"
           subtitle="Compare your income with expenditure"
-        />
+        /> */}
         <div>
          
-          <Chart pannable={true} zoomable={true}>
+          <Chart pannable={true} zoomable={true} style={{width:400}}>
             <ChartArea
               background={`${
                 theme.palette.mode === "dark" ? "#121b68" : "#F5F5F5"
               }`}
               opacity={0.5}
               margin={30}
-              width={900}
             />
             <ChartTitle
               text="Income vs Expenditure"
@@ -113,7 +112,7 @@ const Areachart = () => {
                 opacity={100}
                 data={expenditure}
                 line={{
-                  style: "smooth",
+                  style: "normal",
                 }}
               />
             </ChartSeries>

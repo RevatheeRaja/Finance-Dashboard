@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect, useCallback, useRef } from "react";
 import { sumBetrag, sumBankeinzuge } from "./calculatePayments";
 import {
   Chart,
@@ -15,6 +15,22 @@ const bankBalance = 3000;
 const categories = ["Balance", "Betrag", "Bankeinzuge"];
 const colors = ["#4caf50", "#2196f3", "#ff9800"]; // Example colors for each bar
 const LieferantopChart = () => {
+  const [betrag, setBetrag] = useState(0);
+  const [bankeinzuge, setBankeinzuge] = useState(0);
+  useEffect(() => {
+    const fetchSums = async () => {
+      try {
+        const fetchedBetrag = await sumBetrag;
+        const fetchedBankeinzuge = await sumBankeinzuge;
+        setBetrag(fetchedBetrag);
+        setBankeinzuge(fetchedBankeinzuge);
+      } catch (error) {
+        console.error("Error fetching sums: ", error);
+      }
+    };
+
+    fetchSums();
+  }, []);
   return (
     <Chart>
       <ChartCategoryAxis>
@@ -23,7 +39,7 @@ const LieferantopChart = () => {
       <ChartSeries>
         <ChartSeriesItem
           type="column"
-          data={[bankBalance, sumBetrag, sumBankeinzuge]}
+          data={[bankBalance, betrag, bankeinzuge]}
           color={(point) => colors[point.index]}
         />
         {/* <ChartSeriesItem type="bar" data={sumBetrag} />
@@ -31,5 +47,6 @@ const LieferantopChart = () => {
       </ChartSeries>
     </Chart>
   );
+
 };
 export default LieferantopChart;

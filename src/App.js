@@ -20,6 +20,7 @@ import Areachart from "./scenes/areachart";
 import Linechart from "./scenes/linechart";
 import Piechart from "./scenes/piechart";
 import Taskgauge from "./scenes/taskgauge";
+
 //Open Positions (OP)*************
 import Lieferantop from "./scenes/lieferantop";
 import VerbindungDataGrid from "./scenes/lieferantop/verbindungDataGrid.jsx"
@@ -66,7 +67,6 @@ const App = () => {
                       <Route path="/linechart" element={<Linechart />} />
                       <Route path="/piechart" element={<Piechart />} />
                       <Route path="/taskgauge" element={<Taskgauge />} />
-
                     </Routes>
                   </main>
                   {/* </div> */}

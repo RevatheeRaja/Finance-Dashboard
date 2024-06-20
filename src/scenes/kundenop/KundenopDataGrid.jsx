@@ -470,7 +470,8 @@ const handleSubmit = (event) => {
           <GridToolbar>
             <Input
               onChange={handleBezeichnungFilter}
-              placeholder="Filter by Bezeichnung"
+              placeholder="Nach Namen filtern"
+              style={{width:"180px"}}
             />
             <DropDownList
               data={paymentTypes}

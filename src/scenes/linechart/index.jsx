@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Box, useTheme } from "@mui/material";
-import Header from "../../components/Headers"; //TITLE AND SUBTITLE 
+import Header from "../../components/Headers"; //TITLE AND SUBTITLE
 /**********ESSENTIAL KENDO CHART COMPONNETS************ */
 import {
   Chart,
@@ -17,6 +17,7 @@ import {
   exportVisual,
 } from "@progress/kendo-react-charts";
 import "hammerjs";
+import { useLocation } from "react-router-dom";
 /************ESSENTIAL KENDO CHART COMPONENTS ENDS******************** */
 //the color palletes
 import { tokens } from "../../theme";
@@ -25,6 +26,8 @@ import { tokens } from "../../theme";
 import { lineChartData } from "../../data/mockLinechart";
 
 const Linechart = () => {
+  const location = useLocation();
+  const standalone = location.pathname === "/linechart";
   //COLOR TOKENS AND THEME
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
@@ -34,20 +37,21 @@ const Linechart = () => {
   return (
     <Box m="20px">
       {/* TITLE AND SUBTITLE */}
-      <Header title="Line Chart" subtitle="Investment vs Profit" />
 
-      <Chart pannable={true} zoomable={true}>
+      {standalone && (
+        <Header title="Line Chart" subtitle="Investment vs Profit" />
+      )}
+      <Chart pannable={true} zoomable={true} style={{ width: 400 }}>
         <ChartArea
-          background={`${
+          /* background={`${
             theme.palette.mode === "dark" ? "#121b68" : "#F5F5F5"
-          }`}
+          }`} */
           opacity={0.5}
           margin={30}
-          width={900}
         />
         <ChartTitle
           text="Investment vs Profit"
-          color={`${theme.palette.mode === "dark" ? "white" : "#3d3d3d"}`}
+          // color={`${theme.palette.mode === "dark" ? "white" : "#3d3d3d"}`}
         />
         <ChartLegend
           position="bottom"
@@ -57,10 +61,10 @@ const Linechart = () => {
         <ChartCategoryAxis>
           <ChartCategoryAxisItem
             categories={months}
-            color={`${theme.palette.mode === "dark" ? "white" : "#3d3d3d"}`}
+            // color={`${theme.palette.mode === "dark" ? "white" : "#3d3d3d"}`}
             title={{
               text: "Months",
-              color: `${theme.palette.mode === "dark" ? "white" : "#3d3d3d"}`,
+              // color: `${theme.palette.mode === "dark" ? "white" : "#3d3d3d"}`,
             }}
           />
         </ChartCategoryAxis>
@@ -69,7 +73,8 @@ const Linechart = () => {
             color={`${theme.palette.mode === "dark" ? "white" : "#3d3d3d"}`}
             labels={{
               content: labelContent,
-              color: `${theme.palette.mode === "dark" ? "white" : "#3d3d3d"}`,
+              color:"#3d3d3d",
+              // color: `${theme.palette.mode === "dark" ? "white" : "#3d3d3d"}`,
             }}
           />
         </ChartValueAxis>
@@ -78,14 +83,15 @@ const Linechart = () => {
             format: "c0",
           }}
         />
-        
+
         <ChartSeries>
           <ChartSeriesItem
             type="line"
             dashType="solid"
             name="Investment"
             data={investment}
-            color={`${theme.palette.mode === "dark" ? "#57DCBE" : "#6EB5FF"}`}
+            color={'#6EB5FF'}
+            // color={`${theme.palette.mode === "dark" ? "#57DCBE" : "#6EB5FF"}`}
             opacity={100}
           />
           <ChartSeriesItem
@@ -93,12 +99,11 @@ const Linechart = () => {
             dashType="solid"
             name="Profit  "
             data={profit}
-            color={`${theme.palette.mode === "dark" ? "#C21B5B" : "#D5AAFF"}`}
+            // color={`${theme.palette.mode === "dark" ? "#C21B5B" : "#D5AAFF"}`}
             opacity={100}
           />
         </ChartSeries>
       </Chart>
-
     </Box>
   );
 };

@@ -87,7 +87,7 @@ const LieferantopDataGrid = () => {
       try {
         // Fetch data from your localhost API
         const response = await fetch(
-          "https://fibutronwebapi.fibutron.de/api/operation-process/get-verbindlichkeit-inforamtion?Mandantnummer=100"
+          "https://fibutronwebapi.fibutron.de/api/operation-process/get-verbindlichkeit-inforamtion?Mandantnummer=923"
         );
         if (!response.ok) {
           throw new Error("Failed to fetch data");
@@ -649,7 +649,8 @@ const LieferantopDataGrid = () => {
           <GridToolbar>
             <Input
               onChange={handleBezeichnungFilter}
-              placeholder="Filter by Bezeichnung"
+              placeholder="Nach Namen filtern"
+              style={{width:"180px"}}
             />
             <DropDownList
               data={paymentTypes}
