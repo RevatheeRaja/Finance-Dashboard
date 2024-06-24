@@ -13,6 +13,7 @@ import ForgetPassword from "./scenes/login/forgetpassword.jsx";
 import Dashboard from "./scenes/dashboard"; //Dashboard
 import Archiv from "./scenes/archiv"; // archiv Material UI
 import Archivkendo from "./scenes/archivkendo"; //DATA GRID kENDO
+import Calendar from "./scenes/calendar";
 import Schedule from "./scenes/schedule"; //CALENDAR
 import Workflow from "./scenes/workflow"; //AUFGABE
 //CHARTS AND GAUGES
@@ -60,6 +61,7 @@ const App = () => {
                       <Route path="/lastschriftDataGrid" element={<LastschriftDataGrid />} />
                       <Route path="/mahnwesenDataGrid" element={<MahnwesenDataGrid />} />
                         {/* PAGES */}
+                      <Route path="/calendar" element={<Calendar />} />
                       <Route path="/schedule" element={<Schedule />} />
                       <Route path="/workflow" element={<Workflow />} />
                       {/* CHARTS */}

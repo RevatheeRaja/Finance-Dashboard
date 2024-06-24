@@ -88,7 +88,7 @@ const Areachart = () => {
                 opacity={100}
                 data={income}
                 line={{
-                  style: "smooth",
+                  style: "normal",
                 }}
               />
               <ChartSeriesItem
@@ -100,7 +100,7 @@ const Areachart = () => {
                 opacity={100}
                 data={budget}
                 line={{
-                  style: "smooth",
+                  style: "normal",
                 }}
               />
               <ChartSeriesItem

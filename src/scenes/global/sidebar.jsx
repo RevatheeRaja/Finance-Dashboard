@@ -211,7 +211,13 @@ const Sideboard = () => {
             >
               Pages
             </Typography>
-
+            <Item
+              title="Calendar"
+              to="/calendar"
+              icon={<CalendarMonthIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
             <Item
               title="Schedule"
               to="/schedule"

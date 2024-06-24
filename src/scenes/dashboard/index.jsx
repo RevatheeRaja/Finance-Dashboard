@@ -10,10 +10,10 @@ import {
   CardContent,
   TextField,
   useTheme,
-} from "@mui/material";
+} from "@mui/material"; //for the add component funtion
 import { useNavigate, useLocation } from "react-router-dom";
 import { TileLayout } from "@progress/kendo-react-layout";
-import Swal from "sweetalert2";
+import Swal from "sweetalert2"; //ALERTS
 /*****IMPORT ICONS***************** */
 import AddIcon from "@mui/icons-material/Add";
 import InventoryIcon from "@mui/icons-material/Inventory"; //Archiv
@@ -25,15 +25,18 @@ import SaveIcon from "@mui/icons-material/Save";
 /*****IMPORT ICONS Ends***************** */
 import Header from "../../components/Headers";
 import { initialGroups } from "./initialGroup"; // import your initial data
+/********IMPORT COMPONENTS************************ */
 import LieferantopChart from "../lieferantop/lieferantopChart";
 import KundenopChart from "../kundenop/kundenopChart";
 import Linechart from "../linechart";
 import Areachart from "../areachart";
 import Piechart from "../piechart";
 import Taskgauge from "../taskgauge";
-
+import TodayMeeting from "../calendar/todayMeeting";
+/********IMPORT COMPONENTS Ends************************ */
 //the color palletes
 import { tokens } from "../../theme";
+/**** */
 const Dashboard = () => {
   const [sessionId, setSessionId] = useState(""); // State to store session ID
   const navigate = useNavigate();
@@ -65,127 +68,6 @@ const Dashboard = () => {
     return () => clearTimeout(logoutTimer); // Cleanup timer on component unmount
   }, [navigate]);
   /*****************LOGOUT WITH SESSION TIMINGS ENDs************************ */
-  /*****************DASH BOARD TILE LAYOUT********************************* */
-  const [data, setData] = React.useState([
-    {
-      col: 1,
-      colSpan: 1,
-      rowSpan: 2,
-    },
-    {
-      col: 2,
-      colSpan: 1,
-      rowSpan: 2,
-    },
-  ]);
-  const tiles = [
-    {
-      header: "Kunden OP Transaktionsübersicht",
-      body: <KundenopChart />,
-      reorderable: true,
-      onClick: () => navigate("/kundenop"), // Navigate to /lieferantop when clicked
-    },
-    {
-      header: "Lieferant OP Transaktionsübersicht",
-      body: <LieferantopChart />,
-      reorderable: true,
-      resizable: "vertical",
-      onClick: () => navigate("/lieferantop"), // Navigate to /lieferantop when clicked
-    },
-  ];
-  const [data1, setData1] = React.useState([
-    {
-      col: 1,
-      colSpan: 1,
-      rowSpan: 2,
-    },
-    {
-      col: 2,
-      colSpan: 1,
-      rowSpan: 2,
-    },
-    {
-      col: 3,
-      colSpan: 1,
-      rowSpan: 2,
-    },
-  ]);
-  const tiles1 = [
-    {
-      header: "Income vs Expenditure",
-      body: <Areachart />,
-      reorderable: true,
-      resizable: "vertical",
-      onClick: () => navigate("/areachart"),
-    },
-    {
-      header: "Investment vs Profit",
-      body: <Linechart standalone={location.pathname === "/linechart"} />,
-      reorderable: true,
-      resizable: "vertical",
-      onClick: () => navigate("/linechart"), // Navigate to /lieferantop when clicked
-    },
-    {
-      header: "Financial Distribution",
-      body: <Piechart standalone={location.pathname === "/piechart"} />,
-      reorderable: true,
-      resizable: "vertical",
-      onClick: () => navigate("/piechart"), // Navigate to /lieferantop when clicked
-    },
-  ];
-  const [data2, setData2] = React.useState([
-    {
-      col: 1,
-      colSpan: 1,
-      rowSpan: 1,
-    },
-    {
-      col: 2,
-      colSpan: 1,
-      rowSpan: 1,
-    },
-    {
-      col: 3,
-      colSpan: 1,
-      rowSpan: 1,
-    },
-    {
-      col: 4,
-      colSpan: 1,
-      rowSpan: 1,
-    },
-  ]);
-  const tiles2 = [
-    {
-      header: "Gross Profit",
-      body: <Taskgauge standalone={location.pathname === "/taskgauge"} />,
-      reorderable: true,
-      resizable: "vertical",
-      onClick: () => navigate("/taskgauge"),
-    },
-    {
-      header: "Opex Ration",
-      body: <Taskgauge standalone={location.pathname === "/taskgauge"} />,
-      reorderable: true,
-      resizable: "vertical",
-      onClick: () => navigate("/taskgauge"), // Navigate to /lieferantop when clicked
-    },
-    {
-      header: "Gross Profit",
-      body: <Taskgauge standalone={location.pathname === "/taskgauge"} />,
-      reorderable: true,
-      resizable: "vertical",
-      onClick: () => navigate("/taskgauge"),
-    },
-    {
-      header: "Opex Ration",
-      body: <Taskgauge standalone={location.pathname === "/taskgauge"} />,
-      reorderable: true,
-      resizable: "vertical",
-      onClick: () => navigate("/taskgauge"), // Navigate to /lieferantop when clicked
-    },
-  ];
-  /*****************DASH BOARD TILE LAYOUT ENDS********************************* */
   /******************ADD NEW GROUP FOR DASHBOARD****************************************** */
   const handleAddGroup = () => {
     setGroups([
@@ -234,6 +116,134 @@ const Dashboard = () => {
     setEditName("");
   };
   /******************ADD NEW GROUP FOR DASHBOARD ENDS****************************************** */
+  /*****************DASH BOARD TILE LAYOUT********************************* */
+  /***********ROW OF 2******************************* */
+  const [data, setData] = React.useState([
+    {
+      col: 1,
+      colSpan: 1,
+      rowSpan: 2,
+    },
+    {
+      col: 2,
+      colSpan: 1,
+      rowSpan: 2,
+    },
+  ]);
+  const tiles = [
+    {
+      header: "Kunden OP Transaktionsübersicht",
+      body: <KundenopChart />,
+      reorderable: true,
+      onClick: () => navigate("/kundenop"), // Navigate to /lieferantop when clicked
+    },
+    {
+      header: "Lieferant OP Transaktionsübersicht",
+      body: <LieferantopChart />,
+      reorderable: true,
+      resizable: "vertical",
+      onClick: () => navigate("/lieferantop"), // Navigate to /lieferantop when clicked
+    },
+  ];
+  /***********END ROW OF 2******************************* */
+  /***********ROW OF 3******************************* */
+  const [data1, setData1] = React.useState([
+    {
+      col: 1,
+      colSpan: 1,
+      rowSpan: 2,
+    },
+    {
+      col: 2,
+      colSpan: 1,
+      rowSpan: 2,
+    },
+    {
+      col: 3,
+      colSpan: 1,
+      rowSpan: 2,
+    },
+  ]);
+  const tiles1 = [
+    {
+      header: "Income vs Expenditure",
+      body: <Areachart />,
+      reorderable: true,
+      resizable: "vertical",
+      onClick: () => navigate("/areachart"),
+    },
+    {
+      header: "Investment vs Profit",
+      body: <Linechart standalone={location.pathname === "/linechart"} />,
+      reorderable: true,
+      resizable: "vertical",
+      onClick: () => navigate("/linechart"), // Navigate to /lieferantop when clicked
+    },
+    {
+      header: "Financial Distribution",
+      body: <Piechart standalone={location.pathname === "/piechart"} />,
+      reorderable: true,
+      resizable: "vertical",
+      onClick: () => navigate("/piechart"), // Navigate to /lieferantop when clicked
+    },
+  ];
+  /***********END ROW OF 3******************************* */
+  /***********ROW OF 4******************************* */
+  const [data2, setData2] = React.useState([
+    {
+      col: 1,
+      colSpan: 1,
+      rowSpan: 1,
+    },
+    {
+      col: 2,
+      colSpan: 1,
+      rowSpan: 1,
+    },
+    {
+      col: 3,
+      colSpan: 1,
+      rowSpan: 1,
+    },
+    {
+      col: 4,
+      colSpan: 1,
+      rowSpan: 1,
+    },
+  ]);
+  const tiles2 = [
+    {
+      header: "Today's Meetings",
+      body: <TodayMeeting />,
+      reorderable: true,
+      resizable: "vertical",
+      onClick: () => navigate("/calendar"),
+    },
+    {
+      header: "Opex Ration",
+      body: <Taskgauge standalone={location.pathname === "/taskgauge"} />,
+      reorderable: true,
+      resizable: "vertical",
+      onClick: () => navigate("/taskgauge"), // Navigate to /lieferantop when clicked
+    },
+    {
+      header: "Gross Profit",
+      body: <Taskgauge standalone={location.pathname === "/taskgauge"} />,
+      reorderable: true,
+      resizable: "vertical",
+      onClick: () => navigate("/taskgauge"),
+    },
+    {
+      header: "Opex Ration",
+      body: <Taskgauge standalone={location.pathname === "/taskgauge"} />,
+      reorderable: true,
+      resizable: "vertical",
+      onClick: () => navigate("/taskgauge"), // Navigate to /lieferantop when clicked
+    },
+  ];
+  /***********END ROW OF 4******************************* */
+  /*****************DASH BOARD TILE LAYOUT ENDS********************************* */
+
   return (
     <Box>
       <Box>
@@ -241,7 +251,7 @@ const Dashboard = () => {
           title="DASHBOARD"
           subtitle="Herzlich willkommen bei FiBuTronic. Guten Tag!"
         />
-        {/* ADD BUTTON AND RELATED GROUP */}
+        {/********** ADD BUTTON AND RELATED GROUP *************/}
         <Box sx={{ display: "flex", justifyContent: "flex-end", mb: 2 }}>
           <IconButton onClick={handleAddGroup}>
             <AddIcon />
@@ -371,7 +381,11 @@ const Dashboard = () => {
             </Box>
           </Box>
         </Modal>
+        {/********** END ADD BUTTON AND RELATED GROUP *************/}
+
+        {/********** TILE LAYOUT *************/}
         <Box m={2}>
+          {/* ROW OF 4 */}
           <TileLayout
             columns={4}
             rowHeight={320}
@@ -388,14 +402,6 @@ const Dashboard = () => {
                   onClick={tile.onClick}
                   style={{
                     cursor: "pointer",
-                   /*  marginTop:0,
-                    marginBottom:20,
-                    marginLeft:5,
-                    marginRight:5,
-                    paddingTop:0,
-                    paddingBottom:5,
-                    paddingRight:5,
-                    paddingLeft:5, */
                     display: "flex",
                     alignItems: "center",
                   }}
@@ -405,6 +411,8 @@ const Dashboard = () => {
               ),
             }))}
           />
+          {/* END ROW OF 4 */}
+          {/* ROW OF 3 */}
           <TileLayout
             columns={3}
             rowHeight={260}
@@ -423,6 +431,8 @@ const Dashboard = () => {
               ),
             }))}
           />
+          {/* END ROW OF 3 */}
+          {/* ROW OF 2 */}
           <TileLayout
             columns={2}
             rowHeight={255}
@@ -440,6 +450,7 @@ const Dashboard = () => {
               ),
             }))}
           />
+          {/*END ROW OF 2 */}
         </Box>
       </Box>
     </Box>
