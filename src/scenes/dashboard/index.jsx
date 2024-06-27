@@ -33,6 +33,7 @@ import Areachart from "../areachart";
 import Piechart from "../piechart";
 import Taskgauge from "../taskgauge";
 import TodayMeeting from "../calendar/todayMeeting";
+import TodoTask from "../workflow/todoTask"
 /********IMPORT COMPONENTS Ends************************ */
 //the color palletes
 import { tokens } from "../../theme";
@@ -220,11 +221,11 @@ const Dashboard = () => {
       onClick: () => navigate("/calendar"),
     },
     {
-      header: "Opex Ration",
-      body: <Taskgauge standalone={location.pathname === "/taskgauge"} />,
+      header: "Open Task",
+      body: <TodoTask/>,
       reorderable: true,
       resizable: "vertical",
-      onClick: () => navigate("/taskgauge"), // Navigate to /lieferantop when clicked
+      onClick: () => navigate("/workflow"), // Navigate to /lieferantop when clicked
     },
     {
       header: "Gross Profit",

@@ -23,6 +23,7 @@
     "@progress/kendo-react-popup": "^8.0.0",
     "@progress/kendo-react-progressbars": "^8.0.0",
     "@progress/kendo-react-scheduler": "^8.0.0",
+    "@progress/kendo-react-taskboard": "^8.0.0",
     "@progress/kendo-svg-icons": "^3.0.0",
     "@progress/kendo-theme-material": "^8.0.1",
     "flowbite-react": "^0.9.0",
